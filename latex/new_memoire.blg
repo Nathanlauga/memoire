@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: new_memoire.aux
+The style file: plainnat.bst
+Database file #1: bibliography.bib
+Warning--there's a number but no volume in astuti_moralite_2007
+Warning--empty publisher in molnar2019
+Warning--empty journal in radford_language_2019
+Warning--empty journal in reinsel_digitization_2018
+Warning--empty publisher in villani_donner_2018
+Warning--empty publisher in vinyals_alphastar:_2019
+You've used 76 entries,
+            2773 wiz_defined-function locations,
+            1114 strings with 20970 characters,
+and the built_in function-call counts, 33398 in all, are:
+= -- 2985
+> -- 1980
+< -- 61
++ -- 691
+- -- 615
+* -- 2665
+:= -- 5370
+add.period$ -- 341
+call.type$ -- 76
+change.case$ -- 419
+chr.to.int$ -- 76
+cite$ -- 158
+duplicate$ -- 1458
+empty$ -- 2623
+format.name$ -- 709
+if$ -- 6894
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 71
+newline$ -- 498
+num.names$ -- 305
+pop$ -- 872
+preamble$ -- 1
+purify$ -- 357
+quote$ -- 0
+skip$ -- 1107
+stack$ -- 0
+substring$ -- 701
+swap$ -- 151
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 741
+warning$ -- 6
+while$ -- 274
+width$ -- 0
+write$ -- 1186
+(There were 6 warnings)

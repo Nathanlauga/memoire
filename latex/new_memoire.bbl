@@ -1,0 +1,607 @@
+\begin{thebibliography}{76}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Algorithm Watch}(2020)]{algorithm_watch_ai_2020}
+{Algorithm Watch}.
+\newblock {AI} {Ethics} {Guidelines} {Global} {Inventory} by {AlgorithmWatch},
+  April 2020.
+\newblock URL \url{https://inventory.algorithmwatch.org}.
+\newblock Library Catalog: inventory.algorithmwatch.org.
+
+\bibitem[Aristote(1994)]{aristote_ethique_1994}
+Aristote.
+\newblock \emph{Ethique à {Nicomaque}}.
+\newblock Vrin, revised edition, January 1994.
+\newblock ISBN 978-2-7116-0022-9.
+
+\bibitem[Astuti(2007)]{astuti_moralite_2007}
+Rita Astuti.
+\newblock La moralité des conventions : tabous ancestraux à {Madagascar}.
+\newblock \emph{Terrain. Anthropologie \& sciences humaines}, \penalty0
+  (48):\penalty0 101--112, February 2007.
+\newblock ISSN 0760-5668.
+\newblock \doi{10.4000/terrain.5041}.
+\newblock URL \url{http://journals.openedition.org/terrain/5041}.
+\newblock ISBN: 9782735111312 Number: 48 Publisher: Association Terrain.
+
+\bibitem[Awad et~al.(2018)Awad, Dsouza, Kim, Schulz, Henrich, Shariff,
+  Bonnefon, and Rahwan]{awad_moral_2018}
+Edmond Awad, Sohan Dsouza, Richard Kim, Jonathan Schulz, Joseph Henrich, Azim
+  Shariff, Jean-François Bonnefon, and Iyad Rahwan.
+\newblock The {Moral} {Machine} experiment.
+\newblock \emph{Nature}, 563\penalty0 (7729):\penalty0 59, November 2018.
+\newblock ISSN 1476-4687.
+\newblock \doi{10.1038/s41586-018-0637-6}.
+\newblock URL \url{https://www.nature.com/articles/s41586-018-0637-6}.
+
+\bibitem[Baumard et~al.(2012)Baumard, Mascaro, and
+  Chevallier]{baumard_preschoolers_2012}
+Nicolas Baumard, Olivier Mascaro, and Coralie Chevallier.
+\newblock Preschoolers are able to take merit into account when distributing
+  goods.
+\newblock \emph{Developmental Psychology}, 48\penalty0 (2):\penalty0 492--498,
+  2012.
+\newblock ISSN 1939-0599(Electronic),0012-1649(Print).
+\newblock \doi{10.1037/a0026598}.
+\newblock Place: US Publisher: American Psychological Association.
+
+\bibitem[Boas(1887)]{boas_museums_1887}
+Franz Boas.
+\newblock Museums of {Ethnology} and {Their} {Classification}.
+\newblock \emph{Science}, 9\penalty0 (228):\penalty0 587--589, 1887.
+\newblock ISSN 0036-8075.
+\newblock URL \url{https://www.jstor.org/stable/1762958}.
+\newblock Publisher: American Association for the Advancement of Science.
+
+\bibitem[Bouchard and McGue(2003)]{bouchard_genetic_2003}
+Thomas~J. Bouchard and Matt McGue.
+\newblock Genetic and environmental influences on human psychological
+  differences.
+\newblock \emph{Journal of Neurobiology}, 54\penalty0 (1):\penalty0 4--45,
+  January 2003.
+\newblock ISSN 0022-3034.
+\newblock \doi{10.1002/neu.10160}.
+
+\bibitem[Bush(1945)]{bush_as_1945}
+Vannevar Bush.
+\newblock As {We} {May} {Think}, July 1945.
+\newblock URL
+  \url{https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/}.
+
+\bibitem[{Cambridge}(2020)]{cambridge_data_2020}
+{Cambridge}.
+\newblock {DATA} {\textbar} signification, définition dans le dictionnaire
+  {Anglais} de {Cambridge}, 2020.
+\newblock URL
+  \url{https://dictionary.cambridge.org/fr/dictionnaire/anglais/data}.
+\newblock Library Catalog: dictionary.cambridge.org.
+
+\bibitem[Clement(2019)]{clement_global_2019}
+J.~Clement.
+\newblock Global social media ranking 2019, 2019.
+\newblock URL
+  \url{https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/}.
+
+\bibitem[Cointe(2017)]{cointe_ethical_2017}
+Nicolas Cointe.
+\newblock \emph{Ethical {Judgment} for decision and cooperation in multiagent
+  systems}.
+\newblock Theses, Université de Lyon, December 2017.
+\newblock URL \url{https://tel.archives-ouvertes.fr/tel-01851485}.
+
+\bibitem[Columbus(2019)]{columbus_25_2019}
+Louis Columbus.
+\newblock 25 {Machine} {Learning} {Startups} {To} {Watch} {In} 2019, May 2019.
+\newblock URL
+  \url{https://www.forbes.com/sites/louiscolumbus/2019/05/27/25-machine-learning-startups-to-watch-in-2019/}.
+\newblock Library Catalog: www.forbes.com Section: Innovation.
+
+\bibitem[Commission(2019)]{commission_europeenne_ethics_2019}
+UE~Commission.
+\newblock Ethics guidelines for trustworthy {AI}, April 2019.
+\newblock URL
+  \url{https://ec.europa.eu/digital-single-market/en/news/ethics-guidelines-trustworthy-ai}.
+
+\bibitem[Crevier(1992)]{crevier_ai:_1992}
+Daniel Crevier.
+\newblock \emph{{AI}: the tumultuous history of the search for artificial
+  intelligence}.
+\newblock Basic Books, New York, NY, 1992.
+\newblock ISBN 978-0-465-02997-6 978-0-465-00104-0.
+\newblock OCLC: 26858345.
+
+\bibitem[{Data for Good}(2018)]{data_for_good_serment_2018}
+{Data for Good}.
+\newblock Serment d'{Hippocrate} pour data scientist, 2018.
+\newblock URL \url{https://www.hippocrate.tech}.
+
+\bibitem[{DeepMind}(2016)]{deepmind_alphago_2016}
+{DeepMind}.
+\newblock {AlphaGo}, 2016.
+\newblock URL \url{https://deepmind.com/research/alphago/}.
+
+\bibitem[Desjardins(2018)]{desjardins_infographic:_2018}
+Jeff Desjardins.
+\newblock Infographic: {What} {Happens} in an {Internet} {Minute} in 2018?, May
+  2018.
+\newblock URL \url{https://www.visualcapitalist.com/internet-minute-2018/}.
+
+\bibitem[Desjardins(2019)]{desjardins_what_2019}
+Jeff Desjardins.
+\newblock What {Happens} in an {Internet} {Minute} in 2019?, March 2019.
+\newblock URL
+  \url{https://www.visualcapitalist.com/what-happens-in-an-internet-minute-in-2019/}.
+\newblock Library Catalog: www.visualcapitalist.com.
+
+\bibitem[Ducat(2017)]{ducat_du_2017}
+Jean Ducat.
+\newblock Du vol dans l’éducation spartiate.
+\newblock In \emph{Dossier : {Alexandre} le {Grand}, religion et tradition},
+  Mètis, pages 95--110. Éditions de l’École des hautes études en sciences
+  sociales, Paris, June 2017.
+\newblock ISBN 978-2-7132-2599-4.
+\newblock URL \url{http://books.openedition.org/editionsehess/2103}.
+
+\bibitem[Eden et~al.(2013)Eden, Moor, Soraker, and
+  Steinhart]{eden_singularity_2013}
+Amnon~H. Eden, James~H. Moor, Johnny~H. Soraker, and Eric Steinhart, editors.
+\newblock \emph{Singularity {Hypotheses}: {A} {Scientific} and {Philosophical}
+  {Assessment}}.
+\newblock Springer, New York, 2012 edition edition, April 2013.
+\newblock ISBN 978-3-642-32559-5.
+
+\bibitem[Figure\_Eight(2019)]{figure_eight_state_2019}
+Figure\_Eight.
+\newblock The {State} of {AI} and {Machine} {Learning} {Report}, May 2019.
+\newblock URL
+  \url{https://www.figure-eight.com/the-state-of-ai-and-machine-learning-report/}.
+\newblock Library Catalog: www.figure-eight.com Section: eBooks.
+
+\bibitem[Gilpin et~al.(2018)Gilpin, Bau, Yuan, Bajwa, Specter, and
+  Kagal]{gilpin_explaining_2018}
+Leilani~H. Gilpin, David Bau, Ben~Z. Yuan, Ayesha Bajwa, Michael Specter, and
+  Lalana Kagal.
+\newblock Explaining {Explanations}: {An} {Overview} of {Interpretability} of
+  {Machine} {Learning}.
+\newblock \emph{arXiv:1806.00069 [cs, stat]}, May 2018.
+\newblock URL \url{http://arxiv.org/abs/1806.00069}.
+\newblock arXiv: 1806.00069.
+
+\bibitem[Grace et~al.(2017)Grace, Salvatier, Dafoe, Zhang, and
+  Evans]{grace_when_2017}
+Katja Grace, John Salvatier, Allan Dafoe, Baobao Zhang, and Owain Evans.
+\newblock When {Will} {AI} {Exceed} {Human} {Performance}? {Evidence} from {AI}
+  {Experts}.
+\newblock \emph{arXiv:1705.08807 [cs]}, May 2017.
+\newblock URL \url{http://arxiv.org/abs/1705.08807}.
+\newblock arXiv: 1705.08807.
+
+\bibitem[Greenwald and Banaji(1995)]{greenwald_implicit_1995}
+A.~G. Greenwald and M.~R. Banaji.
+\newblock Implicit social cognition: attitudes, self-esteem, and stereotypes.
+\newblock \emph{Psychological Review}, 102\penalty0 (1):\penalty0 4--27,
+  January 1995.
+\newblock ISSN 0033-295X.
+
+\bibitem[Grudin(2009)]{grudin_ai_2009}
+Jonathan Grudin.
+\newblock {AI} and {HCI}: {Two} {Fields} {Divided} by a {Common} {Focus}.
+\newblock \emph{AI Magazine}, 30\penalty0 (4):\penalty0 48, September 2009.
+\newblock ISSN 0738-4602, 0738-4602.
+\newblock \doi{10.1609/aimag.v30i4.2271}.
+\newblock URL
+  \url{https://aaai.org/ojs/index.php/aimagazine/article/view/2271}.
+
+\bibitem[Gurven(2004)]{gurven_give_2004}
+Michael Gurven.
+\newblock To give and to give not: {The} behavioral ecology of human food
+  transfers.
+\newblock \emph{Behavioral and Brain Sciences - BEHAV BRAIN SCI}, 27, August
+  2004.
+\newblock \doi{10.1017/S0140525X04000123}.
+
+\bibitem[Hamlin et~al.(2007)Hamlin, Wynn, and Bloom]{hamlin_social_2007}
+J.~Kiley Hamlin, Karen Wynn, and Paul Bloom.
+\newblock Social evaluation by preverbal infants.
+\newblock \emph{Nature}, 450\penalty0 (7169):\penalty0 557--559, November 2007.
+\newblock ISSN 1476-4687.
+\newblock \doi{10.1038/nature06288}.
+
+\bibitem[Harari and Dauzat(2015)]{harari_sapiens:_2015}
+Yuval~N Harari and Pierre-Emmanuel Dauzat.
+\newblock \emph{Sapiens: une brève histoire de l'humanité}.
+\newblock Albin Michel, Paris, 2015.
+\newblock ISBN 978-2-226-25701-7.
+\newblock OCLC: 1082432348.
+
+\bibitem[Haupt(2006)]{haupt_who_2006}
+Michael Haupt.
+\newblock Who should get credit for the quote 'data is the new oil'? - {Quora},
+  2006.
+\newblock URL
+  \url{https://www.quora.com/Who-should-get-credit-for-the-quote-data-is-the-new-oil}.
+
+\bibitem[Hoang(2018)]{hoang_roadmap_2018}
+Lê~Nguyên Hoang.
+\newblock A {Roadmap} for {Robust} {End}-to-{End} {Alignment}.
+\newblock \emph{arXiv:1809.01036 [cs]}, September 2018.
+\newblock URL \url{http://arxiv.org/abs/1809.01036}.
+\newblock arXiv: 1809.01036.
+
+\bibitem[Hsu et~al.(1995)Hsu, Campbell, and Hoane]{hsu_deep_1995}
+Feng-hsiung Hsu, Murray~S. Campbell, and A.~Joseph Hoane, Jr.
+\newblock Deep {Blue} {System} {Overview}.
+\newblock In \emph{Proceedings of the 9th {International} {Conference} on
+  {Supercomputing}}, {ICS} '95, pages 240--244, New York, NY, USA, 1995. ACM.
+\newblock ISBN 978-0-89791-728-5.
+\newblock \doi{10.1145/224538.224567}.
+\newblock URL \url{http://doi.acm.org/10.1145/224538.224567}.
+\newblock event-place: Barcelona, Spain.
+
+\bibitem[Irving and Askell(2019)]{irving_ai_2019}
+Geoffrey Irving and Amanda Askell.
+\newblock {AI} {Safety} {Needs} {Social} {Scientists}.
+\newblock \emph{Distill}, 4\penalty0 (2):\penalty0 10.23915/distill.00014,
+  February 2019.
+\newblock ISSN 2476-0757.
+\newblock \doi{10.23915/distill.00014}.
+\newblock URL \url{https://distill.pub/2019/safety-needs-social-scientists}.
+
+\bibitem[Jackson(1998)]{jackson_introduction_1998}
+Peter Jackson.
+\newblock \emph{Introduction to {Expert} {Systems}}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., USA, 3rd edition, 1998.
+\newblock ISBN 978-0-201-87686-4.
+
+\bibitem[Jordan(2018)]{jordan_organizing_2018}
+Jeremy Jordan.
+\newblock Organizing machine learning projects: project management guidelines.,
+  September 2018.
+\newblock URL \url{https://www.jeremyjordan.me/ml-projects-guide/}.
+
+\bibitem[Kant and Delbos(2007)]{kant_fondements_2007}
+Immanuel Kant and Victor Delbos.
+\newblock \emph{Fondements de la métaphysique des mœurs}.
+\newblock Libraire Delagrave, Paris, 2007.
+\newblock ISBN 978-2-206-00155-5.
+\newblock OCLC: 612252890.
+
+\bibitem[Karras et~al.(2018)Karras, Laine, and Aila]{karras_style-based_2018}
+Tero Karras, Samuli Laine, and Timo Aila.
+\newblock A {Style}-{Based} {Generator} {Architecture} for {Generative}
+  {Adversarial} {Networks}.
+\newblock \emph{arXiv:1812.04948 [cs, stat]}, December 2018.
+\newblock URL \url{http://arxiv.org/abs/1812.04948}.
+\newblock arXiv: 1812.04948.
+
+\bibitem[Kasparov(2017)]{kasparov_deep_2017}
+Garry Kasparov.
+\newblock \emph{Deep {Thinking}: {Where} {Machine} {Intelligence} {Ends} and
+  {Human} {Creativity} {Begins}}.
+\newblock John Murray, June 2017.
+\newblock ISBN 978-1-4736-5350-4.
+
+\bibitem[Kohlberg and Hersh(1977)]{kohlberg_moral_1977}
+Lawrence Kohlberg and Richard~H. Hersh.
+\newblock Moral development: {A} review of the theory.
+\newblock \emph{Theory Into Practice}, 16\penalty0 (2):\penalty0 53--59, April
+  1977.
+\newblock ISSN 0040-5841, 1543-0421.
+\newblock \doi{10.1080/00405847709542675}.
+\newblock URL
+  \url{http://www.tandfonline.com/doi/abs/10.1080/00405847709542675}.
+
+\bibitem[Kramer et~al.(2014)Kramer, Guillory, and
+  Hancock]{kramer_correction_2014}
+Adam Kramer, Jamie Guillory, and Jeffrey Hancock.
+\newblock Correction for {Kramer} et al., {Experimental} evidence of
+  massive-scale emotional contagion through social networks.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 111\penalty0
+  (29):\penalty0 10779--10779, July 2014.
+\newblock ISSN 0027-8424, 1091-6490.
+\newblock \doi{10.1073/pnas.1412583111}.
+\newblock URL \url{http://www.pnas.org/cgi/doi/10.1073/pnas.1412583111}.
+
+\bibitem[Krauthammer(1997)]{krauthammer_be_1997}
+Charles Krauthammer.
+\newblock Be {Afraid}, May 1997.
+\newblock URL
+  \url{https://www.weeklystandard.com/charles-krauthammer/be-afraid-9802}.
+
+\bibitem[Larson and Angwin(2016)]{larson_how_2016}
+Jeff Larson and Julia Angwin.
+\newblock How {We} {Analyzed} the {COMPAS} {Recidivism} {Algorithm}, May 2016.
+\newblock URL
+  \url{https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm}.
+
+\bibitem[Launay(2012)]{launay_urnes_2012}
+Mickaël Launay.
+\newblock \emph{Urnes interagissantes}.
+\newblock thesis, Aix-Marseille, June 2012.
+\newblock URL \url{http://www.theses.fr/2012AIXM4775}.
+
+\bibitem[Mayo(2018)]{mayo_machine_2018}
+Matthew Mayo.
+\newblock The {Machine} {Learning} {Project} {Checklist}, December 2018.
+\newblock URL
+  \url{https://www.kdnuggets.com/the-machine-learning-project-checklist.html/}.
+
+\bibitem[Medeot et~al.(2018)Medeot, Cherla, Kosta, McVicar, Abdallah, Selvi,
+  Newton-Rex, and Webster]{medeot_structurenet:_2018}
+Gabriele Medeot, Srikanth Cherla, Katerina Kosta, Matt McVicar, Samer Abdallah,
+  Marco Selvi, Ed~Newton-Rex, and Kevin Webster.
+\newblock {StructureNet}: {Inducing} {Structure} in {Generated} {Melodies}.
+\newblock In \emph{{ISMIR}}, 2018.
+
+\bibitem[Molnar(2019)]{molnar2019}
+Christoph Molnar.
+\newblock \emph{Interpretable Machine Learning}.
+\newblock 2019.
+\newblock \url{https://christophm.github.io/interpretable-ml-book/}.
+
+\bibitem[Montaigne(1789)]{montaigne_essais_1789}
+Michel~de Montaigne.
+\newblock \emph{Essais de {Montaigne}}.
+\newblock Volland, 1789.
+\newblock Google-Books-ID: 5I0tAAAAMAAJ.
+
+\bibitem[Moore(1998)]{moore_cramming_1998}
+G.E. Moore.
+\newblock Cramming {More} {Components} {Onto} {Integrated} {Circuits}.
+\newblock \emph{Proceedings of the IEEE}, 86\penalty0 (1):\penalty0 82--85,
+  January 1998.
+\newblock ISSN 0018-9219, 1558-2256.
+\newblock \doi{10.1109/JPROC.1998.658762}.
+\newblock URL \url{http://ieeexplore.ieee.org/document/658762/}.
+
+\bibitem[Mordvintsev et~al.(2015)Mordvintsev, Olah, and
+  Tyka]{mordvintsev_inceptionism:_2015}
+Alexander Mordvintsev, Christopher Olah, and Mike Tyka.
+\newblock Inceptionism: {Going} {Deeper} into {Neural} {Networks}, June 2015.
+\newblock URL
+  \url{http://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html}.
+
+\bibitem[Morley et~al.(2019)Morley, Floridi, Kinsey, and
+  Elhalal]{morley_what_2019}
+Jessica Morley, Luciano Floridi, Libby Kinsey, and Anat Elhalal.
+\newblock From {What} to {How}: {An} {Initial} {Review} of {Publicly}
+  {Available} {AI} {Ethics} {Tools}, {Methods} and {Research} to {Translate}
+  {Principles} into {Practices}.
+\newblock \emph{arXiv:1905.06876 [cs]}, September 2019.
+\newblock URL \url{http://arxiv.org/abs/1905.06876}.
+\newblock arXiv: 1905.06876.
+
+\bibitem[{newsflash}(2018)]{newsflash_ai_2018}
+{newsflash}.
+\newblock '{AI} is very, very stupid,' says {Google}'s {AI} leader, at least
+  compared to humans - {CNET}, November 2018.
+\newblock URL
+  \url{https://newsflash.one/2018/11/14/ai-is-very-very-stupid-says-googles-ai-leader-at-least-compared-to-humans-cnet/}.
+
+\bibitem[Nietzsche(1900)]{nietzsche_genealogie_1900}
+Friedrich Nietzsche.
+\newblock \emph{La {Généalogie} de la morale}, volume Œuvres complètes de
+  Frédéric Nietzsche, vol. 11.
+\newblock Mercure de France, 1900.
+\newblock URL
+  \url{https://fr.wikisource.org/wiki/La_G%C3%A9n%C3%A9alogie_de_la_morale/Premi%C3%A8re_dissertation}.
+
+\bibitem[Pinar~Saygin et~al.(2000)Pinar~Saygin, Cicekli, and
+  Akman]{pinar_saygin_turing_2000}
+Ayse Pinar~Saygin, Ilyas Cicekli, and Varol Akman.
+\newblock Turing {Test}: 50 {Years} {Later}.
+\newblock \emph{Minds and Machines}, 10\penalty0 (4):\penalty0 463--518,
+  November 2000.
+\newblock ISSN 1572-8641.
+\newblock \doi{10.1023/A:1011288000451}.
+\newblock URL \url{https://doi.org/10.1023/A:1011288000451}.
+
+\bibitem[Poole et~al.(1997)Poole, Mackworth, and
+  Goebel]{poole_computational_1997}
+David Poole, Alan Mackworth, and Randy Goebel.
+\newblock \emph{Computational {Intelligence}: {A} {Logical} {Approach}}.
+\newblock Oxford University Press, Inc., New York, NY, USA, 1997.
+\newblock ISBN 0-19-510270-3.
+
+\bibitem[Press(2013)]{press_very_2013}
+Gil Press.
+\newblock A {Very} {Short} {History} {Of} {Big} {Data}, May 2013.
+\newblock URL
+  \url{https://www.forbes.com/sites/gilpress/2013/05/09/a-very-short-history-of-big-data/}.
+\newblock Library Catalog: www.forbes.com Section: Innovation.
+
+\bibitem[Radford et~al.(2019)Radford, Wu, Child, Luan, Amodei, and
+  Sutskever]{radford_language_2019}
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+  Sutskever.
+\newblock Language {Models} are {Unsupervised} {Multitask} {Learners}.
+\newblock page~24, 2019.
+
+\bibitem[Redfield(1965)]{redfield_primitive_1965}
+Robert Redfield.
+\newblock \emph{The {Primitive} {World} and {Its} {Transformations}}.
+\newblock Cornell University Press, 1965.
+\newblock Google-Books-ID: KHQLAAAAYAAJ.
+
+\bibitem[Reinsel et~al.(2018)Reinsel, Gantz, and
+  Rydning]{reinsel_digitization_2018}
+David Reinsel, John Gantz, and John Rydning.
+\newblock The {Digitization} of the {World} from {Edge} to {Core}.
+\newblock page~28, November 2018.
+\newblock URL
+  \url{https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf}.
+
+\bibitem[Rosenblatt(1958)]{rosenblatt_perceptron_1958}
+F.~Rosenblatt.
+\newblock The perceptron: {A} probabilistic model for information storage and
+  organization in the brain.
+\newblock \emph{Psychological Review}, 65\penalty0 (6):\penalty0 386--408,
+  1958.
+\newblock ISSN 1939-1471, 0033-295X.
+\newblock \doi{10.1037/h0042519}.
+\newblock URL \url{http://doi.apa.org/getdoi.cfm?doi=10.1037/h0042519}.
+
+\bibitem[Rousseau(1969)]{rousseau_rousseau_1969}
+Jean-Jacques Rousseau.
+\newblock \emph{Rousseau : {Oeuvres} complètes, tome 4}.
+\newblock Gallimard, Paris, April 1969.
+\newblock ISBN 978-2-07-010491-8.
+
+\bibitem[Russakovsky et~al.(2015)Russakovsky, Deng, Su, Krause, Satheesh, Ma,
+  Huang, Karpathy, Khosla, Bernstein, Berg, and Fei-Fei]{ILSVRC15}
+Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma,
+  Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein,
+  Alexander~C. Berg, and Li~Fei-Fei.
+\newblock {ImageNet Large Scale Visual Recognition Challenge}.
+\newblock \emph{International Journal of Computer Vision (IJCV)}, 115\penalty0
+  (3):\penalty0 211--252, 2015.
+\newblock \doi{10.1007/s11263-015-0816-y}.
+
+\bibitem[Servier(1993)]{servier_methode_1993}
+Jean Servier.
+\newblock \emph{Méthode de l'ethnologie}.
+\newblock Que sais-je ? PUF, Paris, 2e éd. rev. edition, 1993.
+\newblock ISBN 978-2-13-045905-7.
+
+\bibitem[Shepardson and Sage(2018)]{shepardson_waymo_2018}
+David Shepardson and Alexandria Sage.
+\newblock Waymo gets first {California} {OK} for driverless testing without...
+\newblock \emph{Reuters}, October 2018.
+\newblock URL
+  \url{https://in.reuters.com/article/us-autos-selfdriving-waymo-idINKCN1N42S1}.
+
+\bibitem[Silver et~al.(2017)Silver, Schrittwieser, Simonyan, Antonoglou, Huang,
+  Guez, Hubert, Baker, Lai, Bolton, Chen, Lillicrap, Hui, Sifre, van~den
+  Driessche, Graepel, and Hassabis]{silver_mastering_2017}
+David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja
+  Huang, Arthur Guez, Thomas Hubert, Lucas Baker, Matthew Lai, Adrian Bolton,
+  Yutian Chen, Timothy Lillicrap, Fan Hui, Laurent Sifre, George van~den
+  Driessche, Thore Graepel, and Demis Hassabis.
+\newblock Mastering the game of {Go} without human knowledge.
+\newblock \emph{Nature}, 550\penalty0 (7676):\penalty0 354--359, October 2017.
+\newblock ISSN 1476-4687.
+\newblock \doi{10.1038/nature24270}.
+\newblock URL \url{https://www.nature.com/articles/nature24270}.
+
+\bibitem[Simon(1965)]{simon_shape_1965}
+Herbert~A. Simon.
+\newblock \emph{The shape of automation for men and management,}.
+\newblock Harper \& Row, New York,, [1st ed.] edition, 1965.
+
+\bibitem[Simon and Newell(1958)]{simon_heuristic_1958}
+Herbert~A. Simon and Allen Newell.
+\newblock Heuristic {Problem} {Solving}: {The} {Next} {Advance} in {Operations}
+  {Research}.
+\newblock \emph{Operations Research}, 6\penalty0 (1):\penalty0 1--10, February
+  1958.
+\newblock ISSN 0030-364X.
+\newblock \doi{10.1287/opre.6.1.1}.
+\newblock URL \url{https://pubsonline.informs.org/doi/abs/10.1287/opre.6.1.1}.
+
+\bibitem[Solomonoff(1985)]{solomonoff_time_1985}
+R.~J. Solomonoff.
+\newblock The time scale of artificial intelligence: {Reflections} on social
+  effects.
+\newblock \emph{Human Systems Management}, 5\penalty0 (2):\penalty0 149--153,
+  January 1985.
+\newblock ISSN 0167-2533.
+\newblock \doi{10.3233/HSM-1985-5207}.
+\newblock URL
+  \url{https://content.iospress.com/articles/human-systems-management/hsm5-2-07}.
+
+\bibitem[Sumner(1906)]{sumner_folkways_1906}
+William~Graham Sumner.
+\newblock \emph{Folkways, a study of the sociological importance of usages,
+  manners, customs, mores, and morals}.
+\newblock Boston, Ginn, 1906.
+\newblock URL \url{http://archive.org/details/folkwaysstudyofs00sumnuoft}.
+
+\bibitem[Suwajanakorn et~al.(2017)Suwajanakorn, Seitz, and
+  Kemelmacher-Shlizerman]{suwajanakorn_synthesizing_2017}
+Supasorn Suwajanakorn, Steven~M. Seitz, and Ira Kemelmacher-Shlizerman.
+\newblock Synthesizing {Obama}: learning lip sync from audio.
+\newblock \emph{ACM Transactions on Graphics}, 36\penalty0 (4):\penalty0 1--13,
+  July 2017.
+\newblock ISSN 07300301.
+\newblock \doi{10.1145/3072959.3073640}.
+\newblock URL \url{http://dl.acm.org/citation.cfm?doid=3072959.3073640}.
+
+\bibitem[Tran(2017)]{tran_selection_2017}
+Van-Tinh Tran.
+\newblock \emph{Selection {Bias} {Correction} in {Supervised} {Learning} with
+  {Importance} {Weight}}.
+\newblock Artificial {Intelligence} [cs.{AI}], Université de Lyon, July 2017.
+\newblock URL \url{https://tel.archives-ouvertes.fr/tel-01661470}.
+
+\bibitem[Tual(2016)]{tual_peine_2016}
+Morgane Tual.
+\newblock A peine lancée, une intelligence artificielle de {Microsoft} dérape
+  sur {Twitter}.
+\newblock \emph{Le Monde.fr}, March 2016.
+\newblock URL
+  \url{https://www.lemonde.fr/pixels/article/2016/03/24/a-peine-lancee-une-intelligence-artificielle-de-microsoft-derape-sur-twitter_4889661_4408996.html}.
+
+\bibitem[Turilli(2007)]{turilli_ethical_2007}
+Matteo Turilli.
+\newblock Ethical protocols design.
+\newblock \emph{Ethics and Information Technology}, 9\penalty0 (1):\penalty0
+  49--62, March 2007.
+\newblock ISSN 1572-8439.
+\newblock \doi{10.1007/s10676-006-9128-9}.
+\newblock URL \url{https://doi.org/10.1007/s10676-006-9128-9}.
+
+\bibitem[Turing(1950)]{turing_i.computing_1950}
+A.~M. Turing.
+\newblock I.—{COMPUTING} {MACHINERY} {AND} {INTELLIGENCE}.
+\newblock \emph{Mind}, LIX\penalty0 (236):\penalty0 433--460, October 1950.
+\newblock ISSN 0026-4423.
+\newblock \doi{10.1093/mind/LIX.236.433}.
+\newblock URL \url{https://academic.oup.com/mind/article/LIX/236/433/986238}.
+
+\bibitem[Turing(1951)]{turing_browse_1951}
+Alan Turing.
+\newblock Browse the {Turing} {Digital} {Archive}, May 1951.
+\newblock URL \url{http://www.turingarchive.org/browse.php/B/5}.
+
+\bibitem[Villani(2018)]{villani_donner_2018}
+Cédric Villani.
+\newblock \emph{Donner un sens à l'intelligence artificielle: pour une
+  stratégie nationale européenne : [{Mission} parlementaire du 8 septembre
+  2017 au 8 mars 2018}.
+\newblock 2018.
+\newblock ISBN 978-2-11-145700-3.
+\newblock OCLC: 1030337149.
+
+\bibitem[Vinyals et~al.(2019)Vinyals, Babuschkin, Chung, Mathieu, Jaderberg,
+  Czarnecki, Dudzik, Huang, Georgiev, Powell, Ewalds, Horgan, Kroiss,
+  Danihelka, Agapiou, Oh, Dalibard, Choi, Sifre, Sulsky, Vezhnevets, Molloy,
+  Cai, Budden, Paine, Gulcehre, Wang, Pfaff, Pohlen, Wu, Yogatama, Cohen,
+  McKinney, Smith, Schaul, Lillicrap, Apps, Kavukcuoglu, Hassabis, and
+  Silver]{vinyals_alphastar:_2019}
+Oriol Vinyals, Igor Babuschkin, Junyoung Chung, Michael Mathieu, Max Jaderberg,
+  Wojciech~M. Czarnecki, Andrew Dudzik, Aja Huang, Petko Georgiev, Richard
+  Powell, Timo Ewalds, Dan Horgan, Manuel Kroiss, Ivo Danihelka, John Agapiou,
+  Junhyuk Oh, Valentin Dalibard, David Choi, Laurent Sifre, Yury Sulsky, Sasha
+  Vezhnevets, James Molloy, Trevor Cai, David Budden, Tom Paine, Caglar
+  Gulcehre, Ziyu Wang, Tobias Pfaff, Toby Pohlen, Yuhuai Wu, Dani Yogatama,
+  Julia Cohen, Katrina McKinney, Oliver Smith, Tom Schaul, Timothy Lillicrap,
+  Chris Apps, Koray Kavukcuoglu, Demis Hassabis, and David Silver.
+\newblock \emph{{AlphaStar}: {Mastering} the {Real}-{Time} {Strategy} {Game}
+  {StarCraft} {II}}.
+\newblock 2019.
+\newblock URL
+  \url{https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/}.
+
+\bibitem[Wiener(1961)]{wiener_cybernetics;_1961}
+Norbert Wiener.
+\newblock \emph{Cybernetics; or, {Control} and communication in the animal and
+  the machine.}
+\newblock M.I.T. Press, New York, 1961.
+\newblock ISBN 978-0-262-23007-0 978-0-262-73009-9.
+\newblock OCLC: 1284210.
+
+\end{thebibliography}
