@@ -275,7 +275,7 @@ C'est un peu plus d'une décénie plus tard qu'une véritable révolution remet 
 \subsubsection{L'avènement de l'Intellect des Machines : Deep Learning}
 
 \paragraph{}
-L'apprentissage profond tient son nom de la profondeur des couches de neurones qui le compose. Un modèle de Deep Learning est donc un réseau de neuronnes. En tant qu'être humain, nous avons envie de faire un amalgame avec le cerveau humain. Or, non en dehors de la forme, ces réseaux de neurones ne sont pas du tout le cerveau humain. La logique est similaire : des ``neurones'' prenant des informations en entrée pour en ressortir une autre information à son tour vers un niveau suivant. Bien que cela puisse raviver l’illusion d’une machine aussi intelligente que l’homme, les algorithmes actuels peuvent être décrits comme intelligences artificielles ``stupides'' car elles n’appliquent, que ce pour quoi elles ont été créées, avec des niveaux de performances parfois, bluffant. La déclaration d’Andrew Moore \citep{newsflash_ai_2018}, responsable de Google Cloud AI, le confirme "AI is currently, very, very stupid"\footnote{Traduction : l’IA est actuellement, très, très stupide.}.
+L'apprentissage profond tient son nom de la profondeur des couches de neurones qui le compose. Un modèle de Deep Learning est donc un réseau de neurones. En tant qu'être humain, nous avons envie de faire un amalgame avec le cerveau humain. Or, non en dehors de la forme, ces réseaux de neurones ne sont pas du tout le cerveau humain. La logique est similaire : des ``neurones'' prenant des informations en entrée pour en ressortir une autre information à son tour vers un niveau suivant. Bien que cela puisse raviver l’illusion d’une machine aussi intelligente que l’homme, les algorithmes actuels peuvent être décrits comme intelligences artificielles ``stupides'' car elles n’appliquent, que ce pour quoi elles ont été créées, avec des niveaux de performances parfois, bluffant. La déclaration d’Andrew Moore \citep{newsflash_ai_2018}, responsable de Google Cloud AI, le confirme "AI is currently, very, very stupid"\footnote{Traduction : l’IA est actuellement, très, très stupide.}.
 
 \paragraph{}
 A l'origine des neurones un algorithme qui se nomme le ``Perceptron'' \citep{rosenblatt_perceptron_1958}, il s'agit là du réseau de neurones le plus simple qui retourne deux sorties possible : $1$ ou $0$. L'algorithme fonctionne de la façon suivante : $N$ entrées $x_1, x_2, ..., x_N$ de les multiplier par un poid associé $w_1, w_2, ..., w_N$ puis d'en faire la somme pour enfin appliquer une fonction qui détermine si la sortie doit être $1$ (activée) ou $0$ (désactivée). Au vu de ce qui compose ce ``neurone'' (voir Figure \ref{fig:perceptron}), il est difficile de penser qu'il s'agit là d'un algorithme bien plus complexe que le cerveau.
@@ -913,9 +913,90 @@ Une dizaine d’algorithmes issus de recherche sont disponibles pour atténuer l
 
 \subsection{L'explication des résultats d'une IA}
 
+\paragraph{}
+Afin de bien comprendre un modèle, différentes approches mathématiques existent. La plus simple est d'utiliser un modèle ayant une complexité algorithmique moindre comme un arbre de décision, qui par définition est entièrement analysable par des humains. Mais la réalité est plus complexe, en effet, les types d'algorithmes utilisés ne sont pas toujours les plus simples (e.g. réseaux de neurones). Nous allons voir deux méthodes dites ``post-hoc'' ou agnostiques : LIME et SHAP.
+
 \subsubsection{LIME : Local Interpretable Model-agnostic Explanations}
 
+\paragraph{}
+LIME se base sur la logique de modèles de substitution locaux. Il s'agit de modèle interprétables utilisés pour expliquer les prédictions individuelles de modèle considéré comme boîte-noire, soit pour lesquels nous ignorons ce qu'il se passe au niveau de l'algorithme.
+
+\paragraph{}
+L'article \citep{lime} est article dans lequel les auteurs proposent une mise en œuvre concrète des modèles de substitution locaux. Les modèles de substitution sont formés pour se rapprocher des prédictions du modèle sous-jacent de la boîte noire. Au lieu de former un modèle de substitution global, le LIME se concentre sur la formation de modèles de substitution locaux pour expliquer les prédictions individuelles.
+
+\paragraph{}
+L'idée est assez intuitive. Tout d'abord, oubliez les données d'entraînement et imaginez que vous n'avez que le modèle de la boîte noire où vous pouvez entrer des points de données et obtenir les prédictions du modèle. Vous pouvez sonder la boîte aussi souvent que vous le souhaitez. Votre objectif est de comprendre pourquoi le modèle d'apprentissage machine a fait une certaine prédiction. LIME teste ce qui arrive aux prédictions lorsque vous donnez des variations de vos données dans le modèle d'apprentissage machine.
+
+\paragraph{}
+Avec cette méthode, l'outil génère des échantillons permutés et récupère les prédictions associées pour créer un modèle interprétable (peu complexe mathématiquement). Le modèle doit avoir appris une bonne approximation des prédictions afin de le considérer comme fidèle au modèle actuel. Mathématiquement, LIME utilise la formule suivante :
+
+\begin{equation}
+  explication(x) = \arg\ \underset{g \in G}{\min}\ L(f,g,\pi_x) + \Omega(g)
+\end{equation}
+
+\paragraph{}
+Le modèle d'explication par exemple $x$ est le modèle $g$ (modèle interprétable) qui minimise le coût $L$\footnote{Le coût d'un modèle est issu d'une fonction de coût, l'entraînement d'un modèle consite à réduire au minimum la valeur de cette fonction.}, qui mesure la proximité de l'explication par rapport à la prédiction du modèle original $f$ (modèle complexe), tandis que la complexité du modèle $\Omega(g)$ est maintenue faible (par exemple, préférer moins de caractéristiques). $G$ est la famille des explications possibles, par exemple tous les modèles de régression linéaire possibles. La mesure de proximité $\pi_x$ définit la taille du voisinage autour de l'instance $x$ que nous considérons pour l'explication. En pratique, LIME n'optimise que la partie de du coût \citep{molnar2019}.
+
+\paragraph{}
+Cette méthode a pour avantages, que peut importe la complexité du modèle entraîné, puisqu'elle utilise un modèle interprétable pour expliquer la prédiction, alors il y aura toujours la même structure pour expliquer un résultat. Cela permet de facilement créer des explications naturelles pour les humains. De plus cette méthode fonctionne sur les données tabulaires, les textes et les images. 
+
+\paragraph{}
+Un problème assez important de cette méthode est l'instabilité des explications fournient. Dans un article \citep{alvarez_on_the_2018}, les auteurs ont démontrés qu'avec deux points très proches en entrée, les explications pouvaient grandement différer dans certains cas simulés. 
+
+\paragraph{}
+Les modèles de substitution locaux, avec le LIME comme mise en œuvre concrète, sont très prometteurs. Mais la méthode est encore en phase de développement et de nombreux problèmes doivent être résolus avant qu'elle puisse être appliquée en toute sécurité \citep{molnar2019}.
+
 \subsubsection{SHAP : SHapley Additive exPlanations}
+
+\paragraph{}
+SHAP qui signifie SHapley Additive exPlanations, est une approche pour expliquer un modèle de Machine Learning peut importe le modèle \citep{NIPS2017_7062}. Cet outil a la particularité de connecter la théorie des jeux avec les explications locales (C.F. LIME) en unifiant plusieurs anciennes méthodes comme LIME et la valeur de Shapey \citep{shapley_17._1953}. De plus, cet outil satisfait les trois axiomes clés de l’interprétabilité : ``Dummy player'' soit joueur factice, ``Substitutability'' soit la substituabilité et ``Additivity'' soit l’additivité.
+
+\paragraph{}
+D’abord, avant de parler de SHAP, il faut introduire un champ de la théorie des jeux afin de mieux comprendre de quoi il s’agit. Il faut se poser la question suivante : si nous collaborons tous, comment diviser la récompense totale obtenue par le groupe ? C’est sur cette question de la théorie des jeux que nous allons trouver la mesure appelée la valeur de Shapley apparaît. Pour mieux la comprendre présentons-la avec un exemple.
+
+\paragraph{}
+Ici, nous allons prendre deux personnes : Bob et Alice, ces deux personnes vont manger au restaurant et à la fin il faut trouver un moyen de savoir la part de chacun (nous partons du principe que dans ce cas chacun ne paye pas sa part). Afin de trouver la valeur de Shapley il faut d’abord définir combien sera dépensé dans chaque cas : si Bob est seul, si Alice est seule ou qu’ils sont tous les deux présents. 
+
+
+\begin{center}
+  \begin{tabular}{ |c|c| } 
+   \hline
+   Personne & Dépense \\ 
+   \hline
+   Bob & 50 \\
+   Alice & 30 \\
+   Bob et Alice & 70 \\
+   \hline
+  \end{tabular}
+\end{center}
+
+\paragraph{}
+Ensuite, il faut trouver combien sera dépensé par personne en fonction de leur ordre d’arrivé, par exemple, si Bob avait payé 50 euros seul et que l’addition avec Alice est de 70 euros alors Alice devra payer 20 euros. Pour finir les valeurs de Shapley par personne s’obtiennent en faisant la moyenne de chaque dépense par personne. Nous obtenons donc le tableau suivant :
+
+
+\begin{center}
+  \begin{tabular}{ |c|c|c| } 
+   \hline
+   Ordre d’arrivé & Dépense de Bob & Dépense d’Alice \\ 
+   \hline
+   Bob puis Alice & 50 & 20 \\
+   Alice puis Bob & 40 & 30 \\
+   \hline
+   Valeur de Shapley & $\frac{50+40}{2} = 45$ & $\frac{20+30}{2} = 25$ \\
+   \hline
+  \end{tabular}
+\end{center}
+
+\paragraph{}
+Nous avons donc une valeur de 45 pour Bob et une valeur de 25 pour Alice. Ces valeurs respectent donc les trois axiomes de l’interprétabilité :
+\begin{itemize}
+  \item ``Dummy Player'' : Si un joueur n’ajoute aucune valeur au total alors sa part devra être de 0.
+  \item ``Substitutability'' : Si deux joueurs ajoutent toujours la même valeur à tout sous-ensemble auquel ils sont ajoutés, leur part de gain devrait être identique.
+  \item ``Additivity'' : Si un jeu est composé de deux sous-jeux, il doit être possible d’ajouter les parts des sous-jeux et cela doit être égal à la part du jeu global.
+\end{itemize}
+
+\paragraph{}
+Revenons à nos variables et l’interprétabilité du modèle, comme vous l’aurez deviné la logique est similaire sauf qu’à la place des joueurs nous avons les variables. De plus, mathématiquement SHAP récupère la formule de LIME, mais en utilisant des paramètres précis ce qui permet de récupérer la valeur de Shapley, ce qui rend cet outil plus performant et selon les auteurs de l’outil plus proche de l’intuition humaine.
 
 \subsection{Autres ressources}
 

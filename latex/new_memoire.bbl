@@ -1,4 +1,4 @@
-\begin{thebibliography}{81}
+\begin{thebibliography}{85}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -11,6 +11,12 @@
   April 2020.
 \newblock URL \url{https://inventory.algorithmwatch.org}.
 \newblock Library Catalog: inventory.algorithmwatch.org.
+
+\bibitem[Alvarez{-}Melis and Jaakkola(2018)]{alvarez_on_the_2018}
+David Alvarez{-}Melis and Tommi~S. Jaakkola.
+\newblock On the robustness of interpretability methods.
+\newblock \emph{CoRR}, abs/1806.08049, 2018.
+\newblock URL \url{http://arxiv.org/abs/1806.08049}.
 
 \bibitem[Aristote(1994)]{aristote_ethique_1994}
 Aristote.
@@ -359,6 +365,16 @@ Mickaël Launay.
 \newblock thesis, Aix-Marseille, June 2012.
 \newblock URL \url{http://www.theses.fr/2012AIXM4775}.
 
+\bibitem[Lundberg and Lee(2017)]{NIPS2017_7062}
+Scott~M Lundberg and Su-In Lee.
+\newblock A unified approach to interpreting model predictions.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, \emph{Advances in Neural
+  Information Processing Systems 30}, pages 4765--4774. Curran Associates,
+  Inc., 2017.
+\newblock URL
+  \url{http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf}.
+
 \bibitem[Mayo(2018)]{mayo_machine_2018}
 Matthew Mayo.
 \newblock The {Machine} {Learning} {Project} {Checklist}, December 2018.
@@ -470,6 +486,14 @@ David Reinsel, John Gantz, and John Rydning.
 \newblock URL
   \url{https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf}.
 
+\bibitem[Ribeiro et~al.(2016)Ribeiro, Singh, and Guestrin]{lime}
+Marco~Tulio Ribeiro, Sameer Singh, and Carlos Guestrin.
+\newblock "why should {I} trust you?": Explaining the predictions of any
+  classifier.
+\newblock In \emph{Proceedings of the 22nd {ACM} {SIGKDD} International
+  Conference on Knowledge Discovery and Data Mining, San Francisco, CA, USA,
+  August 13-17, 2016}, pages 1135--1144, 2016.
+
 \bibitem[Rosenblatt(1958)]{rosenblatt_perceptron_1958}
 F.~Rosenblatt.
 \newblock The perceptron: {A} probabilistic model for information storage and
@@ -501,6 +525,16 @@ Jean Servier.
 \newblock \emph{Méthode de l'ethnologie}.
 \newblock Que sais-je ? PUF, Paris, 2e éd. rev. edition, 1993.
 \newblock ISBN 978-2-13-045905-7.
+
+\bibitem[Shapley(1953)]{shapley_17._1953}
+L.~S. Shapley.
+\newblock 17. {A} {Value} for n-{Person} {Games}.
+\newblock In \emph{Contributions to the {Theory} of {Games} ({AM}-28), {Volume}
+  {II}}, volume~2. Princeton University Press, Princeton, 1953.
+\newblock ISBN 978-1-4008-8197-0.
+\newblock \doi{10.1515/9781400881970-018}.
+\newblock URL
+  \url{https://www.degruyter.com/view/books/9781400881970/9781400881970-018/9781400881970-018.xml}.
 
 \bibitem[Shepardson and Sage(2018)]{shepardson_waymo_2018}
 David Shepardson and Alexandria Sage.
