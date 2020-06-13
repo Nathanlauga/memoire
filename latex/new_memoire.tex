@@ -88,6 +88,9 @@
 \chapter*{Introduction}
 \addcontentsline{toc}{chapter}{\protect\numberline{}Introduction}
 
+\paragraph{Problématique} 
+Dans un contexte où les intelligences artificielles sont omniprésentes et que les données deviennent le nouveau pétrole, est-il possible de rendre une Intelligence Artificielle socialement responsable en supervisant son éthique ? ?
+
 
 % ======= ETAT DE L'ART ====== %
 \chapter{\uppercase{é}tat de l'art}
@@ -362,6 +365,7 @@ L’ambiguïté de cette idée vient certainement de l’ethnocentrisme\footnote
 La notion d’universalité mise de côté, la question la plus adéquate sera de penser sur le plan de l’objectivité. C'est pourquoi, pour définir une morale, il faut revenir sur l'origine du bon, du méchant ou encore du mauvais caractérisant le bien et le mal. En d'autres termes, il faut regarder comment se compose une morale, en philosophie.
 
 \subsection{L'origine du Bon, Histoire et Philosophie : Nietzsche}
+\label{subsec:ethique_origine_bon}
 
 \paragraph{}
 Le terme ``bon'', émet un jugement de valeur positif lorsqu’il est utilisé. Avec ce jugement, il est nécessaire d’y trouver son opposition, un linguiste de la Novlangue\footnote{La novlangue ou en anglais ``Newspeak'' est la langue officielle d’Ocania inventée par George Orwell dans son roman 1984, son principe est de diminuer le nombre de mots afin de diminuer le nombre de concepts servant à la réflexion. La négation des mots se formule en rajoutant le terme ``in'' en début de mot.} dirait ``Inbon'', mais cela n’est pas le mot recherché en français. Deux termes semblent être de bons candidats : mauvais et méchant. Alors, lequel serait le plus judicieux ?
@@ -382,6 +386,7 @@ Elle se fonde sur la désapprobation des autres, de leurs actes, de leurs pensé
 Heureusement, il ne s’agit pas des seules morales sur Terre au XXIe siècle, elles ne semblent plus d’actualité. Cependant, leur existence est très importante sur le plan historique, de voir que les actions dites ``bonnes'' n’auront pas la même signification selon l’interlocuteur qui est en face. Mais alors, chacun possède-t-il une morale qui lui est propre ?
 
 \subsection{Philosophie, l'\uppercase{é}thique Normative}
+\label{subsec:ethique_jugement_chacun}
 
 \paragraph{}
 En philosophie, l'éthique normative correspond à la branche théorique comprenant les théories évaluant moralement les humains et leurs actions à partir de critères composants les théories associées. \uppercase{é}valuer la morale d'une personne semble être complexe dans les faits, mais quotidiennement les humains effectuent des choix moraux.
@@ -434,6 +439,7 @@ La forme pour savoir quelle est la bonne morale reste une matière à débattre 
 Tout ce raisonnement reste sur un plan philosophique. Il est important de savoir que chaque individu acquiert au cours de sa vie, une vision idéologique propre de la morale, son code d’éthique. C’est un processus qui commence dès la naissance avec notamment la théorie du développement moral \citep{kohlberg_moral_1977}, puisque notre appartenance à un groupe social défini déjà une partie de ce dont il adviendra de nos croyances, puis l’éducation rentre en jeu, l’entourage, etc.
 
 \subsection{La Morale en Science}
+\label{subsec:morale_science}
 
 \paragraph{}
 L'approche normative que nous venons de voir, cherche à déterminer les codes moraux qui nous régissent, or, il existe une autre approche : l'approche descriptive. Cette approche pose en precept le fait qu'il n'y a pas de morale absolu, de normes, elle cherche à décrire les compotements des humains pour mieux comprendre leur morale.
@@ -609,6 +615,7 @@ Les valeurs qui sont évoquées dans ce document peuvent se résumer au nombre d
 Cette conscience ne doit pas se limiter qu’aux concepteurs des IA, il est nécessaire que cela soit multi-disciplinaire. Chaque acteur intervenant lors de la création d'un algorithme intelligent doit agir pour tendre vers une intelligence artificielle de confiance.
 
 \subsection{Une IA de confiance selon la Commission Européenne}
+\label{subsec:ia_confiance_com_ue}
 
 \paragraph{}
 Le domaine de recherche sur l'intelligence artificielle et l'éthique est assez récent et nous pouvons même recenser jusqu'à plus 70 documents ont été publiés entre 2016 et 2019 \citep{algorithm_watch_ai_2020}. Les différents auteurs sont principalement des gouvernements, des académies et des entreprises \citep{morley_what_2019}. Le but des auteurs de ces documents est qu'en définissant des principes théoriquement, de façon abstraite, ces principes permettront d'agir comme contraintes normatives \citep{turilli_ethical_2007} sur ce qui doit être fait et ce qui ne doit pas être empêché pour l'utilisation d'un algorithme. En d'autres termes, il s'agit de principes qui permettront de garantir une IA éthique.
@@ -702,59 +709,207 @@ Tous ses problèmes que soulèvent les algorithmes intelligents, bien heureuseme
 
 \subsubsection{La décision par l'Aléatoire : Alexei Grinbaum}
 
+\begin{quotation}
+  ``Les choix éthiques ne doivent être fait que par les Hommes.''
+\end{quotation}
+\rightline{{\rm --- \citep{grinbaum_conversation_2019}}} 
+
+\paragraph{}
+Dans son livre ``Les robots et le Mal'' \citep{grinbaum_les_2019}, Alexei Grinbaum, philosophe et physicien, propose une méthode de résolution de conflits moraux lorsqu'une machine se doit de faire un choix moral : faire ce choix en le tirant au sort.
+
+\paragraph{}
+Dans les premières pages de son livre, il évoque la première de couverture du journal ``The Economist'' du 19 décembre 2009 qui représente Adam et Eve du mythe tenant un appareil Apple (voir Figure \ref{fig:the_economist}). Ce couple correspond à la métaphore du bien et du mal, de la condition humaine, cette couverture a pour sens le fait de soulever la question de comment la machine modifie la condition humaine. Il en va de soit que nous pouvons le pousser jusqu'à l'intelligence artificielle.
+
+\begin{figure}[hbt!]
+  \centering
+  \includegraphics[width=0.4\textwidth]{images/the_economist_200091219.png}
+  \caption{Première de couverture de l'édition du 19 décembre 2009 de ``The Economist'' \cite{theeconomist_progress_2009}.}
+  \label{fig:the_economist}
+\end{figure}
+
+\paragraph{}
+Si nous revenons sur les résultats de l'étude étudiée dans la section précédente, nous avons constaté que le comportement d'une voiture autonome devrait varié en fonction des cultures et des moeurs. Cela semble cohérent, mais est-ce que la morale d'une voiture autonome doit être faite par pays, par catégorie sociale ? De plus, est-ce qu'une voiture autonome sur Paris avec un français à l'intérieur devrait-elle se comporter différement qu'avec un passager brésilien ou australien ?   
+
+\paragraph{}
+Ces questions poussent à définir exactement une morale en fonction, mais cela relève de l'impossible car le nombre de possibilité de conflits moraux est immenses. De plus, que devrait prendre en compte la fonction qui ferait le choix de favoriser une personne plutôt qu'une autre ? Son cercle d'ami, sa famille, son apparence ou ses goûts musicaux ? La complexité d'une telle fonction peut également remettre en cause la responsabilité d'une machine sur le plan légal.
+
+\paragraph{}
+Alexei Grinbaum affirme qu'il ne pense pas ``qu’une machine puisse être considérée comme une personne juridique puisque ce n’est pas une personne'' \citep{grinbaum__2019}, en effet il propose de plutôt partager la reponsabilité entre les agents humains qui interviennent lors de la création de l'algorithme : les programmateurs, la société qui produit l'IA, l'utilisateur qui influe sur la décision de l'algorithme ou encore sur les personnes sélectionnant les données qui serviront à entraîner le modèle.
+
+\paragraph{}
+Alors l'une des solutions envisageables serait de prendre une décision basée sur un tirage au sort. Bien que les humains n'aiment pas vivre dans l'incertitude, l'aléatoire permet de résoudre les conflits moraux sans préjugé ni préjudice. Prenons le cas du dilemme pour lequel une voiture autonome pourrait avoir : qui sauvé le cas échéant. Un tirage au sort permettra de ne pas remttre en cause la malveillance de la machine, même si les conséquences peuvent en être dramatiques.
+
+\paragraph{}
+A. Grinbaum rappelle qu'une situation de conflit moral reste assez rare et que par conséquent l'impact dans une société de l'application par le hasard restera minime globalement. De plus, la difficulté deviendrait de créer un système capable detecter un conflit moral pour pouvoir le résoudre de façon aléatoire. Nous pouvons dire que le calcul moral qui est à priori très complexe se réduit à un jet de dés.
+
 \section{Synthèse}
 
 \paragraph{}
 Pour rappel, la problématique de ce mémoire pose le cadre sur deux domaines : l’intelligence artificielle et l’éthique. Dans ce chapitre, dans un premier temps, l’histoire de l’intelligence a été évoquée avec notamment le test de Turing (voir section \ref{sec:ia}). Celui-ci pouvant symboliser une première étape pour atteindre le passage de la singularité, qui, selon les experts du domaine aurait plus de cinquante pourcents de chances d’être atteinte d’ici cinquante ans (voir Figure \ref{fig:chrono_estim_ia}).
 
 \paragraph{}
-Dans un second temps, une introduction à la morale, avec entre autres son origine historiquo-philosophique vu par Nietzsche (voir section \ref{subsec:ethique_origine_bon}). Différentes morales ont été évoquées d’un point de vue philosophique démontrant une complexité déjà humaine à trouver une morale pouvant plaire au plus grand nombre (voir section \ref{subsec:ethique_jugement_chacun}).
+Dans un second temps, une introduction à la morale, avec entre autres son origine historiquo-philosophique vu par Nietzsche (voir section \ref{subsec:ethique_origine_bon}). Différentes morales ont été évoquées d’un point de vue philosophique démontrant une complexité déjà humaine à trouver une morale pouvant plaire au plus grand nombre (voir section \ref{subsec:ethique_jugement_chacun}). Enfin, nous avons vu la vision de la morale dans la Science, notamment avec l'approche du culturalisme et celle du naturalisme \ref{subsec:morale_science}.
 
 \paragraph{}
-C’est pour cela qu’en dernier lieu, la section \ref{sec:ia_ethique} rentre dans les problèmes soulevés par l’intelligence artificielle sur le plan de l’éthique et présente un premier état de l’art sur les études existantes. Différents aspects ont été cités : les biais, la transparence des algorithmes, l’influence actuelle des IA avec les data scientists et enfin une vision qui pourrait permettre d’expliciter la morale des intelligences artificielles. 
+C’est pour cela qu’en dernier lieu, la section \ref{sec:ia_ethique} rentre dans les problèmes soulevés par l’intelligence artificielle sur le plan de l’éthique et présente un premier état de l’art sur les études existantes. Différents aspects ont été cités : les biais, la transparence des algorithmes, l’influence actuelle des IA avec les data scientists et enfin une vision qui pourrait permettre d’expliciter la morale des intelligences artificielles. Sans oublier la théorie de ce que devrait être une IA éthique au travers des écrits de la Commission Européenne.
 
-% \paragraph{}
-% La problématique peut alors se découper sur trois points de l’éthique : moraliser les IA, la transparence et enfin les impacts sociaux que peuvent engendrer ces dernières.
+\paragraph{}
+La problématique peut alors se découper sur deux points de l’éthique : une IA socialement responsable et la supervisation de son éthique.
 
-% \paragraph{}
-% Moraliser un algorithme revient à définir la vision de la morale que les créatrices et créateurs de ce dernier veulent lui attribuer, mais aussi à réfléchir aux biais que les données collectées peuvent posséder ou alors dans l’IA même.
+\paragraph{}
+Déterminer si une intelligence artificielle est socialement responsable revient à déterminer les impacts sociaux de cette dernière, qui s’inscriront dans la démarche de poser les questions des conséquences que celui-ci peut avoir pour un groupe d’individus ou pour un cas particulier, qui est concerné et dans quels buts.
 
-% \paragraph{}
-% La transparence s’axera sur l’interprétabilité du modèle, sa capacité à fournir des explications globales ou locales et enfin sur la possibilité ou non de rendre le code ouvert à tous.
+\paragraph{}
+La supervisation de l'éthique d'une IA a pour différence d'être plus technique, décliner tous les aspects des critères décrits par la Commission Européenne afin de répondre à la question : ``Est-ce cette intelligence artificielle est éthique ?''
 
-% \paragraph{}
-% Enfin, les impacts sociaux s’inscriront dans la démarche de poser les questions des conséquences que celui-ci peut avoir pour un groupe d’individus ou pour un cas particulier, qui est concerné et dans quels buts.
-
-% \paragraph{}
-% La vision qui ressort est celle d’une "méta-IA" soit d’une boîte à outil, d’un guide qui pourrait s’adapter aux différentes intelligences artificielles. Dans le chapitre suivant, je présente les différentes solutions déjà existantes pour permettre techniquement d'avoir une IA éthique puis je détaillerai la solution que j'ai créée, en expliquant sa nécessité.
+\paragraph{}
+La vision qui ressort est celle d’une "méta-IA" soit d’une boîte à outil, d’un guide qui pourrait s’adapter aux différentes intelligences artificielles. Dans le chapitre suivant, je présente les solutions existantes et comment les regrouper dans un outil pouvant garantir une IA de confiance.
 
 % ======= SOLUTION ===== %
 \newpage
 \chapter{Solution : une boîte à outils transparente}
 
+\paragraph{}
+Dans la partie précédente, nous avons évoqué les travaux théoriques concernant la notion d'intelligence artificielle éthique (ou de confiance selon la Commission Européenne). La Commission n'est pas la seule organisation qui a publié des principes pour garantir l'éthique dans un système intelligent (CF section \ref{subsec:ia_confiance_com_ue}).
+
+\paragraph{}
+\begin{quotation}
+  ``La disponibilité de ces principes ``convenus" encourage mais n'entraîne pas encore de changement réel dans la conception des systèmes algorithmiques. Comme on peut le constater, la quasi-totalité des lignes directrices produites à ce jour laissent penser que des solutions techniques existent, mais très peu d'entre elles fournissent des explications techniques. En conséquence, les développeurs sont frustrés par le peu d'aide offerte par des principes très abstraits lorsqu'il s'agit de ``travail de jour".''
+\end{quotation}
+\rightline{{\rm --- \citep{morley_what_2019}}} 
+
+\paragraph{}
+Nous sommes donc dans une impasse pour les développeurs d'IA : des entreprises et des gouvernements expliquent ce que doit être une IA éthique, mais s'abstiennent sur les solutions techniques. Une partie des publications sur le sujet fournissent des questionnaires plus ou moins complexes pour faire respecter les principes, ce qui reste loin de la réalité d'un concepteur d'IA.
+
+\paragraph{}
+Dans cette section, nous allons découvrir des outils et des méthodes mathématiques qui répondent techniquement aux questions soulevés par la Commission Européenne. De plus, ces outils n'étant pas centralisé au même endroit, il est nécessaire de les regrouper dans un même outil qui par conséquent est une boîte à outil : TransparentAI. 
+
 \section{Travaux connexes}
 
-\subsection{La détection et atténuation des biais}
+\paragraph{}
+Cette section a pour but d’analyser des travaux portant sur la réflexion éthique au sein du domaine de l’intelligence artificielle. Les travaux qui seront présentés proviennent de réflexions mathématiques. L’introduction de ces différentes approches est importante puisque certaines sont liées à des outils techniques qui seront réutilisés dans ce mémoire, notamment avec la création d’un outil technique.
+
+\subsection{Analyser les biais au sein d'une IA}
+
+\paragraph{}
+Nous avons vu dans la section \ref{subsec:biais} que les biais au sein d'un algorithme peuvent avoir des conséquences importante pour un être humain. Il est fondamental de pouvoir identifié ces biais et de les atténuer si nécessaire. 
 
 \subsubsection{Mesure des biais : calculer l'impact social}
 
+\paragraph{}
+La mesure de biais dans un algorithme n'est pas absolu : il existe différentes méthodes pour pouvoir les mesurer, chacune possède sa spécificité. Nous allons voir quatre méthodes qui permettent de couvrir un potentiel impact social de l'algorithme.
+
+\paragraph{}
+Dans les définitions qui suivent, nous allons utiliser les termes mathématiques suivants :
+
+\begin{itemize}
+  \item $\hat{Y}$ : c'est la sortie d'un modèle, la prédiction
+  \item $D = privileged$ : il s'agit de la partie des données pour laquelle nous considérons que la personne est privilégiée sur un attribut social (e.g. genre de la personne).
+  \item $D = unprivileged$ : il s'agit de la partie des données pour laquelle nous considérons que la personne n'est pas privilégiée sur un attribut social (e.g. genre de la personne).
+\end{itemize}
+
+\paragraph{}
+Par exemple, prenons une IA cherchant à prédire si une personne est en capacité de rembourser un crédit immobilier : $\hat{Y}$ sera la probabilité qu'il y parvienne, pour l'attribut social du genre de la personne, $D = privileged$ sera les hommes et $D = unprivileged$ les femmes.
+
+\paragraph{}
+Pour ces mesures de biais, le modèle est une classification binaire, il ne peut retourner que 1 (resultat dit positif) ou 0 (résultat dit négatif). De plus, nous pouvons les associer avec les valeurs réelles pour évaluer l'efficacité du modèle ; est-ce que la prédiction du modèle est vraie ou fausse ?
+
+\begin{center}
+  \begin{tabular}{ |c|c|c|c| } 
+   \hline
+   Prédiction $\hat{Y}$ & Réalité $Y$ & Terme associé & Traduction \\ 
+   \hline
+   0 & 0 & TN (True Negative) & Vrai Négatif \\ 
+   1 & 0 & FP (False Positive) & Faux Positif \\ 
+   0 & 1 & FN (False Negative) & Faux Négatif \\ 
+   1 & 1 & TP (True Positive) & Vrai Positif \\ 
+   \hline
+  \end{tabular}
+\end{center}
+
+\paragraph{}
+Grâce à ces indicateurs, il est possible d'obtenir des mesures de performance du modèle comme la Justesse (CF équation \ref{eq:accuracy}). Nous allons en voir deux qui seront utilisées dans deux des mesures de biais : le ``True Positive Rate'' ($TPR$) où ``Taux de Vrai Positif'' et le ``False Positive Rate'' ($FPR$) où ``Taux de Faux Positif''.
+
+\begin{equation}\label{eq:tpr}
+  \text{True Positive Rate (TPR)} = \frac{TP}{TP + FN}
+\end{equation}
+\begin{equation}\label{eq:tpr}
+  \text{False Positive Rate (FPR)} = \frac{FP}{FP + FN}
+\end{equation}
+
 \paragraph{Statistical Parity Difference}
+\begin{equation}\label{eq:stat_par_diff}
+  Pr(\hat{Y} = 1 | D = unprivileged) - Pr(\hat{Y} = 1 | D = privileged)
+\end{equation}
+
+\paragraph{}
+Calcule la différence du taux de résultats favorables reçus par le groupe non privilégié par rapport au groupe privilégié. La valeur idéale de cette mesure est 0. Une valeur inférieure à 0 implique un bénéfice plus élevé pour le groupe privilégié et une valeur supérieure 0 implique un bénéfice plus élevé pour le groupe non privilégié.
+
+\paragraph{}
+Par exemple, avec le modèle du crédit immobilier sur l'attribut du genre, un résultat de -0,07 implique que les hommes sont prédit comme capable de rembourser leur prêt 7\% plus souvent que les femmes.
 
 \paragraph{Equal Opportunity Difference}
 
+\begin{equation}\label{eq:eq_oppo_diff}
+  TPR_{D = unprivileged} - TPR_{D = privileged}
+\end{equation}
+
+\paragraph{}
+Cette mesure est calculée comme la différence des taux réellement positifs entre les groupes non privilégiés et les groupes privilégiés. Le taux de vrais positifs est le rapport entre les vrais positifs et le nombre total de vrais positifs pour un groupe donné. La valeur idéale est 0, une valeur inférieure à 0 implique un bénéfice plus élevé pour le groupe privilégié et une valeur supérieure à 0 implique un bénéfice plus élevé pour le groupe non privilégié.
+
+\paragraph{}
+Par exemple, avec le modèle du crédit immobilier sur l'attribut du genre, un résultat de -0,04 implique que les hommes, le modèle estime qu'un homme pour rembourser son crédit 4\%  plus souvent que pour une femme.
+
 \paragraph{Average Odds Difference}
+
+\begin{equation}\label{eq:ave_odds_diff}
+  1/2 [|FPR_{D = unprivileged} - FPR_{D = privileged}| + |TPR_{D = unprivileged} - TPR_{D = privileged}|]
+\end{equation}
+
+\paragraph{}
+Calcule la différence moyenne du taux de faux positifs (faux positifs divisé par résultats négatifs) et du taux de vrais positifs (vrais positifs divisé par résultats positifs) entre les groupes non privilégiés et privilégiés. La valeur idéale de cette mesure est 0. Une valeur inférieure à 0 implique un bénéfice plus élevé pour le groupe privilégié et une valeur supérieure à 0 implique un bénéfice plus élevé pour le groupe non privilégié.
+
+\paragraph{}
+Par exemple, avec le modèle du crédit immobilier sur l'attribut du genre, un résultat de -0,0215 implique pour un homme, le modèle prédit un résultat correct 2,15\%  plus souvent que pour une femme.
 
 \paragraph{Disparact Impact}
 
-\paragraph{Theil Index}
+\begin{equation}\label{eq:disp_impact}
+  \frac{Pr(\hat{Y} = 1 | D = unprivileged)}{Pr(\hat{Y} = 1 | D = privileged)}
+\end{equation}
 
-\paragraph{Définition de mesures ``morales'' sur les biais}
+\paragraph{}
+Calcule le rapport entre le taux d'issue favorable pour le groupe non privilégié et celui du groupe privilégié. La valeur idéale de cette mesure est de 1. Une valeur inférieure à 1 implique un bénéfice plus élevé pour le groupe privilégié et une valeur supérieure à 1 implique un bénéfice plus élevé pour le groupe non privilégié.
+
+\paragraph{}
+Par exemple, avec le modèle du crédit immobilier sur l'attribut du genre, un résultat de 0,41 implique que les hommes sont prédit comme capable de rembourser leur prêt 2,42 fois plus souvent que les femmes.
+
+\paragraph{Interprétation des mesures} Nous avons donc des mesures qui se complètent pour identifier des biais sur des attributs sociaux. La difficulté n'est pas dans le résultat de mesure de biais, mais dans l'interprétation, il est nécessaire que les humains en charge de l'algorithme arbitre si la mesure est acceptable ou non. Par exemple, si le modèle est biaisé pour le genre (il favorise les hommes par rapport aux femmes), alors la décision de modifier le modèle peut être prise. Mais sur l'attributs de la richesse, la capacité de rembourser un prêt semble lié à cette attribut, par conséquent même si le modèle est biaisé sur la richesse d'un individu, il n'est pas nécessaire de le modifier car pour ce contexte, c'est une observation cohérente.
 
 \subsubsection{AIF360 : AI Fairness 360 par IBM}
 
-\paragraph{Fonctionnement technique}
+\paragraph{}
+La discussion autour des biais (voir section \ref{subsec:biais}) poussant à réfléchir comment construire un modèle est une première étape, mais il ne faut jamais exclure la possibilité qu’un ou plusieurs biais s’invitent dans une intelligence artificielle. Pour cela, il est nécessaire de trouver un moyen d’identifier ces biais potentiels ainsi que de parvenir à les limiter.
 
-\paragraph{Les algorithmes de mitigation des biais}
+\paragraph{}
+Dans le cadre de cette démarche, l’outil AIF360\footnote{Le nom complet est ``Artificial Intelligence Fairness 360'' qui signifie Intelligence Artificielle Juste 360.} \citep{bellamy_ai_2018} présente divers instruments formant une harmonie pour identifier les biais et les réduire si besoin. Bien que cet outil n’est encore qu’à ses débuts (version 0.3.0, juin 2019), sa qualité n’en est pas moindre. Il se découpe principalement en deux axes : les mesures des biais et les algorithmes de limitation de biais.
+
+\paragraph{}
+Les mesures calculeront des biais à partir d’une variable, de préférence correspondant à une segmentation sociale, e.g. sexe d’une personne. Certaines mesures ne s’appuieront que sur le jeu de données et donc identifieront les biais présents dans le jeu de données, d’autres auront besoin des prédictions pour détecter les biais présents dans le modèle. Ces deux groupes permettent d’avoir une vue d’ensemble sur les données et le modèle.
+
+\paragraph{}
+Les algorithmes, eux, se catégorisent en trois groupes appelés ``fair-processors''\footnote{Traduction : processeurs justes.} : les ``pre-processors'', ``in-processors'' et ``post-processors''. Les algorithmes de chaque catégorie possèdent globalement les mêmes caractéristiques au détriment du moment de leur utilisation dans la création d’un modèle.
+
+\begin{figure}[hbt!]
+  \makebox[\textwidth]{\includegraphics[width=0.9\paperwidth]{images/aif360_pipeline.png}}\caption{``The fairness pipeline", les différents chemins d'utilisation d'AIF360 \cite{bellamy_ai_2018}.}
+  \label{fig:aif360_pipeline}
+\end{figure}
+
+\paragraph{}
+La figure \ref{fig:aif360_pipeline} décrit le pipeline de la création d’un algorithme intelligent, dans un premier temps les données brutes sont transformées en un jeu de données formaté par AIF360. À partir d’ici, pour un ``pre-processor'' la réduction de biais se fait directement avant l’entraînement du modèle, pour un ``in-processor'', le travail s’effectue pendant l’entraînement et enfin pour le ``post-processor'' après l’entraînement.
+
+\paragraph{}
+Une dizaine d’algorithmes issus de recherche sont disponibles pour atténuer les biais au sein de l’outil AIF360. Cet outil propose donc une vision de contrôle mathématique des biais et de solutions afin de les atténuer.
 
 \subsection{L'explication des résultats d'une IA}
 

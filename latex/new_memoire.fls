@@ -172,6 +172,12 @@ INPUT /home/lauga/Documents/memoire/latex/images/7_exigences_commission.png
 INPUT /home/lauga/Documents/memoire/latex/images/moral_machine.png
 INPUT /home/lauga/Documents/memoire/latex/images/moral_machine.png
 INPUT /home/lauga/Documents/memoire/latex/images/moral_machine.png
+INPUT /home/lauga/Documents/memoire/latex/images/the_economist_200091219.png
+INPUT /home/lauga/Documents/memoire/latex/images/the_economist_200091219.png
+INPUT /home/lauga/Documents/memoire/latex/images/the_economist_200091219.png
+INPUT /home/lauga/Documents/memoire/latex/images/aif360_pipeline.png
+INPUT /home/lauga/Documents/memoire/latex/images/aif360_pipeline.png
+INPUT /home/lauga/Documents/memoire/latex/images/aif360_pipeline.png
 INPUT /home/lauga/Documents/memoire/latex/new_memoire.bbl
 INPUT /home/lauga/Documents/memoire/latex/new_memoire.bbl
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
@@ -189,5 +195,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb

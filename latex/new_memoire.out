@@ -30,7 +30,7 @@
 \BOOKMARK [1][-]{section.1.4}{Synth\350se}{chapter.1}% 30
 \BOOKMARK [0][-]{chapter.2}{Solution : une bo\356te \340 outils transparente}{}% 31
 \BOOKMARK [1][-]{section.2.1}{Travaux connexes}{chapter.2}% 32
-\BOOKMARK [2][-]{subsection.2.1.1}{La d\351tection et att\351nuation des biais}{section.2.1}% 33
+\BOOKMARK [2][-]{subsection.2.1.1}{Analyser les biais au sein d'une IA}{section.2.1}% 33
 \BOOKMARK [3][-]{subsubsection.2.1.1.1}{Mesure des biais : calculer l'impact social}{subsection.2.1.1}% 34
 \BOOKMARK [3][-]{subsubsection.2.1.1.2}{AIF360 : AI Fairness 360 par IBM}{subsection.2.1.1}% 35
 \BOOKMARK [2][-]{subsection.2.1.2}{L'explication des r\351sultats d'une IA}{section.2.1}% 36
@@ -47,4 +47,4 @@
 \BOOKMARK [1][-]{section.2.3}{Synth\350se}{chapter.2}% 47
 \BOOKMARK [0][-]{chapter.3}{Plan de recherche}{}% 48
 \BOOKMARK [0][-]{chapter.4}{Exp\351rience}{}% 49
-\BOOKMARK [0][-]{chapter*.152}{Conclusion}{}% 50
+\BOOKMARK [0][-]{chapter*.186}{Conclusion}{}% 50

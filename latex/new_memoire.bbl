@@ -1,4 +1,4 @@
-\begin{thebibliography}{76}
+\begin{thebibliography}{81}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -48,6 +48,20 @@ Nicolas Baumard, Olivier Mascaro, and Coralie Chevallier.
 \newblock ISSN 1939-0599(Electronic),0012-1649(Print).
 \newblock \doi{10.1037/a0026598}.
 \newblock Place: US Publisher: American Psychological Association.
+
+\bibitem[Bellamy et~al.(2018)Bellamy, Dey, Hind, Hoffman, Houde, Kannan, Lohia,
+  Martino, Mehta, Mojsilovic, Nagar, Ramamurthy, Richards, Saha, Sattigeri,
+  Singh, Varshney, and Zhang]{bellamy_ai_2018}
+Rachel K.~E. Bellamy, Kuntal Dey, Michael Hind, Samuel~C. Hoffman, Stephanie
+  Houde, Kalapriya Kannan, Pranay Lohia, Jacquelyn Martino, Sameep Mehta,
+  Aleksandra Mojsilovic, Seema Nagar, Karthikeyan~Natesan Ramamurthy, John
+  Richards, Diptikalyan Saha, Prasanna Sattigeri, Moninder Singh, Kush~R.
+  Varshney, and Yunfeng Zhang.
+\newblock {AI} {Fairness} 360: {An} {Extensible} {Toolkit} for {Detecting},
+  {Understanding}, and {Mitigating} {Unwanted} {Algorithmic} {Bias}.
+\newblock \emph{arXiv:1810.01943 [cs]}, October 2018.
+\newblock URL \url{http://arxiv.org/abs/1810.01943}.
+\newblock arXiv: 1810.01943.
 
 \bibitem[Boas(1887)]{boas_museums_1887}
 Franz Boas.
@@ -186,6 +200,27 @@ A.~G. Greenwald and M.~R. Banaji.
 \newblock \emph{Psychological Review}, 102\penalty0 (1):\penalty0 4--27,
   January 1995.
 \newblock ISSN 0033-295X.
+
+\bibitem[Grinbaum(2019{\natexlab{a}})]{grinbaum__2019}
+Alexei Grinbaum.
+\newblock « {Le} jugement éthique est une affaire d'humains, pas de robots
+  », May 2019{\natexlab{a}}.
+\newblock URL
+  \url{https://usbeketrica.com/article/jugement-ethique-affaire-humains-pas-robots-hasard}.
+\newblock Library Catalog: usbeketrica.com.
+
+\bibitem[Grinbaum(2019{\natexlab{b}})]{grinbaum_conversation_2019}
+Alexei Grinbaum.
+\newblock La {Conversation} scientifique, {Des} machines pourront-elles
+  apprendre le bien et le mal ?, March 2019{\natexlab{b}}.
+\newblock URL
+  \url{https://www.franceculture.fr/emissions/la-conversation-scientifique/des-machines-pourront-elles-apprendre-le-bien-et-le-mal}.
+
+\bibitem[Grinbaum(2019{\natexlab{c}})]{grinbaum_les_2019}
+Alexei Grinbaum.
+\newblock \emph{Les robots et le mal}.
+\newblock Desclée De Brouwer, January 2019{\natexlab{c}}.
+\newblock ISBN 978-2-220-09594-3.
 
 \bibitem[Grudin(2009)]{grudin_ai_2009}
 Jonathan Grudin.
@@ -529,6 +564,12 @@ Supasorn Suwajanakorn, Steven~M. Seitz, and Ira Kemelmacher-Shlizerman.
 \newblock ISSN 07300301.
 \newblock \doi{10.1145/3072959.3073640}.
 \newblock URL \url{http://dl.acm.org/citation.cfm?doid=3072959.3073640}.
+
+\bibitem[{TheEconomist}(2009)]{theeconomist_progress_2009}
+{TheEconomist}.
+\newblock Progress and its perils {\textbar} {Dec} 19th 2009, December 2009.
+\newblock URL \url{https://www.economist.com/weeklyedition/2009-12-19}.
+\newblock Library Catalog: www.economist.com.
 
 \bibitem[Tran(2017)]{tran_selection_2017}
 Van-Tinh Tran.
