@@ -9,45 +9,45 @@ Warning--empty journal in radford_language_2019
 Warning--empty journal in reinsel_digitization_2018
 Warning--empty publisher in villani_donner_2018
 Warning--empty publisher in vinyals_alphastar:_2019
-You've used 85 entries,
+You've used 87 entries,
             2773 wiz_defined-function locations,
-            1167 strings with 23408 characters,
-and the built_in function-call counts, 38000 in all, are:
-= -- 3387
-> -- 2290
-< -- 71
-+ -- 799
-- -- 712
-* -- 3024
-:= -- 6087
-add.period$ -- 380
-call.type$ -- 85
-change.case$ -- 475
-chr.to.int$ -- 83
-cite$ -- 176
-duplicate$ -- 1656
-empty$ -- 2966
-format.name$ -- 819
-if$ -- 7866
+            1176 strings with 23715 characters,
+and the built_in function-call counts, 38760 in all, are:
+= -- 3450
+> -- 2339
+< -- 72
++ -- 816
+- -- 727
+* -- 3079
+:= -- 6208
+add.period$ -- 386
+call.type$ -- 87
+change.case$ -- 486
+chr.to.int$ -- 85
+cite$ -- 180
+duplicate$ -- 1691
+empty$ -- 3029
+format.name$ -- 836
+if$ -- 8023
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 78
-newline$ -- 553
-num.names$ -- 343
-pop$ -- 1001
+missing$ -- 79
+newline$ -- 563
+num.names$ -- 351
+pop$ -- 1027
 preamble$ -- 1
-purify$ -- 405
+purify$ -- 414
 quote$ -- 0
-skip$ -- 1270
+skip$ -- 1300
 stack$ -- 0
-substring$ -- 799
-swap$ -- 192
+substring$ -- 803
+swap$ -- 194
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 835
+type$ -- 857
 warning$ -- 6
-while$ -- 308
+while$ -- 314
 width$ -- 0
-write$ -- 1321
+write$ -- 1345
 (There were 6 warnings)

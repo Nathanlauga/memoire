@@ -952,11 +952,10 @@ Les modèles de substitution locaux, avec le LIME comme mise en œuvre concrète
 SHAP qui signifie SHapley Additive exPlanations, est une approche pour expliquer un modèle de Machine Learning peut importe le modèle \citep{NIPS2017_7062}. Cet outil a la particularité de connecter la théorie des jeux avec les explications locales (C.F. LIME) en unifiant plusieurs anciennes méthodes comme LIME et la valeur de Shapey \citep{shapley_17._1953}. De plus, cet outil satisfait les trois axiomes clés de l’interprétabilité : ``Dummy player'' soit joueur factice, ``Substitutability'' soit la substituabilité et ``Additivity'' soit l’additivité.
 
 \paragraph{}
-D’abord, avant de parler de SHAP, il faut introduire un champ de la théorie des jeux afin de mieux comprendre de quoi il s’agit. Il faut se poser la question suivante : si nous collaborons tous, comment diviser la récompense totale obtenue par le groupe ? C’est sur cette question de la théorie des jeux que nous allons trouver la mesure appelée la valeur de Shapley apparaît. Pour mieux la comprendre présentons-la avec un exemple.
+La valeur de Shapley cherche la réponse à la question suivante : si nous collaborons tous, comment diviser la récompense totale obtenue par le groupe ? C’est sur cette question de la théorie des jeux que nous allons trouver la mesure appelée la valeur de Shapley apparaît. Pour mieux la comprendre présentons-la avec un exemple.
 
 \paragraph{}
-Ici, nous allons prendre deux personnes : Bob et Alice, ces deux personnes vont manger au restaurant et à la fin il faut trouver un moyen de savoir la part de chacun (nous partons du principe que dans ce cas chacun ne paye pas sa part). Afin de trouver la valeur de Shapley il faut d’abord définir combien sera dépensé dans chaque cas : si Bob est seul, si Alice est seule ou qu’ils sont tous les deux présents. 
-
+Ici, nous allons prendre deux personnes : Bob et Alice, ces deux personnes vont manger au restaurant et à la fin il faut trouver un moyen de savoir la part de chacun (nous partons du principe que dans ce cas chacun ne paye pas uniquement sa part). Afin de trouver la valeur de Shapley il faut d’abord définir combien sera dépensé dans chaque cas : si Bob est seul, si Alice est seule ou qu’ils sont tous les deux présents. 
 
 \begin{center}
   \begin{tabular}{ |c|c| } 
@@ -971,7 +970,7 @@ Ici, nous allons prendre deux personnes : Bob et Alice, ces deux personnes vont 
 \end{center}
 
 \paragraph{}
-Ensuite, il faut trouver combien sera dépensé par personne en fonction de leur ordre d’arrivé, par exemple, si Bob avait payé 50 euros seul et que l’addition avec Alice est de 70 euros alors Alice devra payer 20 euros. Pour finir les valeurs de Shapley par personne s’obtiennent en faisant la moyenne de chaque dépense par personne. Nous obtenons donc le tableau suivant :
+Ensuite, trouvons combien sera dépensé par personne en fonction de leur ordre d’arrivé, par exemple, si Bob paye 50 euros seul et que l’addition avec Alice est de 70 euros alors Alice devra payer 20 euros. Pour finir les valeurs de Shapley par personne s’obtiennent en faisant la moyenne de chaque dépense par personne. Nous obtenons donc le tableau suivant :
 
 
 \begin{center}
@@ -996,27 +995,232 @@ Nous avons donc une valeur de 45 pour Bob et une valeur de 25 pour Alice. Ces va
 \end{itemize}
 
 \paragraph{}
-Revenons à nos variables et l’interprétabilité du modèle, comme vous l’aurez deviné la logique est similaire sauf qu’à la place des joueurs nous avons les variables. De plus, mathématiquement SHAP récupère la formule de LIME, mais en utilisant des paramètres précis ce qui permet de récupérer la valeur de Shapley, ce qui rend cet outil plus performant et selon les auteurs de l’outil plus proche de l’intuition humaine.
+Pour SHAP, les joueurs sont remplacés par les variables données en entrée du modèle. La base théorique est donc solide pour obtenir des explications locales (pour une entrée en particulier). 
 
-\subsection{Autres ressources}
+% A COMPLETER
 
-\subsubsection{Machine Learning Canvas}
+\subsection{Machine Learning Canvas}
 
-\subsubsection{Analyse de l'impact environnemental d'un modèle}
+\paragraph{}
+Pour bien démarer un projet de Machine Learning, l'étape du cadrage est essentielle. Dans le papier de Commission Européenne, la septième exigence (Responsabilité) évoque la nécessité de documenter le projet pour permettre un suivi dans le temps avec une faible dette technique\footnote{La dette technique correspond au fait de mal structurer et documenter un code qui aura pour un impact un temps plus ou moins long afin de pouvoir entretenir ce même code dans le temps.}. Or, il n'existe pas de norme pour bien cadrer un projet d'intelligence artificielle.
+
+\paragraph{}
+Le document qui s'intitule ``The Machine Learning Canvas'' \citep{dorad_machine_2016}, répond à ce besoin. Il simplifie le cadrage sous une forme synthétique et facile à lire. Comme nous pouvons le voir dans la figure \ref{fig:ml_canvas}, le document se découpe en quatre parties : l'objectif, l'apprentissage, la prédiction et l'évaluation.
+
+\begin{figure}[hbt!]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/ml_canvas.jpeg}
+  \caption{``The Machine Learning Canvas'' \cite{dorad_machine_2016}.}
+  \label{fig:ml_canvas}
+\end{figure}
+
+\paragraph{}
+Il est important de noter que cette feuille ne peut pas être complété par un développeur seul ou par le commanditaire, les deux profils sont essentiels. De plus, cet outil à pour avantage d'être lisible par un nouvel acteur qui pourrait rentrer dans le projet.
+
+\subsection{Analyse de l'impact environnemental d'un modèle}
+
+\paragraph{}
+Dans cette partie nous allons voir deux outils : une librairie du langage Python qui mesure l'impact du calcul de l'exécution d'une fonction (energy-usage\footnote{https://github.com/responsibleproblemsolving/energy-usage}) et une interface web pouvant qui calcule les émissions en CO2 en fonction du temps d'entraînement et du matériel utilisé (ML CO2 Impact\footnote{https://mlco2.github.io/impact/}).
+
+\subsubsection{energy-usage}
+
+\paragraph{}
+Cette librairie Python permet d'avoir un certain nombre d'informations concernant l'impact environnemental du calcul de fonction écrit dans ce même langage informatique de Python. Dans la pratique il suffit de construire une fonction et de l'appliquer avec l'outil, un rapport sera généré avec les informations suivantes : la puissance moyenne utilisée (en Watt) avec et sans le processus, la durée d'exécution, les sources d'énergies selon la géolocalisation, les émissions CO2, des comparaisons et enfin la quantité d'énergies utilisées par le programme (en kWh).
+
+\paragraph{}
+Afin de calculer avec précision les émissions de CO2 associées à la puissance de calcul utilisée, ils déterminent la localisation géographique de l'utilisateur via son adresse IP à l'aide de l'API GeoJS\footnote{https://www.geojs.io/}. Si la localisation ne peut pas être déterminée, les USA sont utilisés par défaut.
+
+\paragraph{}
+La localisation est particulièrement importante car les émissions diffèrent en fonction de la combinaison énergétique du pays (et, dans le cas des États-Unis, de l'État). Ils ont obtenus les mixes des sources d'énergies en examinant la consommation d'énergie des pays du monde entier, ventilée par source d'énergie.
+
+\paragraph{}
+Au cas où nous souhaitont comparer la consommation d'énergie entre différentes années de données, ils ont inclus un script pour permettre d'ajouter d'autres années.
+
+\paragraph{}
+Cet outil est donc assez complet, mais a pour défaut de ne pas pouvoir être exécuté sur n'importe quel environnement de travail. Il sera donc pertinent de réaliser différentes exécutions sur environnement valide pour permettre à un utilisateur ne pouvant pas l'utiliser d'estimer la consommation de sa fonction dans son environnement.
+
+\subsubsection{ML CO2 Impact}
+
+\begin{quotation}
+  ``Une grande puissance de calcul s'accompagne d'une grande responsabilité''
+\end{quotation}
+\rightline{{\rm --- \citep{lacoste2019quantifying}}} 
+
+\paragraph{}
+``Machine Learning CO2 Impact'' est un outil disponible par un site internet, contrairement à l'outil précédent il se centralise sur la consommation énergétique de l'entraînement d'un modèle de Machine Learning. De pkus, cet outil a pour atout de prendre en compte des fournisseurs de Cloud en fonction de leur région, ce qui au vu de l'évolution de l'utilisation des technologies sur ces plateformes est un grand atout.
+
+\paragraph{}
+L'ajout intéressant du site est la section ``There are things you can do''\footnote{Traduction : Il y a des choses que vous pouvez faire.}. En effet, ils recommandent les suggestions suivantes : 
+\begin{itemize}
+  \item Choisir judicieusement son fournisseur Cloud : Ils n'achètent pas tous des compensations, des REC\footnote{REC : Renewable Energy Credits signifiant Crédits d'énergies renouvelables} ou n'investissent pas tous de la même façon dans les sources d'énergie propres. Lire leurs engagements en matière de durabilité et faites un choix éclairé.
+  \item Choisir sa région : Les différentes régions sont alimentées par différentes combinaisons d'énergies renouvelables et non renouvelables. Si la réglementation et les aspects juridiques le permettent, choisissez une région plus durable.
+  \item Acheter des compensations carbone : De nombreuses plateformes proposent des moyens simples de compenser les émissions. Il est possible d'avoir un impact important en proposant des compensations au sein de votre organisation. 
+  \item Ne pas utiliser de recherche par grille\footnote{Cette méthode consiste à choisir un algorithme et d'essayer une grande quantité de combinaison d'hyperparamètres (paramètres de l'algorithme) jusqu'à trouver la meilleure combinaison d'entrâinement.} : La recherche par hyperparamètres est une grande source d'émissions de carbone liées au Machine Learning. S'il n'existe pas de documentation pour aider à établir de bonnes valeurs et que la recherche des valeurs pertinentes est nécessaire, le faire au moins de manière aléatoire, et non par le biais d'une recherche par grille.
+  \item Choisir l'énergie propre : Une organisation peut avoir le choix de son alimentation électrique. Le choix d'une source d'énergie plus propre et plus durable contribuera grandement à réduire votre impact carbone
+\end{itemize}
+
+\paragraph{}
+L'inconvénient de cet outil est qu'il est utilisable que sur l'adresse web indiquée et par conséquent il est très difficile de l'implémenter dans un outil externe.
 
 \section{TransparentAI : de la théorie à la pratique}
 
-\subsection{Contexte}
+\paragraph{}
+Pour rappel, avec le grand nombre de publications pour définir ce que devrait être une intelligence artificielle éthique, mais sans aborder l'aspect technique de cette question il y a une frustration des développeurs de ces algorithmes. Nous avons donc bien identifié le problème : comment passer de la théorie à la pratique ou pour citer la problématique de ce mémoire est-il possible de rendre une Intelligence Artificielle socialement responsable en supervisant son éthique ?
 
-\subsection{Finalité : une IA est-elle éthique ?}
+\paragraph{}
+Dans ce contexte, nous avons également identifié que sur le plan technique, il existe bel et bien des outils qui réponde à des aspects évoqués dans les documents comme l'évaluation des biais injustes, l'impact environnemental d'un modèle ou encore l'explication du comportement d'un modèle.
 
-\subsection{Structure}
+\paragraph{}
+C'est ici que rentre en jeu l'outil nommé TransparentAI, qui comme son nom l'indique vise à tendre vers une intelligence artificielle transparente ou selon la Commission Européenne, de confiance. J'ai fait le choix de créer cet outil dans le but d'allier la théorie d'une IA de confiance selon la Commssion Européenne directement avec les réponses techniques déjà disponibles et libre d'accès. 
+
+\subsection{Finalité : évaluer l'éthique d'une IA}
+
+\paragraph{}
+Reprenons ce qui définit la théorie derrière une intelligence artificielle de confiance : les sept exigences de la Commission Européenne. Chacune de ces exigences à plusieurs aspects expliquant à quoi elle correspond. La première étape pour superviser l'éthique d'une IA est donc de dérouler chacun des aspects et de définir comment répondre au fondamental éthique sous-jacent. Par exemple, pour l'exigence de l'Action humaine et du contrôle humain, l'un des aspect correspond au respect des droits fondamentaux, or, cela n'est pas vérifiable techniquement, c'est un mélange de connaissance juridique et métier. La réponse à apporter dans ce contexte est déclarative et se doit de répondre à des questions commes  ``Dans les cas d’utilisation susceptibles d’entraîner des effets négatifs sur les droits fondamentaux, avez-vous réalisé une analyse d’impact sur les droits fondamentaux ?'' \citep{commission_europeenne_ethics_2019}.
+
+\paragraph{}
+Nous avons donc besoin d'une liste des aspects avec des questions pouvant permettre de contrôler facilement si l'aspect respecte la notion d'IA de confiance. Pour une partie des aspects dérivés des exigences, la difficulté vient du fait de ne pas être vérifié par le biais d'une réponse déclarative. Parfois, il est nécessaire d'aller contrôler avec des méthodes techique comme celles présentées dans la section précédente. Partant de cela, nous pouvons, pour chaque exigence, définir à partir des aspects listés par la Commission Européenne, dresser les questions pouvant s'assurer de la confiance d'une IA. De plus, nous pouvons également ajouter si une implémentation technique est possible pour chaque aspect.
+
+\paragraph{1. Action humaine et contrôle humain}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Droits fondamentaux &  & Non \\
+    \hline
+    Action humaine & & Non \\
+    \hline
+    Contrôle humain & & Non \\ 
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{2. Robustesse technique et sécurité}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Résilience aux attaques et sécurité &  & Non \\
+    \hline
+    Solutions de secours et sécurité générale &  & Non \\
+    \hline
+    Précision &  & Non \\
+    \hline
+    Fiabilité et reproductibilité &  & Non \\
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{3. Respect de la vie privée et gouvernance des données}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Respect de la vie privée et protection des données &  & Non \\
+    \hline
+    Qualité et intégrité des données &  & Non \\
+    \hline
+    Accès aux données &  & Non \\
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{4. Transparence}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Traçabilité &  & Non \\
+    \hline
+    Explicabilité &  & Non \\
+    \hline
+    Communication &  & Non \\
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{5. Diversité, non-discrimination et équité}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Éviter les biais injustes &  & Non \\
+    \hline
+    Accessibilité et conception universelle &  & Non \\
+    \hline
+    Participation des parties prenantes &  & Non \\
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{6. Bien-être sociétal et environnemental}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    IA durable et respectueuse de l’environnement &  & Non \\
+    \hline
+    Incidence sociale &  & Non \\
+    \hline
+    Société et démocratie &  & Non \\
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{7. Responsabilité}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Auditabilité &  & Non \\
+    \hline
+    Minimisation et documentation des incidences négatives &  & Non \\
+    \hline
+    Documentation des arbitrages &  & Non \\
+    \hline
+    Voies de recours &  & Non \\
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{}
+Au vu de ces questions, nous contastons que majoritairement deux profils sont requis afin de bien compléter ce formulaire de question : un profil métier (le commanditaire du projet ou le chef de projet par exemple) et un profil technique comme un data scientist. Nous allons donc voir dans la section suivante comment se construit l'outil de TransparentAI et pourquoi.
+
+\subsection{Structure technique}
+
+\subsubsection{Un outil orienté technique : une librairie Python}
 
 Découpage en sous modules qui peuvent être lié aux exigences
 
-\subsection{Philosophie de l'outil}
-
-\paragraph{Open source et accessible}
+\subsubsection{Un outil orienté métier : une interface web}
 
 
 \section{Synthèse}
@@ -1027,9 +1231,84 @@ Découpage en sous modules qui peuvent être lié aux exigences
 \chapter{Plan de recherche}
 
 
+\paragraph{Problématique :}
+Est-il possible de rendre une Intelligence Artificielle socialement responsable en supervisant son éthique ?
+
+\paragraph{Hypothèse}
+MH = Morale humaine définie sur les attributs sociaux 
+MAI = Morale IA inconnue (à analyser)
+S = Scénario pouvant être présenté à l'entrée d'une IA
+A = Action issu d'un scénario S et amenant un résultat R
+R = Résultat d'une IA utilisant des données en entrée spécifique.
+
+- H1 : A partir d'une morale MH et une intelligence artificielle ayant une morale MAI, il est possible d'identifier si MH est aligné avec MAI afin de respecter l'équation MH ~= MAI.
+- H2 : L'utilisation de TransparentAI permet de garantir un alignement avec les valeurs théoriques d'une IA de confiance définie par la Commission Européenne.
+- H3 : Avec un scénario S défini, il est possible de comprendre l'action A amenant au résultat R.
+- H4 : Si MH != MAI alors il est possible d'atténuer voire annuler les biais afin de respecter l'équation MH ~= MAI.
+
+\paragraph{Expérience}
+
+Objectif
+Un objectif sensible bancaire : 
+prédire la probabilité qu'un client puisse rembourser un prêt ?
+
+Données
+Utilisation des données de la compétition Kaggle : https://www.kaggle.com/c/home-credit-default-risk/overview/description
+
+Mesure du succès 
+Choix de la mesure :  M
+Seuil minimum : T
+
+Justification :
+
+\paragraph{Définition des morales}
+M = mesure de performance du modèle 
+T = Seuil minimum
+P = Probabilité de rembourser un prêt
+PF = Probabilité qu'une femme puisse rembourser un prêt
+X = variable selon morale
+
+- Alice : pour l'équation M >= T + X, maximiser X
+- Bob : en respectant M >= T, discriminer le groupe social GENRE en défavorisant les femmes en suivant l'équation suivante : PF = P - X, en maximisant X
+- Charlie : en respectant M >= T, discriminer le groupe social GENRE en favorisant les femmes en suivant l'équation suivante : PF = P + X, en maximisant X
+- Morale de Contrôle : en respectant M >= T, créer un algorithme simple sans prendre en compte les attributs sociaux
+
+\paragraph{Processus}
+Création des IA : création d'un repo GitHub avec env Docker
+- Pour Alice : utiliser code Kaggle déjà performant
+
+Validation par le même processus : mesure M respectant M >= S
+
+Analyse des biais en utilisant TransparentAI : constatation des résultats pour les 4 morales
+
+Proposition de réduction de biais ou amplification à partir de chaque Morale vers une autre
+
+Application des algorithmes de réduction
+
+Nouvelle analyse de performance + biais
+
+\paragraph{Limites} 
+- reste déclaratif rien n'est imposé
+- possible d'identifier les biais, de les atténuer ou pas
+- 
+
+\section{Définition des hypothèses}
+
+\section{Environnement de recherche}
+
+\subsection{Contexte : prédire la probabilité de rembourser un prêt}
+
+\subsection{Algorithmes choisis}
+
 % ======= EXPERIENCE ===== %
 \newpage
 \chapter{Expérience}
+
+\section{Réalisation de l'expérience}
+
+\section{Résultats obtenus}
+
+\section{Conclusion de l'expérience}
 
 % ====== CONCLUSION ====== %
 

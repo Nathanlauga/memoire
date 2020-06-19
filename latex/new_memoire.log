@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.3.11)  13 JUN 2020 18:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.3.11)  19 JUN 2020 21:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -373,12 +373,12 @@ LaTeX Info: Redefining \nameref on input line 26.
 \@outlinefile=\write3
 \openout3 = `new_memoire.out'.
 
-<images/CEAPC_logo.png, id=205, 577.15625pt x 129.48375pt>
+<images/CEAPC_logo.png, id=237, 577.15625pt x 129.48375pt>
 File: images/CEAPC_logo.png Graphic file (type png)
 <use images/CEAPC_logo.png>
 Package pdftex.def Info: images/CEAPC_logo.png  used on input line 33.
 (pdftex.def)             Requested size: 164.86992pt x 36.98866pt.
-<images/ynov_informatique_logo.png, id=206, 340.27126pt x 149.55875pt>
+<images/ynov_informatique_logo.png, id=238, 340.27126pt x 149.55875pt>
 File: images/ynov_informatique_logo.png Graphic file (type png)
 <use images/ynov_informatique_logo.png>
 Package pdftex.def Info: images/ynov_informatique_logo.png  used on input line 35.
@@ -428,13 +428,13 @@ l.122
        [2
 
 ] [3]
-<images/grudin_2009_changing_seasons_ai.png, id=342, 883.3pt x 437.635pt>
+<images/grudin_2009_changing_seasons_ai.png, id=382, 883.3pt x 437.635pt>
 File: images/grudin_2009_changing_seasons_ai.png Graphic file (type png)
 <use images/grudin_2009_changing_seasons_ai.png>
 Package pdftex.def Info: images/grudin_2009_changing_seasons_ai.png  used on input line 143.
 (pdftex.def)             Requested size: 398.33858pt x 197.3613pt.
  [4 </home/lauga/Documents/memoire/latex/images/grudin_2009_changing_seasons_ai.png>]
-<images/internet-minute-2019.jpg, id=375, 823.075pt x 953.5625pt>
+<images/internet-minute-2019.jpg, id=415, 823.075pt x 953.5625pt>
 File: images/internet-minute-2019.jpg Graphic file (type jpg)
 <use images/internet-minute-2019.jpg>
 Package pdftex.def Info: images/internet-minute-2019.jpg  used on input line 169.
@@ -450,12 +450,12 @@ Overfull \hbox (13.24545pt too wide) in paragraph at lines 184--185
  []
 
 [5 </home/lauga/Documents/memoire/latex/images/internet-minute-2019.jpg>]
-<images/apprentissage_supervise.png, id=401, 1035.87pt x 550.055pt>
+<images/apprentissage_supervise.png, id=441, 1035.87pt x 550.055pt>
 File: images/apprentissage_supervise.png Graphic file (type png)
 <use images/apprentissage_supervise.png>
 Package pdftex.def Info: images/apprentissage_supervise.png  used on input line 205.
 (pdftex.def)             Requested size: 318.67207pt x 169.21434pt.
-<images/apprentissage_non_supervise.png, id=403, 867.24pt x 387.4475pt>
+<images/apprentissage_non_supervise.png, id=443, 867.24pt x 387.4475pt>
 File: images/apprentissage_non_supervise.png Graphic file (type png)
 <use images/apprentissage_non_supervise.png>
 Package pdftex.def Info: images/apprentissage_non_supervise.png  used on input line 215.
@@ -470,7 +470,7 @@ Overfull \hbox (7.46765pt too wide) in paragraph at lines 225--226
 LaTeX Warning: Reference `subsubsection:ia_auj' on page 8 undefined on input line 240.
 
 [8]
-<images/pipeline_ml_project.png, id=460, 964.5636pt x 287.6346pt>
+<images/pipeline_ml_project.png, id=500, 964.5636pt x 287.6346pt>
 File: images/pipeline_ml_project.png Graphic file (type png)
 <use images/pipeline_ml_project.png>
 Package pdftex.def Info: images/pipeline_ml_project.png  used on input line 257.
@@ -481,7 +481,7 @@ Overfull \hbox (9.13434pt too wide) in paragraph at lines 270--271
  []
 
 [9 </home/lauga/Documents/memoire/latex/images/pipeline_ml_project.png>]
-<images/perceptron.png, id=492, 486.31688pt x 455.45157pt>
+<images/perceptron.png, id=532, 486.31688pt x 455.45157pt>
 File: images/perceptron.png Graphic file (type png)
 <use images/perceptron.png>
 Package pdftex.def Info: images/perceptron.png  used on input line 285.
@@ -511,13 +511,13 @@ Overfull \hbox (0.91214pt too wide) in paragraph at lines 321--322
 \OT1/cmr/m/n/10 meilleure opinion afin d'avoir la meilleure pr^^Sediction ^^Ra la question du passage de la singularit^^Se.
  []
 
-<images/grace_2017_proba_super_ia.png, id=544, 717.68124pt x 517.935pt>
+<images/grace_2017_proba_super_ia.png, id=584, 717.68124pt x 517.935pt>
 File: images/grace_2017_proba_super_ia.png Graphic file (type png)
 <use images/grace_2017_proba_super_ia.png>
 Package pdftex.def Info: images/grace_2017_proba_super_ia.png  used on input line 325.
 (pdftex.def)             Requested size: 358.50227pt x 258.72975pt.
 [12 </home/lauga/Documents/memoire/latex/images/grace_2017_proba_super_ia.png>]
-<images/grace_2017_chrono_estim_ia.png, id=559, 676.5275pt x 278.03876pt>
+<images/grace_2017_chrono_estim_ia.png, id=600, 676.5275pt x 278.03876pt>
 File: images/grace_2017_chrono_estim_ia.png Graphic file (type png)
 <use images/grace_2017_chrono_estim_ia.png>
 Package pdftex.def Info: images/grace_2017_chrono_estim_ia.png  used on input line 338.
@@ -565,7 +565,7 @@ Overfull \hbox (6.43985pt too wide) in paragraph at lines 564--565
  [][] \OT1/cmr/m/n/10 La figure []I.9[] illustre en abscisse l'interpr^^Setabilit^^Se d'un mod^^Rele et en ordonn^^See sa performance,
  []
 
-<images/interpretabilite_ia.png, id=742, 2818.53pt x 984.67876pt>
+<images/interpretabilite_ia.png, id=782, 2818.53pt x 984.67876pt>
 File: images/interpretabilite_ia.png Graphic file (type png)
 <use images/interpretabilite_ia.png>
 Package pdftex.def Info: images/interpretabilite_ia.png  used on input line 568.
@@ -610,7 +610,7 @@ Overfull \hbox (9.99416pt too wide) in paragraph at lines 633--634
  [][] \OT1/cmr/m/n/10 Bas^^Se sur ces fondements caract^^Serisants une IA de confiance, sept exigences dites ``essentielles''
  []
 
-<images/7_exigences_commission.png, id=821, 743.77875pt x 687.56876pt>
+<images/7_exigences_commission.png, id=862, 743.77875pt x 687.56876pt>
 File: images/7_exigences_commission.png Graphic file (type png)
 <use images/7_exigences_commission.png>
 Package pdftex.def Info: images/7_exigences_commission.png  used on input line 637.
@@ -636,7 +636,7 @@ Overfull \hbox (23.83075pt too wide) in paragraph at lines 661--662
  []
 
 [26]
-<images/moral_machine.png, id=866, 597.23125pt x 316.18124pt>
+<images/moral_machine.png, id=906, 597.23125pt x 316.18124pt>
 File: images/moral_machine.png Graphic file (type png)
 <use images/moral_machine.png>
 Package pdftex.def Info: images/moral_machine.png  used on input line 684.
@@ -651,7 +651,7 @@ Overfull \hbox (12.45842pt too wide) in paragraph at lines 702--703
 \OT1/cmr/m/n/10 morale par l'observation des cons^^Sequences [[]Cointe[], []2017[]]. Une autre viserait plus l'apprentissage
  []
 
-<images/the_economist_200091219.png, id=897, 493.845pt x 648.4225pt>
+<images/the_economist_200091219.png, id=937, 493.845pt x 648.4225pt>
 File: images/the_economist_200091219.png Graphic file (type png)
 <use images/the_economist_200091219.png>
 Package pdftex.def Info: images/the_economist_200091219.png  used on input line 725.
@@ -681,7 +681,7 @@ Overfull \hbox (7.81944pt too wide) in paragraph at lines 777--778
 [31
 
 ] [32] [33]
-<images/aif360_pipeline.png, id=997, 1150.2975pt x 601.24625pt>
+<images/aif360_pipeline.png, id=1037, 1150.2975pt x 601.24625pt>
 File: images/aif360_pipeline.png Graphic file (type png)
 <use images/aif360_pipeline.png>
 Package pdftex.def Info: images/aif360_pipeline.png  used on input line 904.
@@ -691,15 +691,86 @@ Overfull \hbox (1.32883pt too wide) in paragraph at lines 909--910
 \OT1/cmr/m/n/10 l'entra^^^Pnement du mod^^Rele, pour un ``in-processor'', le travail s'effectue pendant l'entra^^^Pnement
  []
 
-[34] [35 </home/lauga/Documents/memoire/latex/images/aif360_pipeline.png>] [36] [37] [38]
+[34] [35 </home/lauga/Documents/memoire/latex/images/aif360_pipeline.png>] [36] [37]
+<images/ml_canvas.jpeg, id=1114, 1296.845pt x 1028.84375pt>
+File: images/ml_canvas.jpeg Graphic file (type jpg)
+<use images/ml_canvas.jpeg>
+Package pdftex.def Info: images/ml_canvas.jpeg  used on input line 1012.
+(pdftex.def)             Requested size: 318.67207pt x 252.81462pt.
+ [38 </home/lauga/Documents/memoire/latex/images/ml_canvas.jpeg>]
+Overfull \hbox (4.3011pt too wide) in paragraph at lines 1028--1029
+ [][] \OT1/cmr/m/n/10 Cette librairie Python permet d'avoir un certain nombre d'informations concernant l'impact
+ []
+
+
+Overfull \hbox (0.38435pt too wide) in paragraph at lines 1050--1051
+ [][] \OT1/cmr/m/n/10 ``Machine Learning CO2 Impact'' est un outil disponible par un site internet, contrairement
+ []
+
+
+Overfull \hbox (8.18985pt too wide) in paragraph at lines 1055--1056
+[]\OT1/cmr/m/n/10 Choisir judicieusement son fournisseur Cloud : Ils n'ach^^Retent pas tous des compensations,
+ []
+
+[39]
+Overfull \hbox (0.77313pt too wide) in paragraph at lines 1057--1058
+[]\OT1/cmr/m/n/10 Acheter des compensations carbone : De nombreuses plateformes proposent des moyens
+ []
+
+
+Overfull \hbox (3.24556pt too wide) in paragraph at lines 1071--1072
+\OT1/cmr/m/n/10 biais injustes, l'impact environnemental d'un mod^^Rele ou encore l'explication du comportement
+ []
+
+[40]
+Underfull \hbox (badness 2269) in paragraph at lines 1112--1112
+[]|\OT1/cmr/m/n/10 Solutions de secours et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1116--1116
+[]|\OT1/cmr/m/n/10 Fiabilit^^Se et
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 1132--1132
+[]|\OT1/cmr/m/n/10 Qualit^^Se et int^^Segrit^^Se des
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1204
+[]|\OT1/cmr/m/n/10 Minimisation et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1204
+\OT1/cmr/m/n/10 documentation des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1206--1206
+[]|\OT1/cmr/m/n/10 Documentation des
+ []
+
+[42]
 Chapitre III.
-[39
 
-]
+Overfull \hbox (15.93233pt too wide) in paragraph at lines 1235--1236
+ []\OT1/cmr/bx/n/10 Probl^^Sematique :[] \OT1/cmr/m/n/10 Est-il possible de rendre une Intelligence Artificielle socialement responsable
+ []
+
+
+Overfull \hbox (19.85661pt too wide) in paragraph at lines 1255--1257
+[]\OT1/cmr/m/n/10 Donn^^Sees Utilisation des donn^^Sees de la comp^^Setition Kaggle : https://www.kaggle.com/c/home-
+ []
+
+[43
+
+] [44]
 Chapitre IV.
-[40
+[45
 
-] [41
+] [46
 
 ] (/home/lauga/Documents/memoire/latex/new_memoire.bbl
 Underfull \hbox (badness 3417) in paragraph at lines 9--14
@@ -711,7 +782,7 @@ Underfull \hbox (badness 2205) in paragraph at lines 9--14
 \OT1/cmr/m/n/10 April 2020.  URL []$\OT1/cmtt/m/n/10 https : / / inventory . algorithmwatch . org$[]\OT1/cmr/m/n/10 .  Library Catalog:
  []
 
-[42
+[47
 
 ]
 Underfull \hbox (badness 6236) in paragraph at lines 117--122
@@ -733,115 +804,115 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--159
 \OT1/cmtt/m/n/10 / / www . visualcapitalist . com / what-[]happens-[]in-[]an-[]internet-[]minute-[]in-[]2019/$[]\OT1/cmr/m/n/10 .
  []
 
-[43]
-Underfull \hbox (badness 6825) in paragraph at lines 211--217
+[48]
+Underfull \hbox (badness 6825) in paragraph at lines 216--222
 []\OT1/cmr/m/n/10 Alexei Grinbaum.  [] Le jugement ^^Sethique est une affaire d'humains, pas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--217
+Underfull \hbox (badness 10000) in paragraph at lines 216--222
 \OT1/cmr/m/n/10 de robots [], May 2019a.  URL []$\OT1/cmtt/m/n/10 https : / / usbeketrica . com / article /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--217
+Underfull \hbox (badness 10000) in paragraph at lines 216--222
 \OT1/cmtt/m/n/10 jugement-[]ethique-[]affaire-[]humains-[]pas-[]robots-[]hasard$[]\OT1/cmr/m/n/10 .  Library Catalog:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--224
+Underfull \hbox (badness 10000) in paragraph at lines 224--229
 []\OT1/cmr/m/n/10 Alexei Grinbaum.  La Conversation scientifique, Des machines pourront-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--224
+Underfull \hbox (badness 10000) in paragraph at lines 224--229
 \OT1/cmr/m/n/10 elles apprendre le bien et le mal ?, March 2019b.  URL []$\OT1/cmtt/m/n/10 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--224
+Underfull \hbox (badness 10000) in paragraph at lines 224--229
 \OT1/cmtt/m/n/10 / / www . franceculture . fr / emissions / la-[]conversation-[]scientifique /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--268
+Underfull \hbox (badness 10000) in paragraph at lines 268--273
 []\OT1/cmr/m/n/10 Michael Haupt.  Who should get credit for the quote 'data is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--268
+Underfull \hbox (badness 10000) in paragraph at lines 268--273
 \OT1/cmr/m/n/10 the new oil'? - Quora, 2006.  URL []$\OT1/cmtt/m/n/10 https : / / www . quora . com /
  []
 
-[44]
-Underfull \hbox (badness 3668) in paragraph at lines 357--361
+[49]
+Underfull \hbox (badness 3668) in paragraph at lines 368--372
 []\OT1/cmr/m/n/10 Jeff Larson and Julia Angwin.  How We Analyzed the COMPAS Recidivism
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--361
+Underfull \hbox (badness 10000) in paragraph at lines 368--372
 \OT1/cmr/m/n/10 Algorithm, May 2016.  URL []$\OT1/cmtt/m/n/10 https : / / www . propublica . org / article /
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 398--402
+Underfull \hbox (badness 1509) in paragraph at lines 409--413
 []\OT1/cmr/m/n/10 Michel de Montaigne.  \OT1/cmr/m/it/10 Essais de Montaigne\OT1/cmr/m/n/10 .  Volland, 1789.  Google-Books-ID:
  []
 
-
-Underfull \hbox (badness 1292) in paragraph at lines 414--418
+[50]
+Underfull \hbox (badness 1292) in paragraph at lines 425--429
 []\OT1/cmr/m/n/10 Alexander Mordvintsev, Christopher Olah, and Mike Tyka.  Inceptionism: Going
  []
 
-[45]
-Underfull \hbox (badness 2269) in paragraph at lines 430--435
+
+Underfull \hbox (badness 2269) in paragraph at lines 441--446
 \OT1/cmr/m/n/10 humans - CNET, November 2018.  URL []$\OT1/cmtt/m/n/10 https : / / newsflash . one / 2018 / 11 / 14 /
  []
 
 
-Overfull \hbox (36.18561pt too wide) in paragraph at lines 430--435
+Overfull \hbox (36.18561pt too wide) in paragraph at lines 441--446
 \OT1/cmtt/m/n/10 ai-[]is-[]very-[]very-[]stupid-[]says-[]googles-[]ai-[]leader-[]at-[]least-[]compared-[]to-[]humans-[]cnet/$[]\OT1/cmr/m/n/10 . 
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 462--467
+Underfull \hbox (badness 2582) in paragraph at lines 473--478
 \OT1/cmtt/m/n/10 com / sites / gilpress / 2013 / 05 / 09 / a-[]very-[]short-[]history-[]of-[]big-[]data/$[]\OT1/cmr/m/n/10 .  Library
  []
 
-[46]
-Underfull \hbox (badness 1348) in paragraph at lines 575--584
+[51]
+Underfull \hbox (badness 1348) in paragraph at lines 586--595
 []\OT1/cmr/m/n/10 R. J. Solomonoff.  The time scale of artificial intelligence: Reflections on social
  []
 
 
-Overfull \hbox (20.90791pt too wide) in paragraph at lines 616--622
+Overfull \hbox (20.90791pt too wide) in paragraph at lines 627--633
 \OT1/cmtt/m/n/10 a-[]peine-[]lancee-[]une-[]intelligence-[]artificielle-[]de-[]microsoft-[]derape-[]sur-[]twitter _
  []
 
-[47]
-Underfull \hbox (badness 2035) in paragraph at lines 660--673
+[52]
+Underfull \hbox (badness 2035) in paragraph at lines 671--684
 \OT1/cmr/m/n/10 Wojciech M. Czarnecki, Andrew Dudzik, Aja Huang, Petko Georgiev, Richard
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 660--673
+Underfull \hbox (badness 1033) in paragraph at lines 671--684
 \OT1/cmr/m/n/10 Junhyuk Oh, Valentin Dalibard, David Choi, Laurent Sifre, Yury Sulsky, Sasha
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 660--673
+Underfull \hbox (badness 1867) in paragraph at lines 671--684
 \OT1/cmr/m/it/10 Time Strategy Game StarCraft II\OT1/cmr/m/n/10 .  2019.  URL []$\OT1/cmtt/m/n/10 https : / / deepmind . com / blog /
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1045.
- [48]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1045.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1324.
+ [53]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1324.
  (/home/lauga/Documents/memoire/latex/new_memoire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1045.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1045.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1324.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1324.
 Package rerunfilecheck Info: File `new_memoire.out' has not changed.
-(rerunfilecheck)             Checksum: 1ABB5F61CC2D687BCA8AB6E1AE1D587F;4679.
+(rerunfilecheck)             Checksum: E409CE5028388059DDC476D4B63E84D3;5411.
 
 
 LaTeX Warning: There were undefined references.
@@ -849,21 +920,21 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1045.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1324.
  ) 
 Here is how much of TeX's memory you used:
- 8625 strings out of 494510
- 128268 string characters out of 6176236
- 240995 words of memory out of 5000000
- 11764 multiletter control sequences out of 15000+600000
+ 8699 strings out of 494510
+ 129353 string characters out of 6176236
+ 241174 words of memory out of 5000000
+ 11783 multiletter control sequences out of 15000+600000
  10815 words of font info for 39 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  28i,9n,35p,1153b,601s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on /home/lauga/Documents/memoire/latex/new_memoire.pdf (52 pages, 2228927 bytes).
+Output written on /home/lauga/Documents/memoire/latex/new_memoire.pdf (57 pages, 2423791 bytes).
 PDF statistics:
- 1370 PDF objects out of 1440 (max. 8388607)
- 1251 compressed objects within 13 object streams
- 433 named destinations out of 1000 (max. 500000)
- 476 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1500 PDF objects out of 1728 (max. 8388607)
+ 1374 compressed objects within 14 object streams
+ 486 named destinations out of 1000 (max. 500000)
+ 545 words of extra memory for PDF output out of 10000 (max. 10000000)
 

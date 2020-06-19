@@ -1,4 +1,4 @@
-\begin{thebibliography}{85}
+\begin{thebibliography}{87}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -156,6 +156,11 @@ Jeff Desjardins.
 \newblock URL
   \url{https://www.visualcapitalist.com/what-happens-in-an-internet-minute-in-2019/}.
 \newblock Library Catalog: www.visualcapitalist.com.
+
+\bibitem[Dorad(2016)]{dorad_machine_2016}
+Louis Dorad.
+\newblock Machine {Learning} {Canvas}, 2016.
+\newblock URL \url{https://www.louisdorard.com/machine-learning-canvas}.
 
 \bibitem[Ducat(2017)]{ducat_du_2017}
 Jean Ducat.
@@ -352,6 +357,12 @@ Charles Krauthammer.
 \newblock Be {Afraid}, May 1997.
 \newblock URL
   \url{https://www.weeklystandard.com/charles-krauthammer/be-afraid-9802}.
+
+\bibitem[Lacoste et~al.(2019)Lacoste, Luccioni, Schmidt, and
+  Dandres]{lacoste2019quantifying}
+Alexandre Lacoste, Alexandra Luccioni, Victor Schmidt, and Thomas Dandres.
+\newblock Quantifying the carbon emissions of machine learning.
+\newblock \emph{arXiv preprint arXiv:1910.09700}, 2019.
 
 \bibitem[Larson and Angwin(2016)]{larson_how_2016}
 Jeff Larson and Julia Angwin.
