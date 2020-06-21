@@ -785,6 +785,7 @@ Nous sommes donc dans une impasse pour les développeurs d'IA : des entreprises 
 Dans cette section, nous allons découvrir des outils et des méthodes mathématiques qui répondent techniquement aux questions soulevés par la Commission Européenne. De plus, ces outils n'étant pas centralisé au même endroit, il est nécessaire de les regrouper dans un même outil qui par conséquent est une boîte à outil : TransparentAI. 
 
 \section{Travaux connexes}
+\label{sec:travaux}
 
 \paragraph{}
 Cette section a pour but d’analyser des travaux portant sur la réflexion éthique au sein du domaine de l’intelligence artificielle. Les travaux qui seront présentés proviennent de réflexions mathématiques. L’introduction de ces différentes approches est importante puisque certaines sont liées à des outils techniques qui seront réutilisés dans ce mémoire, notamment avec la création d’un outil technique.
@@ -795,6 +796,7 @@ Cette section a pour but d’analyser des travaux portant sur la réflexion éth
 Nous avons vu dans la section \ref{subsec:biais} que les biais au sein d'un algorithme peuvent avoir des conséquences importante pour un être humain. Il est fondamental de pouvoir identifié ces biais et de les atténuer si nécessaire. 
 
 \subsubsection{Mesure des biais : calculer l'impact social}
+\label{subsec:mesures_biais}
 
 \paragraph{}
 La mesure de biais dans un algorithme n'est pas absolu : il existe différentes méthodes pour pouvoir les mesurer, chacune possède sa spécificité. Nous allons voir quatre méthodes qui permettent de couvrir un potentiel impact social de l'algorithme.
@@ -947,6 +949,7 @@ Un problème assez important de cette méthode est l'instabilité des explicatio
 Les modèles de substitution locaux, avec le LIME comme mise en œuvre concrète, sont très prometteurs. Mais la méthode est encore en phase de développement et de nombreux problèmes doivent être résolus avant qu'elle puisse être appliquée en toute sécurité \citep{molnar2019}.
 
 \subsubsection{SHAP : SHapley Additive exPlanations}
+\label{subsec:shap}
 
 \paragraph{}
 SHAP qui signifie SHapley Additive exPlanations, est une approche pour expliquer un modèle de Machine Learning peut importe le modèle \citep{NIPS2017_7062}. Cet outil a la particularité de connecter la théorie des jeux avec les explications locales (C.F. LIME) en unifiant plusieurs anciennes méthodes comme LIME et la valeur de Shapey \citep{shapley_17._1953}. De plus, cet outil satisfait les trois axiomes clés de l’interprétabilité : ``Dummy player'' soit joueur factice, ``Substitutability'' soit la substituabilité et ``Additivity'' soit l’additivité.
@@ -1023,6 +1026,7 @@ Il est important de noter que cette feuille ne peut pas être complété par un 
 Dans cette partie nous allons voir deux outils : une librairie du langage Python qui mesure l'impact du calcul de l'exécution d'une fonction (energy-usage\footnote{https://github.com/responsibleproblemsolving/energy-usage}) et une interface web pouvant qui calcule les émissions en CO2 en fonction du temps d'entraînement et du matériel utilisé (ML CO2 Impact\footnote{https://mlco2.github.io/impact/}).
 
 \subsubsection{energy-usage}
+\label{subsec:energy-usage}
 
 \paragraph{}
 Cette librairie Python permet d'avoir un certain nombre d'informations concernant l'impact environnemental du calcul de fonction écrit dans ce même langage informatique de Python. Dans la pratique il suffit de construire une fonction et de l'appliquer avec l'outil, un rapport sera généré avec les informations suivantes : la puissance moyenne utilisée (en Watt) avec et sans le processus, la durée d'exécution, les sources d'énergies selon la géolocalisation, les émissions CO2, des comparaisons et enfin la quantité d'énergies utilisées par le programme (en kWh).
@@ -1063,6 +1067,7 @@ L'ajout intéressant du site est la section ``There are things you can do''\foot
 L'inconvénient de cet outil est qu'il est utilisable que sur l'adresse web indiquée et par conséquent il est très difficile de l'implémenter dans un outil externe.
 
 \section{TransparentAI : de la théorie à la pratique}
+\label{sec:transparentai}
 
 \paragraph{}
 Pour rappel, avec le grand nombre de publications pour définir ce que devrait être une intelligence artificielle éthique, mais sans aborder l'aspect technique de cette question il y a une frustration des développeurs de ces algorithmes. Nous avons donc bien identifié le problème : comment passer de la théorie à la pratique ou pour citer la problématique de ce mémoire est-il possible de rendre une Intelligence Artificielle socialement responsable en supervisant son éthique ?
@@ -1079,152 +1084,128 @@ C'est ici que rentre en jeu l'outil nommé TransparentAI, qui comme son nom l'in
 Reprenons ce qui définit la théorie derrière une intelligence artificielle de confiance : les sept exigences de la Commission Européenne. Chacune de ces exigences à plusieurs aspects expliquant à quoi elle correspond. La première étape pour superviser l'éthique d'une IA est donc de dérouler chacun des aspects et de définir comment répondre au fondamental éthique sous-jacent. Par exemple, pour l'exigence de l'Action humaine et du contrôle humain, l'un des aspect correspond au respect des droits fondamentaux, or, cela n'est pas vérifiable techniquement, c'est un mélange de connaissance juridique et métier. La réponse à apporter dans ce contexte est déclarative et se doit de répondre à des questions commes  ``Dans les cas d’utilisation susceptibles d’entraîner des effets négatifs sur les droits fondamentaux, avez-vous réalisé une analyse d’impact sur les droits fondamentaux ?'' \citep{commission_europeenne_ethics_2019}.
 
 \paragraph{}
-Nous avons donc besoin d'une liste des aspects avec des questions pouvant permettre de contrôler facilement si l'aspect respecte la notion d'IA de confiance. Pour une partie des aspects dérivés des exigences, la difficulté vient du fait de ne pas être vérifié par le biais d'une réponse déclarative. Parfois, il est nécessaire d'aller contrôler avec des méthodes techique comme celles présentées dans la section précédente. Partant de cela, nous pouvons, pour chaque exigence, définir à partir des aspects listés par la Commission Européenne, dresser les questions pouvant s'assurer de la confiance d'une IA. De plus, nous pouvons également ajouter si une implémentation technique est possible pour chaque aspect.
+Nous avons donc besoin d'une liste des aspects avec des questions pouvant permettre de contrôler facilement si l'aspect respecte la notion d'IA de confiance. Pour une partie des aspects dérivés des exigences, la difficulté vient du fait de ne pas être vérifié par le biais d'une réponse déclarative. Parfois, il est nécessaire d'aller contrôler avec des méthodes techique comme celles présentées dans la section précédente.
 
-\paragraph{1. Action humaine et contrôle humain}
+\paragraph{}
+L'un des défauts des exigences est la façon dont elles sont organisées, cela correspond à une organisation théorique et compliqué à suivre comme fil rouge lors du déroulement d'un projet de création d'une IA. Il semble pertinent de les regrouper en catégorie qui se retrouve sur les étapes clés d'un projet. Un regroupement pertinent serait le suivi : (1) Cadrage, (2) Validation du modèle, (3) Sécurité et (4) Suivi et maintenance. Pour chaque groupe nous pouvons classer les aspects de la Commission Européenne de la façon suivante :
 
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    Droits fondamentaux &  & Non \\
-    \hline
-    Action humaine & & Non \\
-    \hline
-    Contrôle humain & & Non \\ 
-    \hline
-    
-  \end{tabular}
-\end{center}
+\paragraph{Cadrage :} (a) Preuve de cadrage, (b) Participation des parties prenantes, (c) Incidence sociale, (d) Droit Fondamentaux, (e) Vie privée et protections des données et (f) Justification.
 
-\paragraph{2. Robustesse technique et sécurité}
+\paragraph{Validation du modèle :} (a) Durable, respect de l'environnement, (b) Qualité et intégrité, (c) Validation des performances, (d) Explicabilité, (e) Interprétabilité et (f) \uppercase{é}viter les biais inutiles.
 
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    Résilience aux attaques et sécurité &  & Non \\
-    \hline
-    Solutions de secours et sécurité générale &  & Non \\
-    \hline
-    Précision &  & Non \\
-    \hline
-    Fiabilité et reproductibilité &  & Non \\
-    \hline
-    
-  \end{tabular}
-\end{center}
+\paragraph{Sécurité :} (a) Résilience du modèle, (b) Plan de secours et (c) Sécurité générale.
 
-\paragraph{3. Respect de la vie privée et gouvernance des données}
+\paragraph{Suivi et maintenance :} (a) Traçabilité, (b) Contrôle humain et (c) Arbitrage et recours en cas d'impact négatif.
+
+\paragraph{}
+Parant de cette classification des aspects, nous avons toutes les exigences de la Commission Européenne couvertes et structurées afin qu'elles soient déroulées le long d'un projet. Ensuite, nous pouvons, pour chaque aspect listé précédemment, dresser les questions pouvant s'assurer de la confiance d'une IA. De plus, nous pouvons également ajouter si une implémentation technique est possible pour chaque aspect. 
+
+% ajout questions et implémentation technique
+
+\paragraph{}
+Nous contastons que majoritairement deux profils sont requis afin de vérifier la confiance d'une intelligence artificielle : un profil métier (le ou la commanditaire du projet ou chef de projet par exemple) et un profil technique comme un ou une data scientist. Nous allons donc voir dans la section suivante comment se construit l'outil de TransparentAI et pourquoi.
+
+\subsection{Structure technique}
+
+\paragraph{}
+La finalité est bien identifiée : évaluer l'éthique d'une IA. Pour y parvenir, nous avons redéfini les exigences de la Commission Européenne classées en quatre groupes. Certaines exigences ne sont pas contrôlables par le simple biais d'une question, en effet, il faut parfois avoir l'appui d'un outil technique. 
+
+\paragraph{}
+Au vu des deux profils identifiés : un profil métier non technique et un profil technique, deux besoins découlent logiquement : (1) Une boîte à outil intégrable directement sur des projets de data scientists et (2) Une interface pouvant dérouler les questions avec les solutions techniques déjà intégrées pour fournir une réponse rapidement sans avoir le besoin de compétences techniques avancées.
+
+\paragraph{}
+Deux besoins pour deux formes de l'outil, une boîte à outil en Python pour les développeurs et une interface web pour les chefs de projet, mais aussi développeurs.
+
+\subsubsection{Un outil orienté technique : une librairie Python}
+
+\paragraph{}
+La première forme de l'outil est donc une librairie écrite dans le langage Python. Ce langage est un langage dominant dans les projets de création d'IA et par conséquent, il est permet de toucher une grande partie des développeurs. 
+
+\paragraph{}
+L'outil se découpe par sous-modules, c'est-à-dire qu'il est possible d'utiliser une brique spécifique de l'outil sans se soucier du reste. Voici ci-dessous les différents modules mis à disposition dans l'outil et à quel aspect il peut répondre.
 
 \begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+  \begin{tabular}{ |l|l| } 
     \hline
-    Aspect & Question & Tech ? \\
+    Module & Aspect  \\
     \hline
     \hline
-    Respect de la vie privée et protection des données &  & Non \\
+    Jeu de données & Qualité et intégrité des données\\
     \hline
-    Qualité et intégrité des données &  & Non \\
+    \uppercase{é}quité & \uppercase{é}viter les biais injustes et Incidence Sociale \\
     \hline
-    Accès aux données &  & Non \\
+    \uppercase{é}valuation des modèles & Validation des performances \\
     \hline
-    
-  \end{tabular}
-\end{center}
+    Explicabilité & Explicabilité et Résilience du modèle \\
+    \hline
+    Surveillance & Contrôle humain \\
+    \hline
+    Vérification de la sécurité & Sécurité générale \\
+    \hline
+    \uppercase{é}valuation du kWh & Durable, respect de l'environnement \\
+    \hline
+    Génération de rapports & Traçabilité \\
+    \hline
 
-\paragraph{4. Transparence}
-
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    Traçabilité &  & Non \\
-    \hline
-    Explicabilité &  & Non \\
-    \hline
-    Communication &  & Non \\
-    \hline
-    
-  \end{tabular}
-\end{center}
-
-\paragraph{5. Diversité, non-discrimination et équité}
-
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    Éviter les biais injustes &  & Non \\
-    \hline
-    Accessibilité et conception universelle &  & Non \\
-    \hline
-    Participation des parties prenantes &  & Non \\
-    \hline
-    
-  \end{tabular}
-\end{center}
-
-\paragraph{6. Bien-être sociétal et environnemental}
-
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    IA durable et respectueuse de l’environnement &  & Non \\
-    \hline
-    Incidence sociale &  & Non \\
-    \hline
-    Société et démocratie &  & Non \\
-    \hline
-    
-  \end{tabular}
-\end{center}
-
-\paragraph{7. Responsabilité}
-
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    Auditabilité &  & Non \\
-    \hline
-    Minimisation et documentation des incidences négatives &  & Non \\
-    \hline
-    Documentation des arbitrages &  & Non \\
-    \hline
-    Voies de recours &  & Non \\
-    \hline
-    
   \end{tabular}
 \end{center}
 
 \paragraph{}
-Au vu de ces questions, nous contastons que majoritairement deux profils sont requis afin de bien compléter ce formulaire de question : un profil métier (le commanditaire du projet ou le chef de projet par exemple) et un profil technique comme un data scientist. Nous allons donc voir dans la section suivante comment se construit l'outil de TransparentAI et pourquoi.
+L'outil utilise travaux suivants : les mesures de biais présentées dans la section \ref{subsec:mesures_biais}, SHAP (section \ref{subsec:shap}) pour expliquer un modèle, la librairie ``energy-usage'' pour l'impact environnemental (section \ref{subsec:energy-usage}).
 
-\subsection{Structure technique}
+\paragraph{}
+Cette boîte à outil est déjà exploitable en tant que tel et il est un prérequis pour pouvoir réaliser la seconde forme de l'outil : une interface web à destination des profils métier.
 
-\subsubsection{Un outil orienté technique : une librairie Python}
-
-Découpage en sous modules qui peuvent être lié aux exigences
+\paragraph{}
+Cette version de l'outil est disponible sur le site GitHub sous le nom de ``transparentai''\footnote{https://github.com/Nathanlauga/transparentai}.
 
 \subsubsection{Un outil orienté métier : une interface web}
 
+\paragraph{}
+Le besoin ici, est différent, puisque nous ciblons des profils moins techniques, l'objectif et de cacher la partie technique et que l'outil soit ludique et intuitif à l'utilisation. 
+
+\paragraph{}
+Dans cette outil, le composant principal correspond à un projet : il est possible d'avoir plusieurs projets qui correspondent à un modèle. Pour chaque projet, nous avons besoin d'un jeu de données avec en colonnes les informations suivantes : la colonne que nous cherchons à prédire, la colonnes de prédiction et les attributs à protéger (e.g. le genre d'une personne). Ensuite pour permettre d'accéder à l'explicabilité il faut également charger le modèle, ici le problème est que seulement ayant des compétences techniques peut intégrer le modèle dans l'outil.
+
+\paragraph{}
+Nous avons donc un projet qui nécéssite un jeu de données et un modèle, à partir de cela, nous pouvons accéder au questionnaire qui reprend chaque aspect et déroule les questions en fournissant des liens vers des vérifications techniques pour les aspects le nécessitant. Pour chaque question, si la réponse n'est pas dans le sens d'une IA de confiance, alors un point d'attention est remontée et sur une page aggrégée il sera possible de suivre ``l'éthique de l'intelligence artificielle''.
+
+\paragraph{}
+Les valeurs ajoutées de l'outil sont donc (1) qu'il répond aux questions soulevées par la Commission Européenne, (2) qu'il peut impliquer la création d'une charte éthique au sein d'une société, (3) qu'il aide à la décision des acteurs d'un projet et (4) qu'il est entièrement gratuit et Open Source.
+
+% ajouter une image de l'interface
+
+\paragraph{}
+Cette version de l'outil est disponible sur le site GitHub sous le nom de ``transparentai-ui''\footnote{https://github.com/Nathanlauga/transparentai-ui} (UI signifie ``User Interface'' soit Interface Utilisateur).
+
+\subsection{Détail de l'outil}
+
+\paragraph{Philosophie de l'outil}
+J'ai choisi de rendre les deux formes de TransparentAI Open Source sous la license MIT, c'est-à-dire, que tout le monde peut utiliser l'outil et le modifier à sa guise, mais aussi cela signifie que si l'outil commence à être pas mal exploité, il évoluera plus rapidement et il tendra vers une version plus universelle. De plus, l'interface graphique de ``transparentai-ui'' a été pensée pour être utilisée par des mal-voyants.
+
+\paragraph{Aujourd’hui}
+Lors de la publication de ce mémoire, les deux formes de TransparentAI en sont au stade suivant :
+\begin{itemize}
+  \item transparentai version 0.2.1 : peut analyser les données tabulaires et les modèles de classification.
+  \item transparentai-ui version 0.1.0 : l'interface n'a pas encore été testée et approuvée.
+\end{itemize}  
 
 \section{Synthèse}
 
+\paragraph{}
+Dans ce chapitre, nous avons vu que la frustration des développeurs ne venait pas de l'absence d'outil dans le domaine de l'IA éthique, mais que les publications décrivant ce que doit être une IA éthique reste trop théorique et logiquement cela ne répond pas à comment rendre une intelligence artificielle de confiance. 
+
+\paragraph{}
+Tout d'abord, nous avons observé les différents outils et différentes méthodologies qui répondent à des éléments spécifiques pour tendre vers une IA de confiance (section \ref{sec:travaux}). Parmi ces outils, nous avons vu des outils pour analyser et atténuer les biais au sein d'un modèle, pour expliquer un modèle et ses prédictions et comment controler l'impact environnemental de l'entraînement d'un modèle.
+
+\paragraph{}
+Ensuite, nous avons bien identifié le besoin correspondant à l'absence d'outil centralisant et permettant de savoir comment obtenir une IA de confiance en passant de la théorie à la pratique directement. Pour palier à ce besoin, TransparentAI a été introduit (section \ref{sec:transparentai}).
+
+\paragraph{}
+TransparentAI se découpe sous deux formes : une forme technique avec des sous-modules pour que les data scientists puissent implémenter les fonctionnalités à leur guise et une forme graphique avec une interface web à destination des chefs de projet qui est conçu pour être gratuite et accessible à tous.
+
+\paragraph{}
+Maintenant que nous possédons comment s'assurer de créer une IA de confiance, il faut vérifier que pour un modèle discriminant l'outil le détecte bien et que nous pouvons l'affirmer à partir d'une expérience.
 
 % ======= PLAN DE RECHERCHE ===== %
 \newpage
@@ -1320,5 +1301,136 @@ Nouvelle analyse de performance + biais
 % \bibliographystyle{alpha}
 \bibliographystyle{plainnat}
 \bibliography{bibliography}
+
+
+\paragraph{1. Action humaine et contrôle humain}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Droits fondamentaux & Est-ce que l'utilisation de l'IA respecte les droits fondamentaux ? & Non \\
+    \hline
+    Action humaine & & Non \\
+    \hline
+    Contrôle humain & & Non \\ 
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{2. Robustesse technique et sécurité}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Résilience aux attaques et sécurité &  & Non \\
+    \hline
+    Solutions de secours et sécurité générale &  & Non \\
+    \hline
+    Précision &  & Non \\
+    \hline
+    Fiabilité et reproductibilité &  & Non \\
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{3. Respect de la vie privée et gouvernance des données}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Respect de la vie privée et protection des données &  & Non \\
+    \hline
+    Qualité et intégrité des données &  & Non \\
+    \hline
+    Accès aux données &  & Non \\
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{4. Transparence}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Traçabilité &  & Non \\
+    \hline
+    Explicabilité &  & Non \\
+    \hline
+    Communication &  & Non \\
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{5. Diversité, non-discrimination et équité}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Éviter les biais injustes &  & Non \\
+    \hline
+    Accessibilité et conception universelle &  & Non \\
+    \hline
+    Participation des parties prenantes & Est-ce qu'à minima, un.e des commanditaire, un.e développeur.se et un.e utilisateur.rice final.e ont pu participer au cadrage et à la validation du modèle ? & Non \\
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{6. Bien-être sociétal et environnemental}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    IA durable et respectueuse de l’environnement &  & Non \\
+    \hline
+    Incidence sociale & Est-ce que le modèle peut avoir une incidence sociale sur un.e utilisateur.rice ? Par exemple, un risque de perte d'emploi ou un refus de crédit. & Non \\
+    \hline
+    Société et démocratie &  & Non \\
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+\paragraph{7. Responsabilité}
+
+\begin{center}
+  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Auditabilité &  & Non \\
+    \hline
+    Minimisation et documentation des incidences négatives &  & Non \\
+    \hline
+    Documentation des arbitrages &  & Non \\
+    \hline
+    Voies de recours &  & Non \\
+    \hline
+    
+  \end{tabular}
+\end{center}
 
 \end{document}
