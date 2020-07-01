@@ -205,7 +205,7 @@
 \contentsline {paragraph}{Average Odds Difference}{33}{equation.2.1.5}% 
 \contentsline {paragraph}{}{33}{section*.173}% 
 \contentsline {paragraph}{}{33}{section*.174}% 
-\contentsline {paragraph}{Disparact Impact}{33}{equation.2.1.6}% 
+\contentsline {paragraph}{Disparate Impact}{33}{equation.2.1.6}% 
 \contentsline {paragraph}{}{34}{section*.176}% 
 \contentsline {paragraph}{}{34}{section*.177}% 
 \contentsline {paragraph}{Interpr\IeC {\'e}tation des mesures}{34}{section*.178}% 
@@ -290,25 +290,68 @@
 \contentsline {paragraph}{}{44}{section*.242}% 
 \contentsline {paragraph}{}{44}{section*.243}% 
 \contentsline {chapter}{\numberline {III}Plan de recherche}{45}{chapter.3}% 
-\contentsline {paragraph}{Probl\IeC {\'e}matique :}{45}{section*.244}% 
-\contentsline {paragraph}{Hypoth\IeC {\`e}se}{45}{section*.245}% 
-\contentsline {paragraph}{Exp\IeC {\'e}rience}{45}{section*.246}% 
-\contentsline {paragraph}{D\IeC {\'e}finition des morales}{45}{section*.247}% 
-\contentsline {paragraph}{Processus}{45}{section*.248}% 
-\contentsline {paragraph}{Limites}{46}{section*.249}% 
-\contentsline {section}{\numberline {III.1}D\IeC {\'e}finition des hypoth\IeC {\`e}ses}{46}{section.3.1}% 
-\contentsline {section}{\numberline {III.2}Environnement de recherche}{46}{section.3.2}% 
+\contentsline {paragraph}{}{45}{section*.244}% 
+\contentsline {section}{\numberline {III.1}D\IeC {\'e}finition des hypoth\IeC {\`e}ses}{45}{section.3.1}% 
+\contentsline {paragraph}{}{45}{section*.245}% 
+\contentsline {paragraph}{}{45}{section*.246}% 
+\contentsline {paragraph}{}{45}{section*.247}% 
+\contentsline {paragraph}{}{45}{section*.248}% 
+\contentsline {paragraph}{Hypoth\IeC {\`e}ses}{46}{section*.249}% 
+\contentsline {paragraph}{}{46}{section*.250}% 
+\contentsline {section}{\numberline {III.2}Exp\IeC {\'e}rience}{46}{section.3.2}% 
+\contentsline {paragraph}{}{46}{section*.251}% 
+\contentsline {paragraph}{}{46}{section*.252}% 
 \contentsline {subsection}{\numberline {III.2.1}Contexte : pr\IeC {\'e}dire la probabilit\IeC {\'e} de rembourser un pr\IeC {\^e}t}{46}{subsection.3.2.1}% 
-\contentsline {subsection}{\numberline {III.2.2}Algorithmes choisis}{46}{subsection.3.2.2}% 
-\contentsline {chapter}{\numberline {IV}Exp\IeC {\'e}rience}{47}{chapter.4}% 
-\contentsline {section}{\numberline {IV.1}R\IeC {\'e}alisation de l'exp\IeC {\'e}rience}{47}{section.4.1}% 
-\contentsline {section}{\numberline {IV.2}R\IeC {\'e}sultats obtenus}{47}{section.4.2}% 
-\contentsline {section}{\numberline {IV.3}Conclusion de l'exp\IeC {\'e}rience}{47}{section.4.3}% 
-\contentsline {chapter}{\numberline {}Conclusion}{48}{chapter*.250}% 
-\contentsline {paragraph}{1. Action humaine et contr\IeC {\^o}le humain}{55}{section*.252}% 
-\contentsline {paragraph}{2. Robustesse technique et s\IeC {\'e}curit\IeC {\'e}}{55}{section*.253}% 
-\contentsline {paragraph}{3. Respect de la vie priv\IeC {\'e}e et gouvernance des donn\IeC {\'e}es}{56}{section*.254}% 
-\contentsline {paragraph}{4. Transparence}{56}{section*.255}% 
-\contentsline {paragraph}{5. Diversit\IeC {\'e}, non-discrimination et \IeC {\'e}quit\IeC {\'e}}{56}{section*.256}% 
-\contentsline {paragraph}{6. Bien-\IeC {\^e}tre soci\IeC {\'e}tal et environnemental}{56}{section*.257}% 
-\contentsline {paragraph}{7. Responsabilit\IeC {\'e}}{57}{section*.258}% 
+\contentsline {subsubsection}{\numberline {III.2.1.1}D\IeC {\'e}finition du besoin m\IeC {\'e}tier}{46}{subsubsection.3.2.1.1}% 
+\contentsline {paragraph}{}{46}{section*.253}% 
+\contentsline {paragraph}{}{46}{section*.254}% 
+\contentsline {paragraph}{}{47}{section*.255}% 
+\contentsline {subsubsection}{\numberline {III.2.1.2}Jeu de donn\IeC {\'e}es : Home Credit Default Risk}{47}{subsubsection.3.2.1.2}% 
+\contentsline {paragraph}{}{47}{section*.256}% 
+\contentsline {paragraph}{}{47}{section*.257}% 
+\contentsline {paragraph}{}{48}{section*.258}% 
+\contentsline {paragraph}{}{48}{section*.259}% 
+\contentsline {subsubsection}{\numberline {III.2.1.3}Algorithmes choisis}{48}{subsubsection.3.2.1.3}% 
+\contentsline {paragraph}{}{48}{section*.260}% 
+\contentsline {paragraph}{}{48}{section*.261}% 
+\contentsline {paragraph}{}{48}{section*.262}% 
+\contentsline {paragraph}{}{48}{section*.263}% 
+\contentsline {subsubsection}{\numberline {III.2.1.4}Crit\IeC {\`e}res de r\IeC {\'e}ussite du mod\IeC {\`e}le}{48}{subsubsection.3.2.1.4}% 
+\contentsline {paragraph}{}{48}{section*.264}% 
+\contentsline {paragraph}{}{48}{section*.265}% 
+\contentsline {paragraph}{}{49}{section*.266}% 
+\contentsline {paragraph}{}{49}{section*.267}% 
+\contentsline {paragraph}{}{49}{section*.268}% 
+\contentsline {paragraph}{}{49}{section*.269}% 
+\contentsline {subsection}{\numberline {III.2.2}Param\IeC {\`e}tres de l'exp\IeC {\'e}rience}{49}{subsection.3.2.2}% 
+\contentsline {paragraph}{}{49}{section*.270}% 
+\contentsline {paragraph}{}{49}{section*.271}% 
+\contentsline {subsubsection}{\numberline {III.2.2.1}D\IeC {\'e}finition des morales}{49}{subsubsection.3.2.2.1}% 
+\contentsline {paragraph}{}{49}{section*.272}% 
+\contentsline {paragraph}{}{50}{section*.273}% 
+\contentsline {paragraph}{}{50}{section*.274}% 
+\contentsline {subsubsection}{\numberline {III.2.2.2}Protocole}{50}{subsubsection.3.2.2.2}% 
+\contentsline {paragraph}{}{50}{section*.275}% 
+\contentsline {paragraph}{}{50}{section*.276}% 
+\contentsline {paragraph}{Analyse des donn\IeC {\'e}es}{50}{section*.277}% 
+\contentsline {paragraph}{Pr\IeC {\'e}paration et s\IeC {\'e}paration}{50}{section*.278}% 
+\contentsline {paragraph}{Entra\IeC {\^\i }nement selon les morales}{50}{section*.279}% 
+\contentsline {paragraph}{Contr\IeC {\^o}le de la performance}{51}{section*.280}% 
+\contentsline {paragraph}{Contr\IeC {\^o}le des biais}{51}{section*.281}% 
+\contentsline {paragraph}{Explication des mod\IeC {\`e}les}{51}{section*.282}% 
+\contentsline {paragraph}{Arbitrage sur les r\IeC {\'e}sultats obtenus}{51}{section*.283}% 
+\contentsline {subsubsection}{\numberline {III.2.2.3}R\IeC {\'e}sultats attendus}{51}{subsubsection.3.2.2.3}% 
+\contentsline {paragraph}{}{51}{section*.284}% 
+\contentsline {chapter}{\numberline {IV}Exp\IeC {\'e}rience}{53}{chapter.4}% 
+\contentsline {section}{\numberline {IV.1}R\IeC {\'e}alisation de l'exp\IeC {\'e}rience}{53}{section.4.1}% 
+\contentsline {section}{\numberline {IV.2}R\IeC {\'e}sultats obtenus}{53}{section.4.2}% 
+\contentsline {section}{\numberline {IV.3}Conclusion de l'exp\IeC {\'e}rience}{53}{section.4.3}% 
+\contentsline {paragraph}{Limites}{53}{section*.285}% 
+\contentsline {chapter}{\numberline {}Conclusion}{54}{chapter*.286}% 
+\contentsline {paragraph}{1. Action humaine et contr\IeC {\^o}le humain}{61}{section*.288}% 
+\contentsline {paragraph}{2. Robustesse technique et s\IeC {\'e}curit\IeC {\'e}}{61}{section*.289}% 
+\contentsline {paragraph}{3. Respect de la vie priv\IeC {\'e}e et gouvernance des donn\IeC {\'e}es}{62}{section*.290}% 
+\contentsline {paragraph}{4. Transparence}{62}{section*.291}% 
+\contentsline {paragraph}{5. Diversit\IeC {\'e}, non-discrimination et \IeC {\'e}quit\IeC {\'e}}{62}{section*.292}% 
+\contentsline {paragraph}{6. Bien-\IeC {\^e}tre soci\IeC {\'e}tal et environnemental}{62}{section*.293}% 
+\contentsline {paragraph}{7. Responsabilit\IeC {\'e}}{63}{section*.294}% 
