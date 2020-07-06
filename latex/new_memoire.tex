@@ -6,8 +6,10 @@
 \usepackage{babel}
 \usepackage{xcolor,graphicx}
 \usepackage{hyperref}	
+\usepackage{multirow}
 \usepackage{enumitem}
 \usepackage{tabularx}
+\usepackage{listings}
 \usepackage{amsmath}
 
 
@@ -88,9 +90,45 @@
 \chapter*{Introduction}
 \addcontentsline{toc}{chapter}{\protect\numberline{}Introduction}
 
-\paragraph{Problématique} 
-Dans un contexte où les intelligences artificielles sont omniprésentes et que les données deviennent le nouveau pétrole, est-il possible de rendre une Intelligence Artificielle socialement responsable en supervisant son éthique ? ?
+Les intelligences artificielles, de nos jours, suivent une croissance exponentielle, autant sur la quantité que sur la complexité des tâches réalisées. Certaines réalisent des exploits qui surpassent les humains (e.g. le jeu d’échecs). Leurs progrès sensationnels, permettant par exemple la reconnaissance faciale, ajoutent une nouvelle question sur la balance des IA, celle de l’éthique.
 
+\paragraph{}
+En effet, le paradigme initial qui est la représentation qu’elles se font du monde, peut être soumis aux mêmes problématiques qu’un humain, entre autres les stéréotypes implicites catégorisant négativement ou positivement une classe sociale.
+
+\paragraph{}
+Les composantes formant le paradigme des algorithmes, soit leurs environnements, sont de nos jours très souvent sélectionnées par la main des humains. L’éducation morale des enfants est considérée comme logiquement reconnue pour norme sociale, mais quand il s’agit d’éducation de l’éthique pour une machine, l’idée semble de suite moins représentable.
+
+\paragraph{}
+Au croisement de la sociologie, de la philosophie et du domaine de recherche de l’intelligence artificielle s’ancre alors un cheminement conduisant vers la recherche sur l’éthique de l’intelligence artificielle.
+
+
+\section*{Problématique} 
+
+\paragraph{}
+Définir une morale pour un algorithme n’est pas chose aisée, cela soulève même une interrogation qui revient à demander ce qui est bon. La question à se poser lors de la conception d’IA est bien plus complexe que d’une simple question de performance.
+
+\paragraph{}
+En effet, aujourd’hui les données affluent tel un courant d’eau suivant son cours. Ces mêmes données étant un nouveau pétrole non raffiné pour les intelligences artificielles, l’importance de bien maîtriser ce qu’elles laissent entrevoir sur l’aspect social est incontestable.
+
+\paragraph{}
+Autrement dit, Dans un contexte où les intelligences artificielles sont omniprésentes et que les données deviennent le nouveau pétrole, est-il possible de rendre une Intelligence Artificielle socialement responsable en supervisant son éthique ?
+
+
+\section*{Plan} 
+
+\paragraph{}
+Ce document est organisé en deux chapitres, de plus, il s’agit là d’un pré-mémoire, sa construction suit donc la logique d’apporter les informations pertinentes pour la suite du mémoire qui sera réalisée pour l’année scolaire 2019-2020 et soutenu en septembre 2020.
+
+\paragraph{}
+Le premier chapitre constitue un état de l’art sur les concepts d’intelligence artificielle et d’éthique. Tout d’abord, la notion d’IA est détaillée au travers de son histoire mouvementée et le fonctionnement actuel des algorithmes. La suite s’attache à rentrer dans les réflexions ``futuristes'' avec l’idée d’une super-intelligence.
+
+\paragraph{}
+Ensuite, c’est le concept d’éthique qui est expliqué principalement sur le plan philosophique et scientifique. D’abord l’origine, puis les différents courants existants à l’heure actuelle et enfin les visions de la Morale en Science. La fin du chapitre se concentre sur la cohabitation de l'intelligence artificielle et de l'éthique.
+
+\paragraph{}
+% SOlution
+
+% Experience
 
 % ======= ETAT DE L'ART ====== %
 \chapter{\uppercase{é}tat de l'art}
@@ -1240,7 +1278,7 @@ Il est possible de résumer une IA avec un morale $M_{IA}$ par la fonction suiva
 \begin{itemize}
   \item Hypohtèse 1 $H1$ : à partir d'une Morale Humain $M_H$ et d'une intelligence artificielle ayant une morale $M_{IA}$, il est possible d'identifier si $M_H$ est aligné avec $M_{IA}$.
   \item Hypothèse 2 $H2$ : Avec un Scénario $S$, il est possible d'expliquer pourquoi un modèle $M$ à obtenu un résultat $R$.
-  \item Hypothèse 3 $H3$ : Si les morales $M_H$ et $M_{IA}$ sont identifié comme non alignée, il est possible d'utiliser un mécanisme pouvant atténuer voire éliminer les biais. 
+  % \item Hypothèse 3 $H3$ : Si les morales $M_H$ et $M_{IA}$ sont identifié comme non alignée, il est possible d'utiliser un mécanisme pouvant atténuer voire éliminer les biais. 
 \end{itemize}
 
 \paragraph{}
@@ -1254,64 +1292,77 @@ Pour cette expérience, un répertoire sera mis en place sur le site GitHub : to
 \paragraph{}
 Pour que nous puissions avoir un modèle compatible avec nos hypothèses, il faut avoir une problématique qui exploite des données personnelles (avec le genre des personnes) pouvant avoir une incidence sociale sur la vie des individus utilisant le modèle. Avec ces critères là, le choix d'une IA prédisant la probabilité qu'un client puisse ou non rembourser son prêt immobilier.
 
-\subsection{Contexte : prédire la probabilité de rembourser un prêt}
+\subsection{Contexte : prédire la probabilité de défaut de paiement de carte de crédit}
 
 \subsubsection{Définition du besoin métier}
 
 \paragraph{}
-Dans le contexte actuel en France, les taux de crédits immobilier sont extrèmement bas : allant de 1,25\% pour un bon taux sur 15 ans jusqu'à 1,65\% pour un bon taux sur 25 ans (Source meilleurtaux.com, Juin 2020). La baisse des taux entraîne logiquement une baisse des gains pour les banques Françaises. De plus, la crise des Subprimes de 2007 aux USA a montrée une défaillance sur les contrôles pour accorder ou non un crédit immobilier. Bien qu'en Europe les contrôles ne sont pas les mêmes, la crise a également impacté l'Union Européenne. Avec ces informations, nous comprenons bien le besoin de s'assurer qu'un client puisse être en capacité de rembourser son crédit.
+Dans les pays d'Amérique du Nord, l'endettement est un problème à ne pas ignorer, surtout sur les dettes non garanties sur cartes de crédits. Les cartes de crédits peuvent être autant un fardeau qu'un outil financier utile. Une utilisation responsable d'une carte de crédit renforce un dossier pour l'obtention potentielle d'un prêt dans le futur. Le cas contraire, une mauvaise utilisation peut vite amener à une montagne de dette, pour lesquelles il est compliqué de remonter. Une personne en défaut de paiement est une personne qui a manqué à une obligation. 
 
 \paragraph{}
-Maintenant, si nous nous plaçons du point de vue des clients qui font la demande de crédit immobilier, un refus a une incidence sociale directe sur la vie du client. En effet, il peut s'agir de renoncer à un projet de vie ou encore à un investissement qui, sur le long terme, peut permettre d'avoir un patrimoine immobilier qui génère du capital.
+Les compagnies de cartes de crédit traitent en permanence des cas de paiement en retard ou manqués. Il s'agit de grandes entreprises, un seul individu faisant défaut ne les dérangera pas énormément au début. C'est généralement au bout de plusieurs paiements manqués que l'entreprise contacte la personne concernée. Les conséquences du manquement peut aller jusqu'au recouvrement qui pour un être humain étant déjà dans une situation financière délicate, est assez dangereux.
 
 \paragraph{}
-Cette problématique possède pousse à savoir si le modèle n'est pas biaisé, qu'il n'avantage pas plus un homme qu'une femme. De plus, en cas de refus nous pouvons imaginer que le client soit surpris et demande une explication. Par conséquent, le modèle doit être capable de fournir une explication cohérente avec le résultat obtenu. 
+Nous voyons donc la nécessité d'un modèle pouvant prédire les défauts de paiements de cartes de crédit. Pour la banque et l'entreprise de cartes de crédit, cela permet de mieux préparer un dossier pour un prêt immobilier par exemple. Pour le ou la client.e il s'agit d'un outil pour servir à la prévoyance et à mieux gérer ses paiements en anticipant un potentiel défaut de paiement.
+
+\paragraph{}
+Cette problématique nous pousse à savoir si le modèle n'est pas biaisé, qu'il n'avantage pas plus un homme qu'une femme. De plus, en cas d'une détection de défaut de paiements nous pouvons imaginer que le client soit surpris et demande une explication. Par conséquent, le modèle doit être capable de fournir une explication cohérente avec le résultat obtenu. 
+ 
 
 \subsubsection{Jeu de données : Home Credit Default Risk}
 
 \paragraph{}
-Pour entrainer notre modèle, nous allons utiliser les données issues de la compétition Kaggle : ``Home Credit Default Risk''\footnote{https://www.kaggle.com/c/home-credit-default-risk/}. Les données sont fournies par Home Credit, un service dédié à l'octroi de lignes de crédit (prêts) à la population non bancarisée. Prévoir si un client va ou non rembourser un prêt ou s'il a des difficultés est un besoin essentiel des entreprises, c'est pour cela que Home Credit a organisé ce concours sur Kaggle pour voir quels types de modèles la communauté d'apprentissage machine peut développer pour l'aider dans cette tâche.
+Pour entrainer notre modèle, nous allons utiliser les données issues du site Kaggle (site central dans la communauté Machine Learning mondiale) : ``Default of Credit Card Clients Dataset''\footnote{https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset}. Les données proviennent à l'origine du site UCI Machine Learning Repository\footnote{https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients}. Cet ensemble de données contient des informations sur les défauts de paiement, les facteurs démographiques, les données de crédit, l'historique des paiements et les relevés de factures des clients de cartes de crédit à Taïwan d'avril 2005 à septembre 2005.
 
 
 \paragraph{}
-Le jeu de données est composé de sept sources différentes :
-
+Nous y retrouvons 25 variables différentes :
 
 \begin{itemize}
-  \item \textbf{application\_train} : Il s'agit du jeu de données principal avec des informations sur chaque demande de prêt chez Home Credit. Chaque prêt a sa propre ligne et est identifié par la variable SK\_ID\_CURR. Les données relatives aux demandes de formation sont accompagnées de la mention TARGET indiquant 0 : le prêt a été remboursé ou 1 : le prêt n'a pas été remboursé.
-  \item  \textbf{bureau} : Ces données concernent les crédits antérieurs du client auprès d'autres institutions financières. Chaque crédit précédent a sa propre ligne dans bureau, mais un prêt dans les données de demande peut avoir plusieurs crédits précédents.
-  \item \textbf{bureau\_balance} : Nous trouvons ici, les données mensuelles concernant les crédits précédents en bureau. Chaque ligne correspond à un mois d'un crédit antérieur, et un seul crédit antérieur peut avoir plusieurs lignes, une pour chaque mois de la durée du crédit.
-  \item \textbf{previous\_application} : Les demandes précédentes de prêts au crédit immobilier des clients dont les données de demande contiennent des prêts. Chaque prêt actuel dans les données de demande peut avoir plusieurs prêts précédents. Chaque demande précédente comporte une ligne et est identifiée par la caractéristique SK\_ID\_PREV.
-  \item \textbf{POS\_CASH\_BALANCE} : Il s'agit des données mensuelles sur les prêts antérieurs au point de vente ou en espèces que les clients ont contractés auprès de Home Credit. Chaque ligne correspond à un mois d'un précédent prêt sur le lieu de vente ou en espèces, et un seul prêt précédent peut comporter plusieurs lignes.
-  \item \textbf{credit\_card\_balance} : Les données mensuelles sur les cartes de crédit que les clients ont utilisées précédemment dans le cadre du crédit immobilier. Chaque ligne correspond à un mois de solde de carte de crédit, et une seule carte de crédit peut comporter plusieurs lignes.
-  \item \textbf{installments\_payment} : L'historique des paiements pour les prêts précédents au Home Credit. Il y a une ligne pour chaque paiement effectué et une ligne pour chaque paiement manqué. 
+  \item \textbf{ID} : L'identifiant du client. 
+  \item \textbf{LIMIT\_BAL} : Montant du crédit en Nouveau Dollar de Taïwan.
+  \item \textbf{SEX} : Genre de la personne.
+  \item \textbf{EDUCATION} : Niveau d'éducation du client.
+  \item \textbf{MARRIAGE} : Statut marital du client.
+  \item \textbf{AGE} : L'âge en année.
+  \item \textbf{PAY\_0} : État des remboursements en Septembre 2005.
+  \item \textbf{PAY\_2} : État des remboursements en Août 2005.
+  \item \textbf{PAY\_3} : État des remboursements en Juillet 2005.
+  \item \textbf{PAY\_4} : État des remboursements en Juin 2005.
+  \item \textbf{PAY\_5} : État des remboursements en Mai 2005.
+  \item \textbf{PAY\_6} : État des remboursements en Avril 2005.
+  \item \textbf{BILL\_AMT1} : Relevé du montant de la facture en Septembre 2005.
+  \item \textbf{BILL\_AMT2} : Relevé du montant de la facture en Août 2005.
+  \item \textbf{BILL\_AMT3} : Relevé du montant de la facture en Juillet 2005.
+  \item \textbf{BILL\_AMT4} : Relevé du montant de la facture en Juin 2005.
+  \item \textbf{BILL\_AMT5} : Relevé du montant de la facture en Mai 2005.
+  \item \textbf{BILL\_AMT6} : Relevé du montant de la facture en Avril 2005.
+  \item \textbf{PAY\_AMT1} : Montant du paiement précédent en Septembre 2005.
+  \item \textbf{PAY\_AMT2} : Montant du paiement précédent en Août 2005.
+  \item \textbf{PAY\_AMT3} : Montant du paiement précédent en Juillet 2005.
+  \item \textbf{PAY\_AMT4} : Montant du paiement précédent en Juin 2005.
+  \item \textbf{PAY\_AMT5} : Montant du paiement précédent en Mai 2005.
+  \item \textbf{PAY\_AMT6} : Montant du paiement précédent en Avril 2005.
+  \item \textbf{default.payment.next.month} : Défaut de paiement ou non.
+
 \end{itemize}
 
 \paragraph{}
-Afin de rendre l'expérience plus simple, nous allons principalement exploité le jeu de données principal soit \textbf{application\_train} dans lequel nous avons la variable pour la prédiction (\textit{TARGET}) et celle pour le genre du demandeur de crédit (\textit{CODE\_GENDER}).
-
-\paragraph{}
-Dans le détail le jeu de données que nous allons utilisé possède 122 colonnes sur lesquels nous allons pouvoir entraîner nos modèles.
+Nous allons donc exploité toutes ces informations déjà stockées sous forme quantitative. Nous noterons que la variable qui servira pour prédire le défaut de paiement est la suivante : \textit{default.payment.next.month} et celle pour le genre du client est la suivante : \textit{SEX}.
 
 \subsubsection{Algorithmes choisis}
 
 \paragraph{}
-La problématique consiste à prédire la probabilité d'un ou d'une client.e à rembourser un crédit immobilier ou non. Il s'agit donc d'une classification binaire : le résultat sera situé entre 0 et 1 et nous estimerons qu'une probabilité de non remboursement supérieure à 50\% signifie que le client ne pourra pas rembourser.
+La problématique consiste à prédire la probabilité d'un ou d'une client.e à faire défaut de paiement sur ses cartes de crédit ou non. Il s'agit donc d'une classification binaire : le résultat sera situé entre 0 et 1 et nous estimerons qu'une probabilité de défaut supérieure à 50\% signifie que le client fera défaut le mois suivant.
 
 \paragraph{}
 Puisque nous visons l'analyse de modèle en tant que boîte noire, les algorithmes sur lesquels nous allons entraîner les données seront des algorithmes dit complexes.
 
 \paragraph{}
-Voici la liste d'algorithme à tester en recherche aléatoire des hyper-paramètres :
-
-\begin{itemize}
-  \item Forêt aléatoire
-  \item Support Vector Machine
-  \item XGBoost
-\end{itemize}
+Nous testerons l'algorithme de Forêt Aléatoire (ou Random Forest en anglais), pour laquelle nous ferons une recherche des hyper-paramètres en aléatoire afin d'obtenir la meilleure configuration.
 
 \paragraph{}
-Le choix de ces algorithmes vient de leur performance dans le domaine de la classification binaire, ainsi que de leur utilisation par les participants de la compétition sur le site de Kaggle. 
+Le choix de ces algorithmes vient de leur performance dans le domaine de la classification binaire, ainsi que de leur utilisation par les utilisateurs sur le site de Kaggle. 
 
 \subsubsection{Critères de réussite du modèle}
 
@@ -1343,7 +1394,7 @@ En terme naturel, la précision mesure le pourtage de client qui ne pourront ré
 Du point de vue d'une banque la mesure primordiale est celle du rappel, car si le rappel est faible cela signifie qu'un grand nombre de client risque de faire défaut et par conséquent la banque s'endettera également pouvant amener à des conséquences dangereuses.
 
 \paragraph{}
-Pour le client, c'est la précision qui importe. Si la précision est faible alors les clients auront tendance à être considéré comme risqués et donc risque d'avoir des taux plus élevés ou tout simplement un refus de crédit.
+Pour le client, c'est la précision qui importe. Si la précision est faible alors les clients auront tendance à être considéré comme risqués et donc risque d'avoir des taux plus élevés ou tout simplement un refus de crédit dans le futur, mais aussi les banques les identifieront comme profil risqués, ce qui peut pousser à des désavantages commerciaux par exemple.
 
 
 \subsection{Paramètres de l'expérience}
@@ -1360,12 +1411,12 @@ Pour que l'expérience apporte des réponses par rapport aux hypothèses émises
 Dans la définition des morales, nous allons utiliser les termes suivants :
 
 \begin{itemize}
-  \item $M$ : Un modèle prédisant si une personne peut rembouser un prêt immobilier
+  \item $M$ : Un modèle prédisant si une personne fera défaut au non
   \item $S(M)$ : Le Score du Modèle évaluant la performance du modèle
   \item $O_{min}$ : L'Objectif minimun qui permet de considérer un modèle comme viable
   \item $X$ : Les variables qui sont fournies en entrée du modèle
-  \item $P(X)$ : Probabilité de rembourser un crédit
-  \item $P(X | F)$ : Probabilité de rembourser un prêt sachant que la personne demandant est une femme
+  \item $P(X)$ : Probabilité de faire défaut de paiement
+  \item $P(X | F)$ : Probabilité de faire défaut de paiement sachant que la personne demandant est une femme
 \end{itemize}
 
 \paragraph{}
@@ -1373,12 +1424,12 @@ Pour que l'expérience fonctionne convenablement, nous avons besoin de trois gro
 
 \begin{itemize}
   \item \textbf{Alice} : En utilisant les variables $X$, utiliser le modèle $M$ tel que $S(M) >= 0_{min}$.
-  \item \textbf{Bob} :  En utilisant les variables $X$, utiliser le modèle $M$ tel que $P(X|F) = \max(0, P(X|F) - 0,2) \text{ ET } S(M) >= 0_{min}$.
+  \item \textbf{Bob} :  En utilisant les variables $X$, utiliser le modèle $M$ tel que $P(X|F) = \max(1, P(X|F) + 0,2) \text{ ET } S(M) >= 0_{min}$.
   \item \textbf{Charline} : En utilisant les variables $X$ sans l'information du genre et les variables ayant un coefficient de corrélation supérieur à 0,5 avec le genre, utiliser le modèle $M$ tel que $S(M) >= 0_{min}$.
 \end{itemize}
 
 \paragraph{}
-Nous avons donc une morale de contrôle (Alice) qui a pour objectif d'uniquement réussir à compléter le critère de validation (qui est une situation classique pour un projet de Machine Learning). Ensuite, la morale discriminante (Bob), qui réduira de 20\% la probabilité sortante du modèle si la personne en entrée est une femme (si la probabilité est inférieure à 20\% alors $P(X) = 0$). Enfin, la morale égalitaire (Charline) fera comme la morale de contrôle sauf que pour l'entraînement les informations concernant le genre seront rétirées.
+Nous avons donc une morale de contrôle (Alice) qui a pour objectif d'uniquement réussir à compléter le critère de validation (qui est une situation classique pour un projet de Machine Learning). Ensuite, la morale discriminante (Bob), qui augmentera de 20\% la probabilité sortante du modèle si la personne en entrée est une femme (si la probabilité est supérieure à 80\% alors $P(X) = 1$). Enfin, la morale égalitaire (Charline) fera comme la morale de contrôle sauf que pour l'entraînement les informations concernant le genre seront rétirées.
 
 \subsubsection{Protocole}
 
@@ -1386,21 +1437,21 @@ Nous avons donc une morale de contrôle (Alice) qui a pour objectif d'uniquement
 L'expérience utilise les technologies suivantes (nom et version) : Python (3.7.7), Docker (19.03.6) et GitHub. Nous utiliserons Python pour les fonctionnalités suivantes : affichage de graphique (matplotlib version 3.2.1), entraînement des modèles (scikit-learn version 0.22.2), analyse performance et biais (TransparentAI version 0.2.1) et atténuation des biais (aif360 version ). Docker permet d'avoir un environnement scalable et facilement reproductible. Enfin GitHub rend le code totalement disponible en ligne afin de garantir la transparence de l'expérience.
 
 \paragraph{}
-Le processus qui sera mis en place pour l'expérience du mémoire suivra les étapes suivantes : (1) Analyse des données, (2) Préparation et séparation du jeu de données en deux pour l'entraînement et la validation, (3) Entraînement des modèles par validation croisée et test des hyperparamètres aléatoirement pour chaque morale, (4) Contrôle de la performance, (5) Contrôle des biais (6) Explication des modèles et (7) Arbitrage sur les résultats obtenus.
+Le processus qui sera mis en place pour l'expérience du mémoire suivra les étapes suivantes : (1) Analyse des données, (2) Séparation du jeu de données en deux pour l'entraînement et la validation, (3) Entraînement des modèles par validation croisée et test des hyperparamètres aléatoirement pour chaque morale, (4) Contrôle de la performance, (5) Contrôle des biais et (6) Explication des modèles. % et (7) Arbitrage sur les résultats obtenus.
 
 \paragraph{Analyse des données} Nous allons, dans cette partie, faire une analyse sur les données en affichant des graphiques pour les différentes variables pour ensuite savoir comment préparer les données pour les modèles. Pour rappel les algorithmes sélectionnés ne peuvent prendre que des variables dites quantitatives (soit des chiffres).
 
-\paragraph{Préparation et séparation} Basé sur les résultats de l'analyse précédente, nous allons transformer les variables pour qu'elles puissent être digérées par les modèles. Une fois transformées, nous allons les séparer en deux jeux distincts : un d'entraînement (80\% des données) et un de validation (20\% des données).
+\paragraph{Séparation} Nous allons les séparer en deux jeux distincts : un d'entraînement (80\% des données) et un de validation (20\% des données).
 
-\paragraph{Entraînement selon les morales} Pour la morale d'Alice (morale de contrôle) l'entraînement s'effectuera avec toutes les données sorties de la partie précédente en utilisant une recherche d'hyperparamètres aléatoire en validation croisée avec $K=5$\footnote{La validation croisée est une méthode pour que la recherche des hyperparamètres d'un modèle soit plus performante. Par exemple pour $K=5$, nous découpons le jeu d'entraînement en cinq et chaque échantillon servira à entraîner et à valider}. Pour la morale de Bob (morale discriminante), il s'agira du même entraînement, mais avec une brique de sortie retirant 20\% de probabilité pour les femmes. Enfin, pour la morale de Charline (morale égalitaire), avant l'entraînement, nous réaliserons un test de corrélation de Pearson\footnote{Il s'agit d'une mesure de corrélation entre deux varibles quantitatives} et pour les variables ayant un coefficient absolu supérieur à 50\% avec les genre, nous retirerons ces variables pour l'entraînement. Puis nous réalisons un entraînement comme pour Alice. 
+\paragraph{Entraînement selon les morales} Pour la morale d'Alice (morale de contrôle) l'entraînement s'effectuera avec toutes les données sorties de la partie précédente en utilisant une recherche d'hyperparamètres aléatoire en validation croisée avec $K=5$\footnote{La validation croisée est une méthode pour que la recherche des hyperparamètres d'un modèle soit plus performante. Par exemple pour $K=5$, nous découpons le jeu d'entraînement en cinq et chaque échantillon servira à entraîner et à valider}. Pour la morale de Bob (morale discriminante), il s'agira du même entraînement, mais avec une brique de sortie ajoutant 20\% de probabilité pour les femmes. Enfin, pour la morale de Charline (morale égalitaire), avant l'entraînement, nous réaliserons un test de corrélation de Pearson\footnote{Il s'agit d'une mesure de corrélation entre deux varibles quantitatives} et pour les variables ayant un coefficient absolu supérieur à 50\% avec les genre, nous retirerons ces variables pour l'entraînement (si aucune variable n'est corrélé au genre alors nous retirerons que la variable du genre). Puis nous réalisons un entraînement comme avec les mêmes paramètres qu'Alice.
 
 \paragraph{Contrôle de la performance} En utilisant le module de l'évaluation de la classification de l'outil TransparentAI, faire un affichage des performances de la précision, du rappel et du score F1 pour chaque morale. Nous classerons les trois morales par leur performance selon les trois critères.
 
-\paragraph{Contrôle des biais} En exploitant le module d'équité de l'outil TransparentAI, faire un contrôle des biais en utilisant les quatre mesures suivantes : Statistical Parity Difference, Equal Opportunity Difference, Average Odds Difference et Disparate Impact.
+\paragraph{Contrôle des biais} En exploitant le module d'équité de l'outil TransparentAI, faire un contrôle des biais en utilisant les quatre mesures suivantes : Statistical Parity Difference, Equal Opportunity Difference, Average Odds Difference et Disparate Impact (voir section \ref{subsec:mesures_biais}).
 
 \paragraph{Explication des modèles} En utilisant le module d'explicabilité de TransparentAI nous prendrons dix entrées aléatoire d'homme et dix entrées de femmes pour observer comment chacun des modèles se comportent. Puis nous réaliserons une analyse sur 1000 échantillons pour en déduire l'importance des variables par modèle. Ainsi en comparant l'importance entre Alice (morale de contrôle) et les deux autres nous verrons l'impact direct sur le comportement général d'un modèle.
 
-\paragraph{Arbitrage sur les résultats obtenus} A partir des résultats obtenus sur les deux analyses et selon chacune des morales, si des biais sont détectées essayer de les atténuer tout en évitant de perdre en performance en utilisant l'outil d'AIF360. Après cela nous pourrons faire un classement des modèle par leur performance et leur biais concernant le genre.
+% \paragraph{Arbitrage sur les résultats obtenus} A partir des résultats obtenus sur les deux analyses et selon chacune des morales, si des biais sont détectées essayer de les atténuer tout en évitant de perdre en performance en utilisant l'outil d'AIF360. Après cela nous pourrons faire un classement des modèle par leur performance et leur biais concernant le genre.
 
 \subsubsection{Résultats attendus} 
 
@@ -1409,10 +1460,9 @@ En prenant ce protocole pour l'expérience, nous nous attendons à observer les 
 
 \begin{itemize}
   \item L'IA d'Alice (morale de contrôle) devrait être la plus performante et celle de Bob (morale discriminante) la moins performante car Alice ne touche à aucune information en entrée, Charline (morale égalitaire) ne modifie pas le résultat du modèle, mais ne prend pas toutes les informations disponibles et Bob altère les résultats du modèle.
-  \item L'IA de Charline devrait être la moins biaisée et celle de Bob la plus biaisée, puisque Charline ne prend pas en compte les informations pouvant retraçer jusqu'au genre d'un inidividu, alors que Bob lui, altère négativement les résultats des femmes.
+  \item L'IA de Charline devrait être la moins biaisée et celle de Bob la plus biaisée, puisque Charline ne prend pas en compte les informations pouvant retraçer jusqu'au genre d'un individu, alors que Bob lui, altère négativement les résultats des femmes.
   \item Le comportement du modèle de Bob devrait être très altéré par rapport aux deux autres morales sur le plan de l'explication des prédictions pour les dix femmes.
   \item L'importance des variables du modèle de Bob devrait avoir en avoir le genre comme plus important que pour Alice.
-  \item Si des biais sont observés sur l'IA discriminante, l'atténuation des biais aura un impact sur la performance du modèle.
 \end{itemize}
 
 
@@ -1420,15 +1470,279 @@ En prenant ce protocole pour l'expérience, nous nous attendons à observer les 
 \newpage
 \chapter{Expérience}
 
+\paragraph{}
+Ce chapitre présentera le déroulé de l'expérience qui a été introduite dans le chapitre précédent. L'objectif et de présenter l'environnement de travail, puis de suivre le protocole, de comparer les résultats observés avec les résultats attendus et enfin nous pourrons en tirer une conclusion.
+
 \section{Réalisation de l'expérience}
+
+\paragraph{}
+L'expérience est accessible en ligne sur l'adresse suivante : \href{https://github.com/Nathanlauga/experience-memoire}{https://github.com/Nathanlauga/experience-memoire}. La mise en ligne de mes travaux se justifie par ma volonté de transparence des observations et des résultats présentés. Cela garantie la possibilité de reproduire l'expérience à l'identique. 
+
+\subsection{Environnement de travail}
+
+\paragraph{}
+Avant de commencer à coder une seule ligne, il est nécessaire d'installer les différents outils. Comme précisé dans le plan de recherche le jeu de données a été téléchargé depuis le site de Kaggle.
+
+\paragraph{}
+Dans un premier temps, nous devons identifier les librairies Python avec les bonnes versions et les écrire dans un fichier de prérequis, le fichier s'intitule ``\textit{requirements.txt}'', il s'agit d'une norme au sein des développement en Python. 
+
+\paragraph{}
+Nous avons donc les bonnes librairies avec leur bonne version pour garantir la reproductibilité. Avec ces informations nous pouvons créer le ``\textit{Dockerfile}'' qui est le fichier où nous intégrons les installations dans un conteneurs Docker. Voici le code du fichier : 
+
+\begin{lstlisting}[language=bash]
+  FROM python:3.7
+
+  RUN apt-get update 
+  RUN pip install --upgrade pip
+  
+  COPY ./requirements.txt /
+  RUN pip install -r requirements.txt
+  
+  RUN mkdir /nb
+  RUN cd /nb
+  
+  CMD ["jupyter", "notebook", "--port=8888", \ 
+    "--ip=0.0.0.0", "--allow-root", "--notebook-dir=/nb"]
+\end{lstlisting}
+
+\paragraph{}
+Ce code nous permet de lancer un conteneur avec Python en version 3.7, pour ensuite intaller les prérequis et d'automatiquement lancer les notebooks Jupyter qui seront notre espace de travail. Pour clôturer l'installation de l'environnement, nous mettons en place un script qui permet de lancer le conteneur Docker qui lie le répertoire ``nb'' du conteneur avec le dossier courant du projet.
+
+\paragraph{}
+Nous avons donc tous nos prérequis installé, il est temps de passer à la création du notebook de l'expérience et à l'analyse des données.
+
+\subsection{Analyse des données}
+
+\paragraph{}
+Pour réaliser une première analyse du jeu de données, j'ai créé un rapport en exploitant l'outil pandas-profiling (version 2.8.0)\footnote{Cet outil permet, en lui fournissant des données tabulaires en entrée, de générer une page HTML qui offre une analyse complète des données en question.}. Concernant les informations globales du jeu de données, nous pouvons retenir qu'il y a 25 variables dont 22 quantitatives, deux catégoriques et une binaire. Il est également important de noter qu'il n'y a pas de valeur manquante, ni de lignes en doublons, cela nous permettra de ne pas perdre de temps sur la préparation des données. Enfin, il y a 30 000 lignes dans ce jeu de données.
+
+\paragraph{}
+Le plus intéressant dans l'analyse et de regarder dans le détail les variables du genre (\textit{SEX}) et celle du défaut de paiement ou non ()\textit{	default.payment.next.month}). Nous notons qu'il y a une plus grande proportion de femmes par rapport aux hommes : 60,4\% contre 39,6\% et que le défaut de paiement ne représente que 22,1\% contre 77,9\% de paiements valides (voir Figure \ref{fig:sex} et Figure \ref{fig:target}).
+
+\begin{figure}[hbt!]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/SEX.png}
+  \caption{Affichage en barres de la variable \textit{SEX}.}
+  \label{fig:sex}
+\end{figure}
+\begin{figure}[hbt!]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/target.png}
+  \caption{Affichage en barres de la variable \textit{default.payment.next.month}.}
+  \label{fig:target}
+\end{figure}
+
+\paragraph{}
+Pour préparer la morale de Charline (soit la morale égalitaire), nous devons faire un test de corrélation avec les autres variables. Voici les cinq variables les plus liées au genre (les coefficients sont mis en valeur absolu afin de faire abstraction du signe et de se concentrer sur l'importance).
+
+\begin{center}
+  \begin{tabular}{ |l|l| } 
+    \hline
+    Variable & Coefficient de Pearson  \\
+    \hline
+    \hline
+    \textbf{SEX} & 1,000000 \\
+    \textbf{AGE} & 0,090874 \\
+    \textbf{PAY\_2} & 0,070771 \\
+    \textbf{PAY\_3} & 0,066096 \\
+    \textbf{PAY\_4} & 0,060173 \\
+    \hline
+  \end{tabular}
+\end{center}
+
+
+\paragraph{}
+Nous pouvons constater qu'aucune variable si ce n'est elle-même n'est suffisamment corrélé avec le genre, l'âge étant le plus élevé avec seulement 9\%. En conclusion pour la morale de Charline nous ne retirerons que la variable du genre.
+
+\subsection{Entraînement des modèles et mise en place des morales}
+
+\paragraph{}
+Pour entraîner les différents modèles nous devons dans un premier temps définir sur quels hyper-paramètres nous allons jouer afin de trouver les meilleurs. Nous allons faire la recherche aléatoire sur le nombre d'arbres qui seront présent dans la forêt, le nombre de variables maximales par arbre, la profondeur maximale, le nombre minimum d'échantillons par séparation, le nombre minimum d'échantillons par feuille et enfin si nous utilisons la technique du bootstrap\footnote{Il s'agit du fait de pouvoir tirer au hasard un échantillon qui a déjà été tiré au sort dans le passé.} ou non. Nous pouvons donc mettre en place de dictionnaire Python suivant :
+
+\begin{lstlisting}[language=python]
+  random_grid_rf = { 
+    'n_estimators': [500, 600, 700, 800, 900, 1000],
+    'max_features': ['auto', 'sqrt'],
+    'max_depth': [None, 10, 25, 40, 50, 60],
+    'min_samples_split': [2, 5, 8],
+    'min_samples_leaf': [1, 2, 4],
+    'bootstrap': [True, False]
+}
+\end{lstlisting}
+
+\paragraph{}
+La recherche des meilleurs hyper-paramètres se fait sur 50 itérations avec une validation croisée (avec $K=5$) ce qui nous fait un total de 250 entraînements. La score a optimiser est le score F1, comme défini dans le protocole. 
+
+\paragraph{}
+Après la recherche, nous obtenons les paramètres suivants : 
+
+\begin{lstlisting}[language=python]
+  {
+    'bootstrap': True,
+    'max_depth': 50,
+    'max_features': 'sqrt',
+    'min_samples_leaf': 2,
+    'min_samples_split': 5,
+    'n_estimators': 900,
+  }
+\end{lstlisting}
+
+\paragraph{}
+Nous avons donc une forêt aléatoire de 900 arbres avec une profondeur maximale de 50. Grâce à cela nous avons déjà le premier modèle qui celui de la morale d'Alice. Pour obtenir la morale de Bob, nous devons mettre une fonction post prédiction : nous utilisons la probabilité prédite par le modèle de la morale d'Alice, si l'individu est une femme alors nous ajoutons 20\% à la probabilité (sans dépasser 100\%). Enfin pour la morale de Charline, nous récupérons les mêmes paramètres et nous entraînons le modèle en retirant la variable du genre.
+
+\subsection{Contrôle de la performance selon les morales}
+
+\paragraph{}
+A partir des modèles entraînés, nous pouvons récupérer les probabilités pour chaque morale et grâce à l'outil de TransparentAI, d'automatiquement calculer les mesures de perfomance choisies, soit le score F1, la précision et le rappel :
+
+
+\begin{lstlisting}[language=python]
+metrics = ['f1','precision','recall']
+
+def compute_metrics(predictions):
+    classification.compute_metrics(y_test, 
+                                   predictions, 
+                                   metrics)
+
+perf_morale_a_rf = compute_metrics(y_pred_morale_a)
+perf_morale_b_rf = compute_metrics(y_pred_morale_b)
+perf_morale_c_rf = compute_metrics(y_pred_morale_c)
+\end{lstlisting}
+
+\paragraph{}
+Grâce au code ci-dessus, nous obtenons le tableau de comparaison suivant : 
+
+\begin{center}
+  \begin{tabular}{ |r|c|c|c| } 
+    \hline
+     Morale & Score F1 & Précision & Rappel  \\
+    \hline
+    \hline
+    \textbf{Morale Alice} & 0,464478 & 0,651099 & 0,361005 \\
+    \textbf{Morale Bob} & 0,504587 & 0,557604 & 0,460777 \\
+    \textbf{Morale Charline} & 0,467545 & 0,650815 & 0,364813 \\
+    \hline
+  \end{tabular}
+\end{center}
+
+\paragraph{}
+Nous observons que concernant le score F1 la meilleure intelligence artificielle est celle de Bob, puis Charline et enfin celle d'Alice. Pour la précision, c'est Alice et Charline qui sont supérieures à Bob, mais sur le rappel Bob a l'ascendant sur ces dernières.
+
+\paragraph{}
+Sur le point de vue de la performance, le choix porterait sur le modèle de Bob, puisqu'il est plus performant, son défaut vient sur la précision, mais 55\% reste abordable car cela signifie que seulement 45\% des clients considérés avec un défaut de paiements potentiel auraient en réalité pu payer leurs dettes. 
+
+\subsection{Contrôle des biais selon les morales}
+
+\paragraph{}
+Dans cette partie, nous utilisons le sous module \textit{transparentai.fairness} de l'outil TransparentAI. Ce sous module nous permet de calculer automatiquement les quatre mesures de biais qui nous intéresse. Voici le code nous permettant de l'obtenir :
+
+\begin{lstlisting}[language=python]
+privileged_group = {'SEX': ['Male']}
+
+def compute_bias(predictions):
+    return fairness.model_bias(y, 
+                               y_pred_a, 
+                               df, 
+                               privileged_group, 
+                               pos_label=0)['SEX'] 
+
+bias_a = compute_bias(y_pred_a)
+bias_b = compute_bias(y_pred_b)
+bias_c = compute_bias(y_pred_c)
+\end{lstlisting}
+  
+\paragraph{}
+Il faut préciser que la fonction \textit{fairness.model\_bias} a pour paramètre le terme de \textit{pos\_label} qui sert à spécifier quel résultat du modèle peut être considéré comme un résultat avantageux, ici c'est le fait de ne pas être détecté comme potentiellement risqué. Grâce à cela voici les résultats obtenus :
+
+\begin{center}
+  \begin{tabularx}{13cm}{ |l|X|X|X|X| } 
+    \hline 
+     Morale & Statistical Parity Difference & Disparate Impact & Equal Opportunity Difference & Average Odds Difference \\
+    \hline
+    \hline
+    \textbf{Morale Alice} & 0,009644 & 1,010255 & -0,000120 & 0,003792 \\
+    \textbf{Morale Bob} & -0,052856 & 0,943797 & -0,005207 & -0,139464\\
+    \textbf{Morale Charline} & 0,009799 & 1,010432 & -0,000004 & 0,003734 \\
+    \hline
+  \end{tabularx}
+\end{center}
+
+\paragraph{}
+Pour rappel, concernant les mesures de \textit{Statistical Parity Difference}, \textit{Equal Opportunity Difference} et \textit{Average Odds Difference}, aucun biais signifie un score de 0. Pour la mesure de \textit{Disparate Impact} l'objectif est de 1.
+
+\paragraph{}
+Nous pouvons constater que le modèle le moins biaisé est celui de Charline qui possède le meilleur score sur chaque mesure. De plus, la morale d'Alice n'est pas loin derrière : nous pouvons considéré que ces deux morales ne sont pas du tout biaisées. Par contre pour Bob, une mesure demande à réfléchir : l'\textit{Average Odds Difference}.
+
+\paragraph{}
+En effet, pour cette mesure, nous pouvons conclure que pour un homme, le modèle de Bob prédit correctement un client 13,95\% plus souvent que pour une femme. Cette mesure de biais, bien qu'intéressant reste assez faible : il est donc possible qu'un arbitrage décide d'ignorer cette mesure puisque la performance du modèle est très intéressante. 
+
+\subsection{Explicabilité}
+
+\paragraph{}
+Pour finir cette expérience, nous allons essayer de voir comment se comporte les modèle en général. Plus particulièrement nous regarderons les modèles d'Alice et de Bob pour comparer l'influence des variables surtout sur l'attribut du genre. 
+
+\paragraph{}
+Nous utiliserons le sous module suivant \textit{transparentai.models.explainers} de TransparentAI qui nous permettra d'expliquer les modèles globalement et localement. Ci-dessous l'influence des variables fournies par l'outil. La Figure \ref{fig:global_morale_a} nous montre l'influence globale pour le modèle d'Alice et la Figure \ref{fig:global_morale_b} pour Bob. 
+
+\begin{figure}[hbt!]
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/global_explain_morale_a.png}
+  \caption{Importance des variables pour la morale d'Alice.}
+  \label{fig:global_morale_b}
+\end{figure}
+\begin{figure}[hbt!]
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/global_explain_morale_b.png}
+  \caption{Importance des variables pour la morale de Bob.}
+  \label{fig:global_morale_a}
+\end{figure}
+
+\paragraph{}
+Nous pouvons constater que la différence fondamentale vient de la variable la plus importante. En effet avec le modèle de Bob l'attribut du genre domine largement alors que pour Alice le genre ne fait même pas parti des variables les plus influentes.
+
+\paragraph{}
+Si nous regardons dans le détail une prédiction spécifique pour une homme et une prédiction pour une femme, afin de mieux voir les différences voici ce que nous pouvons observer dans l'expérience. Pour ce même homme nous voyons que la morale de Bob ajoute une influence très importante pour le genre (ici environ -19\%) contre une influence presque égale à 0 pour Alice. 
+
+\paragraph{}
+Ensuite, nous prenons au hasard dix hommes et dix femmes et pour afficher l'influence du genre pour voir si l'influence est belle et bien proche de -20\% pour les hommes. La Figure \ref{fig:comparaison_morale} nous montre deux lignes séparées pour la morale d'Alice et celle de Bob avec une différenciation entre les dix hommes et les dix femmes.
+
+\begin{figure}[hbt!]
+  \centering
+  \includegraphics[width=\textwidth]{images/comparaison_local_influence.png}
+  \caption{Comparaison entre les morales d'Alice et de Bob sur dix hommes et dix femmes.}
+  \label{fig:comparaison_morale}
+\end{figure}
 
 \section{Résultats obtenus}
 
+\paragraph{}
+Nous allons dans cette section comparer les résultats obtenus avec ce que nous attendions lors de la définition de l'expérience. L'analyse portera sur trois points : la performance, les biais et l'explicabilité.
+
+\paragraph{Performance} Nous nous attendions au résultat suivant : L'IA de contrôle d'Alice devait être la plus performante suivi de Bob et enfin de Charline, or, c'est basé sur les critères du score F1, de la précision et du rappel nous observons que c'est Bob (morale discriminante) qui est le plus performant (sauf sur la précision). Concernant les deux autres modèles, nous pouvons estimer qu'ils sont à égalité. Nous avons donc un modèle qui a été altété consciemment pour impacter négativement les femmes, mais qui plus performant donc par conséquent plus attractif d'un point de vue métier. Cette observation rajoute encore plus d'importance à la nécessité de détecter les biais.
+
+\paragraph{Biais} En toute logique nous devions observer un biais faible voire inexistant pour le modèle de Charline et à contrario un biais plus ou moins important pour Bob. Dans les faits, c'est bien le cas pour Charline et il en va de même pour Alice. Concernant Bob, nous observons bien des mesures biais plus éloignées par rapport à l'objectif équitable, mais les scores restent faibles et il serait même acceptable pour un chef de projet de considérer que le biais (étant présent sur une mesure sur quatre) puisse être ignoré au vu de la performance du modèle.
+
+\paragraph{Explicabilité} Dans cette dernière étape, les attentes se jouaient surtout entre Alice et Bob qui possédent la variable du genre, en comparant leur influence des variables globale, nous sommes forcés de constater qu'en effet la morale de Bob accorde bien plus d'importance au genre dans la prise de décision que pour Alice (1ère pour Bob contre 22ème pour Alice). Puis concernant les autres variables, l'ordre d'importance n'évolue pas. L'observation qui est très importante est celle concernant l'influence des variables localement, en effet pour dix hommes et dix femmes tirés au hasard, pour chaque homme avec le modèle de Bob nous observions une influence d'environ -20\% dans la probabilité ; cela correspond exactement à ce que nous avions défini pour rendre le modèle discriminant, même si la règle était inversée (si c'est une femme alors nous rajoutons 20\%).
+
 \section{Conclusion de l'expérience}
 
-\paragraph{Limites} 
-- reste déclaratif rien n'est imposé
-- possible d'identifier les biais, de les atténuer ou pas
+\paragraph{}
+Pour conclure l'expérience, il est nécessaire de rappeler le contexte de l'expérience : il s'agit d'un modèle peu complexe avec une faible quantité de variables en entrée, ce qui n'est pas représentatif des modèles dans le monde réel. 
+
+\paragraph{}
+Concernant les trois morales définies, nous avons pu observer dans ce cas précis qu'entre les algorithmes de contrôle et égalitaire, il n'y avait pas de grande différence : cela s'explique avec le fait que la cible du défaut de paiement ou non n'est pas très corrélé avec cette variable. 
+
+\paragraph{}
+Dans ce contexte, selon les incentives qui sont utilisés, le modèle à choisir diffère. Si nous nous basons sur la performance (qui est le critère le plus important pour une décision métier) c'est la morale discriminante qui l'emporte, si nous analysons les biais, selon les décideurs sur un projet il est également possible de choisir la morale discriminante. Il faut attendre le critère de l'explicabilité, pour être certain de rejeter le modèle, pour lequel nous identifions bien le biais présent pour favoriser les hommes par rapport aux femmes.
+
+\paragraph{}
+Ce que nous tirons de cette expérience positivement, c'est que dans un premier temps l'outil est simple d'utilisation pour un développeur d'IA (maîtrisant Python). Ensuite, l'outil a identifié le biais et à même quantifié : 20\% en moins pour les hommes correspondant à notre définition de la morale discriminante.
+
+\paragraph{}
+Cette expérience possède également des limites : comme précisé au-dessus, ces données et cette problématique n'est pas représentative, par exemple, nous n'avons pas pu voir le cas où un développement d'un algorithme visant uniquement la performance sans vouloir discrimer un groupe social était en réalité biaisé (l'équivalent de la morale de contrôle ici). De plus, sans sensibilisation autour des enjeux de l'éthique un modèle est très souvent validé uniquement sur le critère de la performance, même s'il est complètement opaque. Enfin, nous pouvons imaginer qu'un développeur malvaillant puisse ruser en exploitant une combinaison de différents modèles en analysant leur explicabilité. Par exemple, ici il aurait pu choisir d'utiliser le modèle de contrôle si l'entrée était un homme et le modèle discriminant pour une femme, car l'explicabilité était constaté uniquement si l'individu en entrée était un homme. 
+
+\paragraph{}
+Bien que nous pouvons voir des limites, si une équipe en charge de construire un algorithme intelligent est sensible au sujet de l'éthique, nous pouvons affirmer que TransparentAI permet de fournir une facilité à l'accès aux réponses sur certains aspects plus qu'importants pour pouvoir assurer la transparence d'un modèle et par conséquent de tendre vers une intelligence artificielle de confiance.
 
 % ====== CONCLUSION ====== %
 
@@ -1436,140 +1750,42 @@ En prenant ce protocole pour l'expérience, nous nous attendons à observer les 
 \chapter*{Conclusion}
 \addcontentsline{toc}{chapter}{\protect\numberline{}Conclusion}
 
+\paragraph{}
+Tout au long ce mémoire, la problématique alliant les deux notions d’intelligence artificielle et d’éthique a été présentée et détaillée. Le contraste sur leur communion peut être à la fois évident avec les films de science-fiction souvent à l’effigie d’une machine dominant l’humanité et à la fois peu comprise dû à la méconnaissance des algorithmes intelligents existants sur Terre.
+
+\paragraph{}
+Pour rappel, la catégorie d’IA dominant largement le domaine est celui du `` Machine Learning'', soit l’apprentissage de la machine (voir section \ref{sec:ia}). Au travers de ce regroupement d’algorithme, lorsque le regard se porte sur l’existant, il est remarquable de voir les réalisations, e.g. une voiture autonome.
+
+\paragraph{}
+La pluie d’intelligences artificielles s’abattant sur les diverses sociétés refait surgir un engouement général pour ce domaine, mais à l’aube du XXIe siècle la singularité a peu de chance d’être atteinte (voir section \ref{sec:ia}). La crainte de passer cette dernière sans avoir conscience de la morale des machines est pourtant bien fondée.
+
+\paragraph{}
+Bien qu’il n’existe pas de morale universelle, la diversité de codes éthiques régissant les mœurs montre bien la difficulté de constituer une forme acceptable de tous sur le plan moral (voir section \ref{sec:ethique}). Aujourd’hui la morale de la machine, si elle n’est pas explicitée, risque d’être une complète inconnue pour tous.
+
+\paragraph{}
+L’un des problèmes bloquant une première étape clé concernant l’éthique de l’IA est la question de la transparence des modèles, que cela soit du code réservé à l’entreprise ou même pire que les concepteurs des algorithmes ne possèdent aucun indice sur la cause d’une simple prédiction ou décision de leur IA.
+
+\paragraph{}
+Dès lors que des groupes sociaux sont concernés par ces nouvelles technologies, il est alors primordial d’éduquer sur la question d’expliquer les prédictions d’un modèle. En suivant cette logique, la problématique se découpe alors en trois parties : la moralisation des IA, la transparence et les impacts sociaux que peuvent engendrer les algorithmes intelligents.
+
+\paragraph{}
+Afin de répondre efficacement à ces questions, ce mémoire a introduit une solution (voir section \ref{sec:transparentai}). Les méthodes qui ont été utilisées ont deux axes, celui de la création et de la définition de l'outil Transparentai. Le second sera axé sur une expérience qui exploitera l'outil en tant que tel pour observer la détecter d'une intelligence artificielle discriminante.
+
+\paragraph{}
+La nécessité d’une prise de conscience sur les questions éthiques pour les IA est fondamentale, puisque l’objectif souvent premier lors de la création d’un algorithme est la performance garantissant alors pourquoi pas un retour sur investissement. La lutte entre rentabilité et équité passe bel et bien par le domaine de l’intelligence artificielle.
+
+\paragraph{}
+Suite à la création de l'outil et à la réalisation de l'expérience, nous avons observé qu'en effet l'outil offre une facilité à l'accès pour réaliser une IA éthique et par ce biais, TransparentAI permet de rapprocher la théorie à la pratique. L'expérience a également identifié des limites, mais en bref, si l'équipe d'un projet est consciente des enjeux de l'éthique, alors l'outil répond à un besoin plus qu'indiscutable.
+
+\paragraph{}
+L’objectif de ce mémoire s’axe sur un point fondamental : offrir à toute personne souhaitant développer une IA de nos jours, un moyen théorique de pallier aux problématiques d’ordre moral. TransparentAI répond à ce besoin moderne et bien qu'il ne soit, aujourd'hui (Juillet 2020) qu'uniquement disponible dans sa version pour des utilisateurs technique, la version graphique pour une utilisation universelle est prévue dans l'année. De plus, grâce à la philosophie de TransparentAI, si l'outil gagne en utilisateur, alors il deviendra naturellement très fonctionnel et mon espoir porte vers une utilisation quotidienne dans les entreprises du monde entier pour garantir une intelligence artificielle de confiance.
+
+\paragraph{}
+Pour conclure, bien que les travaux réalisés avec ce mémoire sont dans une logique de transparence et de réduction d’impact social, la personne ayant le dernier mot est l’être humain responsable de l’intelligence artificielle : l'humain contrôle la machine.
+
 \newpage
 % \bibliographystyle{alpha}
 \bibliographystyle{plainnat}
 \bibliography{bibliography}
-
-
-\paragraph{1. Action humaine et contrôle humain}
-
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    Droits fondamentaux & Est-ce que l'utilisation de l'IA respecte les droits fondamentaux ? & Non \\
-    \hline
-    Action humaine & & Non \\
-    \hline
-    Contrôle humain & & Non \\ 
-    \hline
-    
-  \end{tabular}
-\end{center}
-
-\paragraph{2. Robustesse technique et sécurité}
-
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    Résilience aux attaques et sécurité &  & Non \\
-    \hline
-    Solutions de secours et sécurité générale &  & Non \\
-    \hline
-    Précision &  & Non \\
-    \hline
-    Fiabilité et reproductibilité &  & Non \\
-    \hline
-    
-  \end{tabular}
-\end{center}
-
-\paragraph{3. Respect de la vie privée et gouvernance des données}
-
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    Respect de la vie privée et protection des données &  & Non \\
-    \hline
-    Qualité et intégrité des données &  & Non \\
-    \hline
-    Accès aux données &  & Non \\
-    \hline
-    
-  \end{tabular}
-\end{center}
-
-\paragraph{4. Transparence}
-
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    Traçabilité &  & Non \\
-    \hline
-    Explicabilité &  & Non \\
-    \hline
-    Communication &  & Non \\
-    \hline
-    
-  \end{tabular}
-\end{center}
-
-\paragraph{5. Diversité, non-discrimination et équité}
-
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    Éviter les biais injustes &  & Non \\
-    \hline
-    Accessibilité et conception universelle &  & Non \\
-    \hline
-    Participation des parties prenantes & Est-ce qu'à minima, un.e des commanditaire, un.e développeur.se et un.e utilisateur.rice final.e ont pu participer au cadrage et à la validation du modèle ? & Non \\
-    \hline
-    
-  \end{tabular}
-\end{center}
-
-\paragraph{6. Bien-être sociétal et environnemental}
-
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    IA durable et respectueuse de l’environnement &  & Non \\
-    \hline
-    Incidence sociale & Est-ce que le modèle peut avoir une incidence sociale sur un.e utilisateur.rice ? Par exemple, un risque de perte d'emploi ou un refus de crédit. & Non \\
-    \hline
-    Société et démocratie &  & Non \\
-    \hline
-    
-  \end{tabular}
-\end{center}
-
-\paragraph{7. Responsabilité}
-
-\begin{center}
-  \begin{tabular}{ |p{4cm}|p{6cm}|p{2cm}| } 
-    \hline
-    Aspect & Question & Tech ? \\
-    \hline
-    \hline
-    Auditabilité &  & Non \\
-    \hline
-    Minimisation et documentation des incidences négatives &  & Non \\
-    \hline
-    Documentation des arbitrages &  & Non \\
-    \hline
-    Voies de recours &  & Non \\
-    \hline
-    
-  \end{tabular}
-\end{center}
 
 \end{document}
