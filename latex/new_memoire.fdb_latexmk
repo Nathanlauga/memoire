@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex new_memoire"] 1594027255 "new_memoire.aux" "new_memoire.bbl" "new_memoire" 1594027478
+["bibtex new_memoire"] 1594310095 "new_memoire.aux" "new_memoire.bbl" "new_memoire" 1594310169
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
   "bibliography.bib" 1592500529 116734 7b77cf41ef6aa2b8fea1681dcddfaadb ""
-  "new_memoire.aux" 1594027478 62290 596031998dc754d3f70366081a70b782 "pdflatex"
+  "new_memoire.aux" 1594310169 64354 6bec88f06a2ea4f993bc4f92deefb279 "pdflatex"
   (generated)
   "new_memoire.blg"
   "new_memoire.bbl"
-["pdflatex"] 1594027476 "/home/lauga/Documents/memoire/latex/new_memoire.tex" "/home/lauga/Documents/memoire/latex/new_memoire.pdf" "new_memoire" 1594027478
+["pdflatex"] 1594310167 "/home/lauga/Documents/memoire/latex/new_memoire.tex" "/home/lauga/Documents/memoire/latex/new_memoire.pdf" "new_memoire" 1594310169
   "/etc/texmf/web2c/texmf.cnf" 1575282579 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lauga/Documents/memoire/latex/new_memoire.aux" 1594027478 62290 596031998dc754d3f70366081a70b782 ""
-  "/home/lauga/Documents/memoire/latex/new_memoire.tex" 1594027475 174365 50eba3ec9d65610972ebd9dfc49862fd ""
+  "/home/lauga/Documents/memoire/latex/new_memoire.aux" 1594310169 64354 6bec88f06a2ea4f993bc4f92deefb279 ""
+  "/home/lauga/Documents/memoire/latex/new_memoire.tex" 1594310166 185318 f282b5ccfe9810ce5ae8c429ce4a031d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -63,6 +63,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/base/report.cls" 1544567569 22992 ac205d2578ad3f18cf73b50579632d1c ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1544567569 8294 6d6e23d5169c0d89d173f6c7e08a005a ""
   "/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
+  "/usr/share/texlive/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty" 1525727744 41645 0653033a985e06c69a2a9cea9a95e31a ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -117,16 +118,16 @@
   "images/target.png" 1593939490 82610 219a9fd1494e6bad343bc612c1e7e462 ""
   "images/the_economist_200091219.png" 1591603962 660453 19d82fb02fed8409335e92a979913234 ""
   "images/ynov_informatique_logo.png" 1586876591 5948 ad88fd6a61569f15a888624bf3bddb29 ""
-  "new_memoire.aux" 1594027478 62290 596031998dc754d3f70366081a70b782 "pdflatex"
-  "new_memoire.bbl" 1594027255 29520 de08a8e5230c4618e5ebc2bc546dfe5e "bibtex new_memoire"
-  "new_memoire.out" 1594027478 6676 c965dbf584a08bce0a64ba7337bdfab9 "pdflatex"
-  "new_memoire.tex" 1594027475 174365 50eba3ec9d65610972ebd9dfc49862fd ""
-  "new_memoire.toc" 1594027478 25930 bbd2214edbd670f954e7a864a73098be "pdflatex"
+  "new_memoire.aux" 1594310169 64354 6bec88f06a2ea4f993bc4f92deefb279 "pdflatex"
+  "new_memoire.bbl" 1594310095 29520 de08a8e5230c4618e5ebc2bc546dfe5e "bibtex new_memoire"
+  "new_memoire.out" 1594310169 3727 c427183f283e7bc9b37440a198243b72 "pdflatex"
+  "new_memoire.tex" 1594310166 185318 f282b5ccfe9810ce5ae8c429ce4a031d ""
+  "new_memoire.toc" 1594310169 27152 43e95b15afa26e3064557afba2600074 "pdflatex"
   (generated)
   "new_memoire.aux"
+  "new_memoire.toc"
   "/home/lauga/Documents/memoire/latex/new_memoire.log"
-  "new_memoire.pdf"
   "/home/lauga/Documents/memoire/latex/new_memoire.pdf"
   "new_memoire.out"
+  "new_memoire.pdf"
   "new_memoire.log"
-  "new_memoire.toc"

@@ -11,13 +11,24 @@
 \usepackage{tabularx}
 \usepackage{listings}
 \usepackage{amsmath}
+\usepackage{float} % here for H placement parameter
 
+\newcolumntype{b}{X}
+\newcolumntype{s}{>{\hsize=.5\hsize}X}
+\newcolumntype{L}{>{\raggedright}s}
 
 \renewcommand{\thechapter}{\Roman{chapter}}
 \renewcommand{\contentsname}{Table des Matières}
 \makeatletter
+\renewcommand{\abstractname}{Avant-propos}
+\makeatletter
 \renewcommand{\@chapapp}{Chapitre}
 \makeatother
+
+\newenvironment*{remerciements}{%
+\renewcommand*{\abstractname}{Remerciements}
+\begin{abstract}
+}{\end{abstract}}
 
 \setcounter{secnumdepth}{3}
 
@@ -73,16 +84,50 @@
   \end{center}
 \end{titlepage}
 
+\begin{abstract}
+\addcontentsline{toc}{chapter}{\bf Avant-propos}  
+\paragraph{}
+En préalable, je tiens à préciser que ce mémoire ayant pour but d’être lisible (au moins l'\uppercase{é}tat de l'Art) par tous, aucune maîtrise dans le domaine de l’intelligence artificielle ou de la morale ne sont requis pour le lire, bien que cela puisse aider pour certains passages. Le domaine de recherche alliant intelligence artificielle et éthique (morale) étant récent, il est possible que des recherches présentées dans ce document soient incomplètes voire obsolètes dans un futur plus ou moins proche.
+
+\paragraph{}
+Ce mémoire s’inscrit dans le cadre de ma scolarité au sein de l’école Ingésup Bordeaux du campus Ynov ainsi que dans le cadre de mon alternance dans l’entreprise Caisse d’épargne Aquitaine Poitou Charentes, où je travaille en tant que Data Scientist dans un service d’informatique décisionnelle. L’objectif de ce document est d’introduire les concepts sous-jacents de la problématique soulevés par ce mémoire. De plus, ce mémoire sera soutenu en septembre 2020.
+
+\paragraph{}
+Le lecteur, non familier de la littérature scientifique et de sciences humaines, pourrait être surpris par certaines dates de référence pouvant être trop récentes pour certains auteurs. En effet, les dates citées correspondent à celle de l’édition, e.g. (Kant, 2006) ne signifie pas que Kant a publié un livre en 2006, mais que l’ouvrage qui est référencé est une édition de 2006.
+
+\paragraph{}
+Les propos discutés ici pouvant traiter de questions sociales ou encore morales, il est important de préciser que j’ai cherché à les détailler de manière objective, mais étant moi-même soumis à ma vision idéologique du monde, je ne peux garantir une parfaite impartialité sur le fond des écrits (e.g. la moralisation d’algorithme est essentielle à mes yeux).
+
+\end{abstract}
+
 \newpage
-\setcounter{tocdepth}{3}
+\setcounter{tocdepth}{2}
 \tableofcontents
 
 \newpage
-\begin{abstract}
+\begin{remerciements}
+\addcontentsline{toc}{chapter}{\bf Remerciements}  
 
-    Ceci est l'avant-propos.
+\paragraph{}
+Ce mémoire provient d'environ d'un an et demi de travail et pour cela, je souhaite dans un premier temps remercier toutes les personnes avec lesquelles j'ai pu échanger et qui ont pu m'apporter une aide directe ou indirecte.
 
-\end{abstract}
+\paragraph{}
+Je tiens tout d'abord à remercier mon tuteur, Pascal FOURNIER, responsable du département de développement et décisionnel au sein de la Caisse Aquitaine Poitou-Charentes, qui m'a accompagné et permis de poser la question de l'éthique au sein d'une banque en pouvant construire mon outil en le laissant ``Open-Source''. 
+
+\paragraph{}
+Merci à Nicolas TARBES, Philippe DEROUETTE, Delphine GLOUX et Lucie CASSISA, collaborateurs d'IT-CE, m'ayant challengé sur la conception de l'outil TransparentAI tout en apportant des solutions très pertinentes. 
+
+\paragraph{}
+Merci à Clément ROMAC et Pierre LEROY qui m’ont permis de découvrir le domaine de recherche de l’intelligence artificielle et de l’éthique.
+
+\paragraph{}
+Merci à Loïc BRIENT, Rob HARRELL et Luke MERRICK pour leurs réponses lors d'un entretien m'apportant des briques supplémentaires pour enrichir le mémoire.
+
+\paragraph{}
+Enfin, j'adresse mes plus sincères remerciements à mes parents, mes proches et amis, qui m'ont suivi, accompagné, soutenu, aidé et encouragé tout le long de la construction et réalisation de ce mémoire.
+
+\end{remerciements}
+
 
 % ====== INTRODUCTION ====== %
 
@@ -117,18 +162,16 @@ Autrement dit, Dans un contexte où les intelligences artificielles sont omnipr�
 \section*{Plan} 
 
 \paragraph{}
-Ce document est organisé en deux chapitres, de plus, il s’agit là d’un pré-mémoire, sa construction suit donc la logique d’apporter les informations pertinentes pour la suite du mémoire qui sera réalisée pour l’année scolaire 2019-2020 et soutenu en septembre 2020.
+Ce document est organisé en quatre chapitres, le premier chapitre a été initialement rédigé pour le pré-mémoire réalisé en 2019, mais puisque le domaine de l'intelligence artificielle et de l'éthique ne cesse de progresser et faire parler, il a été mis à jours.
 
 \paragraph{}
-Le premier chapitre constitue un état de l’art sur les concepts d’intelligence artificielle et d’éthique. Tout d’abord, la notion d’IA est détaillée au travers de son histoire mouvementée et le fonctionnement actuel des algorithmes. La suite s’attache à rentrer dans les réflexions ``futuristes'' avec l’idée d’une super-intelligence.
+Le premier chapitre constitue un état de l’art sur les concepts d’intelligence artificielle et d’éthique. Tout d’abord, la notion d’IA est détaillée au travers de son histoire mouvementée et le fonctionnement actuel des algorithmes. La suite s’attache à rentrer dans les réflexions ``futuristes'' avec l’idée d’une super-intelligence. Ensuite, c’est le concept d’éthique qui est expliqué principalement sur le plan philosophique et scientifique. D’abord l’origine, puis les différents courants existants à l’heure actuelle et enfin les visions de la Morale en Science. La fin du chapitre se concentre sur la cohabitation de l'intelligence artificielle et de l'éthique.
 
 \paragraph{}
-Ensuite, c’est le concept d’éthique qui est expliqué principalement sur le plan philosophique et scientifique. D’abord l’origine, puis les différents courants existants à l’heure actuelle et enfin les visions de la Morale en Science. La fin du chapitre se concentre sur la cohabitation de l'intelligence artificielle et de l'éthique.
+Le chapitre numéro deux commence à rentrer dans une vision plus techniques : tout d'abord nous avons des solutions déjà existantes et leur fonctionnement qui sont décrites pour ensuite découvrir la pièce maîtresse du mémoire : TransparentAI, une boîte à outils transparente, nous y verrons comment s'assurer qu'une IA est éthique avec des questions qui permettent de passer de la théorie vers la pratique puis comment utiliser techniquement cet outil.
 
 \paragraph{}
-% SOlution
-
-% Experience
+Pour finir le mémoire, les deux derniers chapitres s'orientent sur une expérience qui exploitera TransparentAI pour analyser différents types d'intelligences artificielles comme par exemple une qui discrimine les femmes par rapport aux hommes (une IA sexiste). 
 
 % ======= ETAT DE L'ART ====== %
 \chapter{\uppercase{é}tat de l'art}
@@ -1136,9 +1179,125 @@ L'un des défauts des exigences est la façon dont elles sont organisées, cela 
 \paragraph{Suivi et maintenance :} (a) Traçabilité, (b) Contrôle humain et (c) Arbitrage et recours en cas d'impact négatif.
 
 \paragraph{}
-Parant de cette classification des aspects, nous avons toutes les exigences de la Commission Européenne couvertes et structurées afin qu'elles soient déroulées le long d'un projet. Ensuite, nous pouvons, pour chaque aspect listé précédemment, dresser les questions pouvant s'assurer de la confiance d'une IA. De plus, nous pouvons également ajouter si une implémentation technique est possible pour chaque aspect. 
+Parant de cette classification des aspects, nous avons toutes les exigences de la Commission Européenne couvertes et structurées afin qu'elles soient déroulées le long d'un projet. Ensuite, nous pouvons, pour chaque aspect listé précédemment, dresser les questions pouvant s'assurer de la confiance d'une IA. De plus, nous pouvons également ajouter si une implémentation technique est possible pour chaque aspect. Voici les différentes questions et spécificité par catégorie.
 
-% ajout questions et implémentation technique
+\subsubsection{Cadrage}
+
+\begin{table}[H]
+  \centering
+  % \begin{tabularx}{\textwidth}{ |X|X|l| } 
+    \begin{tabularx}{\textwidth}{Lbl} 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Preuve de cadrage & Avez-vous gardé un écrit cadrant le projet de l'IA, ayant comme information à minima, qui, quoi, pourquoi, comment et quand ? & Oui \\
+    \hline
+    Participation des parties prenantes & Est-ce qu'au moins, un.e commanditaire, un.e développeur.se et un.e utilisateur.rice final.e ont pu participer au cadrage et à la validation du modèle ? & Non \\
+    \hline
+    Incidence sociale & Est-ce que le modèle peut avoir une incidence sociale sur un utilisateur ? & Non \\
+    \hline
+    Vie privée et protections des données & Avez-vous réfléchi à des manières de mettre au point le système d'IA ou d'entraîner le modèle sans utiliser (ou en utilisant de manière limitée) des données potentiellement sensibles ou à caractère personnel ? & Non \\
+    \hline
+    Vie privée et protections des données & Lorsqu'il existe un responsable de la protection des données, avez-vous mobilisé cette personne à un stade précoce dans le processus ? & Non \\
+    \hline
+    Justification & Est-ce que la justification de l'IA a été validé par un acteur tiers ayant une autorité sur la protection des données (DPO en Union Européenne) ? S'il n'y a pas d'équivalent, est-ce que l'IA est bénéfique pour l'utilisateur final ? & Non \\
+    \hline
+  \end{tabularx}
+\end{table}
+
+\paragraph{}
+Concernant cette catégorie de question, il n'y a que pour la Preuve de cadrage pour laquelle nous pouvons utiliser le Machine Learning Canvas afin de vérifier si le cadrage a bien été effectué.
+
+\subsubsection{Validation}
+
+\begin{table}[H]
+  \centering
+  % \begin{tabularx}{\textwidth}{ |X|X|l| } 
+    \begin{tabularx}{\textwidth}{Lbl} 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Durable, respect de l'environnement & En utilisant le temps d'entraînement, la localisation du serveur et la machine : quelle est la quantité de CO2 émise (en kg) ? (Possibilité d'utiliser le module de TransparentAI prévu à cet effet) & Oui \\
+    \hline
+    Qualité et intégrité & Avez-vous mis en place des processus pour garantir la qualité et l'intégrité de vos données au sein du projet ? & Non \\
+    \hline
+    Qualité et intégrité & Avez-vous réalisé une phase d'analyse des données ? & Oui \\
+    \hline
+    Validation des performances & Est-ce que les critères de validation ont été déterminés par les commanditaires ? & Non \\
+    \hline
+    Validation des performances & Est-ce les critères sont remplis par le modèle ? & Oui \\
+    \hline
+    Explicabilité & Avez-vous connaissance de comment le modèle fonctionne en général, quelles sont les variables ayant le plus d'importance ? & Oui \\
+    \hline
+    Interprétabilité & Avez-vous cherché à utiliser le modèle le plus simple et le plus facile à interpréter pour l'application en question ? & Non \\
+    \hline
+    Eviter les biais injustes & Si une incidence sociale est identifiée, avez-vous défini sur quels attributs une personne pourrait être discriminée ? & Oui \\
+    \hline
+    Eviter les biais injustes & Avez-vous analysé les biais potentiels sur les attributs à protéger et valider que leur incidence n'a pas d'impact discriminant ? & Oui \\
+    \hline
+    
+  \end{tabularx}
+\end{table}
+
+\paragraph{}
+Pour la Validation, la possibilité de contrôler techniquement les différents aspects est bien plus présentes. En effet, nous pouvons utiliser les modules suivant de TransparentAI : estimation du CO2, analyse du jeu de données, contrôle des performances, explicabilité et le module d'équité.
+
+\paragraph{}
+Cette partie est essentielle pour pouvoir passer une IA dans le monde réel, soit en production.
+
+\subsubsection{Sécurité}
+
+\begin{table}[H]
+  \centering
+  % \begin{tabularx}{\textwidth}{ |X|X|l| } 
+    \begin{tabularx}{\textwidth}{Lbl} 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Résilience du modèle & Avez-vous identifié les formes d'attaques adverses potentielles comme la pollution des données ? & Non \\
+    \hline
+    Résilience du modèle & Avez-vous testé des scénarios extrêmes (rare) et des scénarios communs pour voir comment le modèle se comporte ? & Oui \\
+    \hline
+    Plan de secours & En cas de disfonctionnement du modèle, avez-vous prévu au moins une procédure permettant d'assurer le continuité de service de l'IA ? Si oui, ont-elles été testées ?  & Non \\
+    \hline
+    Sécurité générale & Vous êtes assuré que les technologies utilisées n'ont pas de failles de sécurité connues ? & Oui \\
+    \hline
+    
+  \end{tabularx}
+\end{table}
+
+\paragraph{}
+Concernant la Sécurité, cette section est à destination d'un profil technique, car un tel profil à une meilleure maîtrise des outils utilisés. De plus, les modules de TransparentAI disponibles ici, ne sont pas forcément accessibles sans base technique.
+
+\subsubsection{Suivi et maintenance}
+
+\begin{table}[H]
+  \centering
+  % \begin{tabularx}{\textwidth}{ |X|X|l| } 
+    \begin{tabularx}{\textwidth}{Lbl} 
+    \hline
+    Aspect & Question & Tech ? \\
+    \hline
+    \hline
+    Traçabilité & Est-ce que le pipeline technique est documenté ? & Non \\
+    \hline
+    Traçabilité & Est-ce que vous avez une preuve de la validation de l'IA avant de l'avoir mise en production ? & Oui \\
+    \hline
+    Contrôle humain & Est-ce qu'une procédure récurrente de contrôle de la performance de l'IA a été mise en place pour s'assurer de la viabilité du modèle dans le monde réel ? & Non \\
+    \hline
+    Contrôle humain & Est-il possible pour un utilisateur du modèle de faire appel sur une prédiction de l'IA et qu'un humain décideur puisse arbitrer sur cet appel ? & Non \\
+    \hline
+    Arbitrage et recours en cas d'impact négatifs & Si un impact négatif est identifié, avez-vous mis en place un ensemble approprié de mécanismes permettant un recours en cas de préjudice ou d'effet néfaste ?  & Non \\
+    \hline
+    
+  \end{tabularx}
+\end{table}
+
+\paragraph{}
+Pour conclure le projet, le suivi des prédictions dans le temps est à ne surtout pas omettre, mais excépté pour la génération d'un rapport de performance, l'outil de TransparentAI n'apporte pas grand chose en plus des questions. Il s'agit principalement d'une question d'organisation et de gestion de projet interne à l'équipe en charge de l'intelligence artificielle.
 
 \paragraph{}
 Nous contastons que majoritairement deux profils sont requis afin de vérifier la confiance d'une intelligence artificielle : un profil métier (le ou la commanditaire du projet ou chef de projet par exemple) et un profil technique comme un ou une data scientist. Nous allons donc voir dans la section suivante comment se construit l'outil de TransparentAI et pourquoi.

@@ -1,413 +1,434 @@
 \babel@toc {nil}{}
-\contentsline {chapter}{\numberline {}Introduction}{1}{chapter*.2}% 
+\contentsline {chapter}{\bf Avant-propos}{1}{Doc-Start}% 
+\contentsline {paragraph}{}{1}{section*.1}% 
+\contentsline {paragraph}{}{1}{section*.2}% 
 \contentsline {paragraph}{}{1}{section*.3}% 
 \contentsline {paragraph}{}{1}{section*.4}% 
-\contentsline {paragraph}{}{1}{section*.5}% 
+\contentsline {chapter}{\bf Remerciements}{1}{chapter*.5}% 
+\contentsline {paragraph}{}{1}{section*.6}% 
 \contentsline {paragraph}{}{1}{section*.7}% 
 \contentsline {paragraph}{}{1}{section*.8}% 
 \contentsline {paragraph}{}{1}{section*.9}% 
-\contentsline {paragraph}{}{2}{section*.11}% 
-\contentsline {paragraph}{}{2}{section*.12}% 
-\contentsline {paragraph}{}{2}{section*.13}% 
-\contentsline {paragraph}{}{2}{section*.14}% 
+\contentsline {paragraph}{}{1}{section*.10}% 
+\contentsline {paragraph}{}{1}{section*.11}% 
+\contentsline {chapter}{\numberline {}Introduction}{1}{chapter*.12}% 
+\contentsline {paragraph}{}{1}{section*.13}% 
+\contentsline {paragraph}{}{1}{section*.14}% 
+\contentsline {paragraph}{}{1}{section*.15}% 
+\contentsline {paragraph}{}{1}{section*.17}% 
+\contentsline {paragraph}{}{1}{section*.18}% 
+\contentsline {paragraph}{}{1}{section*.19}% 
+\contentsline {paragraph}{}{2}{section*.21}% 
+\contentsline {paragraph}{}{2}{section*.22}% 
+\contentsline {paragraph}{}{2}{section*.23}% 
+\contentsline {paragraph}{}{2}{section*.24}% 
 \contentsline {chapter}{\numberline {I}\uppercase {\IeC {\'e}}tat de l'art}{3}{chapter.1}% 
 \contentsline {section}{\numberline {I.1}Les donn\IeC {\'e}es et l'Intelligence Artificielle}{3}{section.1.1}% 
-\contentsline {paragraph}{}{3}{section*.15}% 
-\contentsline {paragraph}{}{3}{section*.16}% 
+\contentsline {paragraph}{}{3}{section*.25}% 
+\contentsline {paragraph}{}{3}{section*.26}% 
 \contentsline {subsection}{\numberline {I.1.1}La pr\IeC {\'e}face : Test de Turing, Syst\IeC {\`e}mes Experts et les Hivers}{3}{subsection.1.1.1}% 
-\contentsline {paragraph}{}{3}{section*.17}% 
-\contentsline {paragraph}{}{3}{section*.18}% 
-\contentsline {paragraph}{}{4}{section*.19}% 
-\contentsline {paragraph}{}{4}{section*.20}% 
-\contentsline {paragraph}{}{4}{section*.21}% 
-\contentsline {paragraph}{}{4}{section*.22}% 
-\contentsline {paragraph}{}{4}{section*.23}% 
-\contentsline {paragraph}{}{4}{section*.24}% 
-\contentsline {paragraph}{}{5}{section*.25}% 
-\contentsline {paragraph}{}{5}{section*.26}% 
+\contentsline {paragraph}{}{3}{section*.27}% 
+\contentsline {paragraph}{}{3}{section*.28}% 
+\contentsline {paragraph}{}{4}{section*.29}% 
+\contentsline {paragraph}{}{4}{section*.30}% 
+\contentsline {paragraph}{}{4}{section*.31}% 
+\contentsline {paragraph}{}{4}{section*.32}% 
+\contentsline {paragraph}{}{4}{section*.33}% 
+\contentsline {paragraph}{}{4}{section*.34}% 
+\contentsline {paragraph}{}{5}{section*.35}% 
+\contentsline {paragraph}{}{5}{section*.36}% 
 \contentsline {subsection}{\numberline {I.1.2}Le changement des \IeC {\'e}chelles de grandeurs : les donn\IeC {\'e}es et Big Data}{5}{subsection.1.1.2}% 
-\contentsline {paragraph}{}{5}{section*.27}% 
-\contentsline {paragraph}{}{6}{section*.28}% 
-\contentsline {paragraph}{}{6}{section*.29}% 
-\contentsline {paragraph}{}{6}{section*.30}% 
-\contentsline {paragraph}{}{6}{section*.31}% 
+\contentsline {paragraph}{}{5}{section*.37}% 
+\contentsline {paragraph}{}{6}{section*.38}% 
+\contentsline {paragraph}{}{6}{section*.39}% 
+\contentsline {paragraph}{}{6}{section*.40}% 
+\contentsline {paragraph}{}{6}{section*.41}% 
 \contentsline {subsection}{\numberline {I.1.3}L'Apprentissage de la Machine}{7}{subsection.1.1.3}% 
-\contentsline {paragraph}{}{7}{section*.32}% 
-\contentsline {paragraph}{}{7}{section*.33}% 
-\contentsline {paragraph}{}{7}{section*.34}% 
+\contentsline {paragraph}{}{7}{section*.42}% 
+\contentsline {paragraph}{}{7}{section*.43}% 
+\contentsline {paragraph}{}{7}{section*.44}% 
 \contentsline {subsubsection}{\numberline {I.1.3.1}L'Apprentissage Supervis\IeC {\'e} et Non Supervis\IeC {\'e}}{7}{subsubsection.1.1.3.1}% 
-\contentsline {paragraph}{}{7}{section*.35}% 
-\contentsline {paragraph}{L'apprentissage supervis\IeC {\'e}}{7}{section*.36}% 
-\contentsline {paragraph}{}{7}{section*.37}% 
-\contentsline {paragraph}{L'apprentissage non supervis\IeC {\'e}}{7}{section*.38}% 
-\contentsline {paragraph}{}{7}{section*.39}% 
+\contentsline {paragraph}{}{7}{section*.45}% 
+\contentsline {paragraph}{L'apprentissage supervis\IeC {\'e}}{7}{section*.46}% 
+\contentsline {paragraph}{}{7}{section*.47}% 
+\contentsline {paragraph}{L'apprentissage non supervis\IeC {\'e}}{7}{section*.48}% 
+\contentsline {paragraph}{}{7}{section*.49}% 
 \contentsline {subsubsection}{\numberline {I.1.3.2}Le processus de cr\IeC {\'e}ation d'une IA}{7}{subsubsection.1.1.3.2}% 
-\contentsline {paragraph}{D\IeC {\'e}finition du probl\IeC {\`e}me}{8}{section*.40}% 
-\contentsline {paragraph}{Collecte}{9}{section*.41}% 
-\contentsline {paragraph}{Analyse des donn\IeC {\'e}es}{9}{section*.42}% 
-\contentsline {paragraph}{Pr\IeC {\'e}paration}{9}{section*.43}% 
-\contentsline {paragraph}{Cr\IeC {\'e}ation du mod\IeC {\`e}le}{9}{section*.44}% 
-\contentsline {paragraph}{Validation du mod\IeC {\`e}le}{9}{section*.45}% 
-\contentsline {paragraph}{D\IeC {\'e}ploiement}{9}{section*.46}% 
-\contentsline {paragraph}{Contr\IeC {\^o}le}{10}{section*.47}% 
+\contentsline {paragraph}{D\IeC {\'e}finition du probl\IeC {\`e}me}{8}{section*.50}% 
+\contentsline {paragraph}{Collecte}{9}{section*.51}% 
+\contentsline {paragraph}{Analyse des donn\IeC {\'e}es}{9}{section*.52}% 
+\contentsline {paragraph}{Pr\IeC {\'e}paration}{9}{section*.53}% 
+\contentsline {paragraph}{Cr\IeC {\'e}ation du mod\IeC {\`e}le}{9}{section*.54}% 
+\contentsline {paragraph}{Validation du mod\IeC {\`e}le}{9}{section*.55}% 
+\contentsline {paragraph}{D\IeC {\'e}ploiement}{9}{section*.56}% 
+\contentsline {paragraph}{Contr\IeC {\^o}le}{10}{section*.57}% 
 \contentsline {subsection}{\numberline {I.1.4}Fiction ou R\IeC {\'e}alit\IeC {\'e} : l'Intelligence Artificielle plus forte que les Humains}{10}{subsection.1.1.4}% 
-\contentsline {paragraph}{}{10}{section*.48}% 
-\contentsline {paragraph}{}{10}{section*.49}% 
+\contentsline {paragraph}{}{10}{section*.58}% 
+\contentsline {paragraph}{}{10}{section*.59}% 
 \contentsline {subsubsection}{\numberline {I.1.4.1}L'av\IeC {\`e}nement de l'Intellect des Machines : Deep Learning}{11}{subsubsection.1.1.4.1}% 
-\contentsline {paragraph}{}{11}{section*.50}% 
-\contentsline {paragraph}{}{11}{section*.51}% 
-\contentsline {paragraph}{}{11}{section*.52}% 
-\contentsline {paragraph}{}{12}{section*.53}% 
-\contentsline {paragraph}{}{12}{section*.54}% 
-\contentsline {paragraph}{}{12}{section*.55}% 
-\contentsline {paragraph}{}{12}{section*.56}% 
-\contentsline {paragraph}{}{12}{section*.57}% 
+\contentsline {paragraph}{}{11}{section*.60}% 
+\contentsline {paragraph}{}{11}{section*.61}% 
+\contentsline {paragraph}{}{12}{section*.62}% 
+\contentsline {paragraph}{}{12}{section*.63}% 
+\contentsline {paragraph}{}{12}{section*.64}% 
+\contentsline {paragraph}{}{12}{section*.65}% 
+\contentsline {paragraph}{}{12}{section*.66}% 
+\contentsline {paragraph}{}{12}{section*.67}% 
 \contentsline {subsubsection}{\numberline {I.1.4.2}Les Intelligences Artificielles de demain : la singularit\IeC {\'e}}{12}{subsubsection.1.1.4.2}% 
-\contentsline {paragraph}{}{13}{section*.58}% 
-\contentsline {paragraph}{}{13}{section*.59}% 
-\contentsline {paragraph}{}{13}{section*.60}% 
-\contentsline {paragraph}{}{13}{section*.61}% 
-\contentsline {paragraph}{}{14}{section*.62}% 
+\contentsline {paragraph}{}{13}{section*.68}% 
+\contentsline {paragraph}{}{13}{section*.69}% 
+\contentsline {paragraph}{}{13}{section*.70}% 
+\contentsline {paragraph}{}{14}{section*.71}% 
+\contentsline {paragraph}{}{14}{section*.72}% 
 \contentsline {section}{\numberline {I.2}L'\uppercase {\IeC {\'e}}thique, la science de la Morale}{14}{section.1.2}% 
-\contentsline {paragraph}{}{14}{section*.63}% 
-\contentsline {paragraph}{}{14}{section*.64}% 
-\contentsline {paragraph}{}{14}{section*.65}% 
-\contentsline {paragraph}{}{15}{section*.66}% 
-\contentsline {paragraph}{}{15}{section*.67}% 
+\contentsline {paragraph}{}{14}{section*.73}% 
+\contentsline {paragraph}{}{14}{section*.74}% 
+\contentsline {paragraph}{}{15}{section*.75}% 
+\contentsline {paragraph}{}{15}{section*.76}% 
+\contentsline {paragraph}{}{15}{section*.77}% 
 \contentsline {subsection}{\numberline {I.2.1}L'origine du Bon, Histoire et Philosophie : Nietzsche}{15}{subsection.1.2.1}% 
-\contentsline {paragraph}{}{15}{section*.68}% 
-\contentsline {paragraph}{}{15}{section*.69}% 
-\contentsline {paragraph}{}{15}{section*.70}% 
-\contentsline {paragraph}{}{15}{section*.71}% 
-\contentsline {paragraph}{}{16}{section*.72}% 
-\contentsline {paragraph}{}{16}{section*.73}% 
+\contentsline {paragraph}{}{15}{section*.78}% 
+\contentsline {paragraph}{}{15}{section*.79}% 
+\contentsline {paragraph}{}{15}{section*.80}% 
+\contentsline {paragraph}{}{15}{section*.81}% 
+\contentsline {paragraph}{}{16}{section*.82}% 
+\contentsline {paragraph}{}{16}{section*.83}% 
 \contentsline {subsection}{\numberline {I.2.2}Philosophie, l'\uppercase {\IeC {\'e}}thique Normative}{16}{subsection.1.2.2}% 
-\contentsline {paragraph}{}{16}{section*.74}% 
-\contentsline {paragraph}{}{16}{section*.75}% 
+\contentsline {paragraph}{}{16}{section*.84}% 
+\contentsline {paragraph}{}{16}{section*.85}% 
 \contentsline {subsubsection}{\numberline {I.2.2.1}Aristote et l'\uppercase {\IeC {\'e}}thique de la vertu}{16}{subsubsection.1.2.2.1}% 
-\contentsline {paragraph}{}{16}{section*.76}% 
-\contentsline {paragraph}{}{16}{section*.77}% 
-\contentsline {paragraph}{}{16}{section*.78}% 
-\contentsline {subsubsection}{\numberline {I.2.2.2}La Morale D\IeC {\'e}ontologique : Kant et le mensonge}{16}{subsubsection.1.2.2.2}% 
-\contentsline {paragraph}{}{16}{section*.79}% 
-\contentsline {paragraph}{}{17}{section*.80}% 
-\contentsline {paragraph}{}{17}{section*.81}% 
+\contentsline {paragraph}{}{16}{section*.86}% 
+\contentsline {paragraph}{}{16}{section*.87}% 
+\contentsline {paragraph}{}{16}{section*.88}% 
+\contentsline {subsubsection}{\numberline {I.2.2.2}La Morale D\IeC {\'e}ontologique : Kant et le mensonge}{17}{subsubsection.1.2.2.2}% 
+\contentsline {paragraph}{}{17}{section*.89}% 
+\contentsline {paragraph}{}{17}{section*.90}% 
+\contentsline {paragraph}{}{17}{section*.91}% 
 \contentsline {subsubsection}{\numberline {I.2.2.3}Le Cons\IeC {\'e}quentialisme}{17}{subsubsection.1.2.2.3}% 
-\contentsline {paragraph}{}{17}{section*.82}% 
-\contentsline {paragraph}{}{17}{section*.83}% 
-\contentsline {paragraph}{}{17}{section*.84}% 
-\contentsline {paragraph}{}{17}{section*.85}% 
-\contentsline {paragraph}{}{17}{section*.86}% 
+\contentsline {paragraph}{}{17}{section*.92}% 
+\contentsline {paragraph}{}{17}{section*.93}% 
+\contentsline {paragraph}{}{17}{section*.94}% 
+\contentsline {paragraph}{}{17}{section*.95}% 
+\contentsline {paragraph}{}{17}{section*.96}% 
 \contentsline {subsection}{\numberline {I.2.3}La Morale en Science}{18}{subsection.1.2.3}% 
-\contentsline {paragraph}{}{18}{section*.87}% 
-\contentsline {paragraph}{}{18}{section*.88}% 
-\contentsline {paragraph}{}{18}{section*.89}% 
+\contentsline {paragraph}{}{18}{section*.97}% 
+\contentsline {paragraph}{}{18}{section*.98}% 
+\contentsline {paragraph}{}{18}{section*.99}% 
 \contentsline {subsubsection}{\numberline {I.2.3.1}L'Approche par la Culture et la Personnalit\IeC {\'e} : le Culturalisme}{18}{subsubsection.1.2.3.1}% 
-\contentsline {paragraph}{}{18}{section*.90}% 
-\contentsline {paragraph}{}{18}{section*.91}% 
-\contentsline {paragraph}{}{18}{section*.92}% 
-\contentsline {paragraph}{}{18}{section*.93}% 
+\contentsline {paragraph}{}{18}{section*.100}% 
+\contentsline {paragraph}{}{18}{section*.101}% 
+\contentsline {paragraph}{}{18}{section*.102}% 
+\contentsline {paragraph}{}{18}{section*.103}% 
 \contentsline {subsubsection}{\numberline {I.2.3.2}Le cerveau pr\IeC {\'e}cabl\IeC {\'e} pour la Morale : l'hypoth\IeC {\`e}se Naturaliste}{19}{subsubsection.1.2.3.2}% 
-\contentsline {paragraph}{}{19}{section*.94}% 
-\contentsline {paragraph}{}{19}{section*.95}% 
-\contentsline {paragraph}{}{19}{section*.96}% 
-\contentsline {paragraph}{}{19}{section*.97}% 
-\contentsline {paragraph}{}{19}{section*.98}% 
-\contentsline {paragraph}{}{19}{section*.99}% 
-\contentsline {paragraph}{}{20}{section*.100}% 
-\contentsline {paragraph}{}{20}{section*.101}% 
+\contentsline {paragraph}{}{19}{section*.104}% 
+\contentsline {paragraph}{}{19}{section*.105}% 
+\contentsline {paragraph}{}{19}{section*.106}% 
+\contentsline {paragraph}{}{19}{section*.107}% 
+\contentsline {paragraph}{}{19}{section*.108}% 
+\contentsline {paragraph}{}{19}{section*.109}% 
+\contentsline {paragraph}{}{20}{section*.110}% 
+\contentsline {paragraph}{}{20}{section*.111}% 
 \contentsline {section}{\numberline {I.3}La question de l'\uppercase {\IeC {\'e}}thique pour les algorithmes intelligents}{20}{section.1.3}% 
-\contentsline {paragraph}{}{20}{section*.102}% 
-\contentsline {paragraph}{}{20}{section*.103}% 
+\contentsline {paragraph}{}{20}{section*.112}% 
+\contentsline {paragraph}{}{20}{section*.113}% 
 \contentsline {subsection}{\numberline {I.3.1}Les probl\IeC {\`e}mes du Pr\IeC {\'e}sent}{20}{subsection.1.3.1}% 
-\contentsline {paragraph}{}{20}{section*.104}% 
+\contentsline {paragraph}{}{20}{section*.114}% 
 \contentsline {subsubsection}{\numberline {I.3.1.1}La Discrimiation des algorithmes : les biais}{20}{subsubsection.1.3.1.1}% 
-\contentsline {paragraph}{}{20}{section*.105}% 
-\contentsline {paragraph}{}{21}{section*.106}% 
-\contentsline {paragraph}{}{21}{section*.107}% 
-\contentsline {paragraph}{}{21}{section*.108}% 
-\contentsline {paragraph}{}{21}{section*.109}% 
+\contentsline {paragraph}{}{20}{section*.115}% 
+\contentsline {paragraph}{}{21}{section*.116}% 
+\contentsline {paragraph}{}{21}{section*.117}% 
+\contentsline {paragraph}{}{21}{section*.118}% 
+\contentsline {paragraph}{}{21}{section*.119}% 
 \contentsline {subsubsection}{\numberline {I.3.1.2}Ouvrir la bo\IeC {\^\i }te noire : Interpr\IeC {\'e}tabilit\IeC {\'e} et Explicabilit\IeC {\'e}}{21}{subsubsection.1.3.1.2}% 
-\contentsline {paragraph}{}{22}{section*.110}% 
-\contentsline {paragraph}{}{22}{section*.111}% 
-\contentsline {paragraph}{}{22}{section*.112}% 
-\contentsline {paragraph}{}{22}{section*.113}% 
-\contentsline {paragraph}{}{22}{section*.114}% 
-\contentsline {paragraph}{}{22}{section*.115}% 
-\contentsline {paragraph}{}{23}{section*.116}% 
-\contentsline {paragraph}{}{23}{section*.117}% 
+\contentsline {paragraph}{}{22}{section*.120}% 
+\contentsline {paragraph}{}{22}{section*.121}% 
+\contentsline {paragraph}{}{22}{section*.122}% 
+\contentsline {paragraph}{}{22}{section*.123}% 
+\contentsline {paragraph}{}{22}{section*.124}% 
+\contentsline {paragraph}{}{22}{section*.125}% 
+\contentsline {paragraph}{}{23}{section*.126}% 
+\contentsline {paragraph}{}{23}{section*.127}% 
 \contentsline {subsubsection}{\numberline {I.3.1.3}Les cr\IeC {\'e}ateurs des IA, architectes de notre quotidien}{23}{subsubsection.1.3.1.3}% 
-\contentsline {paragraph}{}{23}{section*.118}% 
-\contentsline {paragraph}{}{23}{section*.119}% 
-\contentsline {paragraph}{}{23}{section*.120}% 
-\contentsline {paragraph}{}{23}{section*.121}% 
-\contentsline {paragraph}{}{24}{section*.122}% 
-\contentsline {paragraph}{}{24}{section*.123}% 
-\contentsline {paragraph}{}{24}{section*.124}% 
-\contentsline {paragraph}{}{24}{section*.125}% 
-\contentsline {paragraph}{}{24}{section*.126}% 
+\contentsline {paragraph}{}{23}{section*.128}% 
+\contentsline {paragraph}{}{23}{section*.129}% 
+\contentsline {paragraph}{}{23}{section*.130}% 
+\contentsline {paragraph}{}{23}{section*.131}% 
+\contentsline {paragraph}{}{24}{section*.132}% 
+\contentsline {paragraph}{}{24}{section*.133}% 
+\contentsline {paragraph}{}{24}{section*.134}% 
+\contentsline {paragraph}{}{24}{section*.135}% 
+\contentsline {paragraph}{}{24}{section*.136}% 
 \contentsline {subsection}{\numberline {I.3.2}Une IA de confiance selon la Commission Europ\IeC {\'e}enne}{24}{subsection.1.3.2}% 
-\contentsline {paragraph}{}{24}{section*.127}% 
-\contentsline {paragraph}{}{25}{section*.128}% 
-\contentsline {paragraph}{}{25}{section*.129}% 
-\contentsline {paragraph}{1. Action humaine et contr\IeC {\^o}le humain}{25}{section*.130}% 
-\contentsline {paragraph}{2. Robustesse technique et s\IeC {\'e}curit\IeC {\'e}}{26}{section*.131}% 
-\contentsline {paragraph}{3. Respect de la vie priv\IeC {\'e}e et gouvernance des donn\IeC {\'e}es}{26}{section*.132}% 
-\contentsline {paragraph}{4. Transparence}{26}{section*.133}% 
-\contentsline {paragraph}{5. Diversit\IeC {\'e}, non-discrimination et \IeC {\'e}quit\IeC {\'e}}{26}{section*.134}% 
-\contentsline {paragraph}{6. Bien-\IeC {\^e}tre soci\IeC {\'e}tal et environnemental}{26}{section*.135}% 
-\contentsline {paragraph}{7. Responsabilit\IeC {\'e}}{26}{section*.136}% 
-\contentsline {paragraph}{}{27}{section*.137}% 
-\contentsline {paragraph}{M\IeC {\'e}thodes techniques :}{27}{section*.138}% 
-\contentsline {paragraph}{M\IeC {\'e}thodes non techniques :}{27}{section*.139}% 
-\contentsline {paragraph}{}{27}{section*.140}% 
+\contentsline {paragraph}{}{24}{section*.137}% 
+\contentsline {paragraph}{}{25}{section*.138}% 
+\contentsline {paragraph}{}{25}{section*.139}% 
+\contentsline {paragraph}{1. Action humaine et contr\IeC {\^o}le humain}{25}{section*.140}% 
+\contentsline {paragraph}{2. Robustesse technique et s\IeC {\'e}curit\IeC {\'e}}{26}{section*.141}% 
+\contentsline {paragraph}{3. Respect de la vie priv\IeC {\'e}e et gouvernance des donn\IeC {\'e}es}{26}{section*.142}% 
+\contentsline {paragraph}{4. Transparence}{26}{section*.143}% 
+\contentsline {paragraph}{5. Diversit\IeC {\'e}, non-discrimination et \IeC {\'e}quit\IeC {\'e}}{26}{section*.144}% 
+\contentsline {paragraph}{6. Bien-\IeC {\^e}tre soci\IeC {\'e}tal et environnemental}{26}{section*.145}% 
+\contentsline {paragraph}{7. Responsabilit\IeC {\'e}}{26}{section*.146}% 
+\contentsline {paragraph}{}{27}{section*.147}% 
+\contentsline {paragraph}{M\IeC {\'e}thodes techniques :}{27}{section*.148}% 
+\contentsline {paragraph}{M\IeC {\'e}thodes non techniques :}{27}{section*.149}% 
+\contentsline {paragraph}{}{27}{section*.150}% 
 \contentsline {subsection}{\numberline {I.3.3}Les Dilemmes Moraux pour les Machines}{27}{subsection.1.3.3}% 
-\contentsline {paragraph}{}{27}{section*.141}% 
+\contentsline {paragraph}{}{27}{section*.151}% 
 \contentsline {subsubsection}{\numberline {I.3.3.1}Expliciter la morale des humains : Moral Machine}{27}{subsubsection.1.3.3.1}% 
-\contentsline {paragraph}{}{27}{section*.142}% 
-\contentsline {paragraph}{}{27}{section*.143}% 
-\contentsline {paragraph}{}{27}{section*.144}% 
-\contentsline {paragraph}{}{28}{section*.145}% 
-\contentsline {paragraph}{}{28}{section*.146}% 
-\contentsline {paragraph}{}{28}{section*.147}% 
-\contentsline {paragraph}{}{28}{section*.148}% 
-\contentsline {paragraph}{}{29}{section*.149}% 
-\contentsline {paragraph}{}{29}{section*.150}% 
-\contentsline {paragraph}{}{29}{section*.151}% 
+\contentsline {paragraph}{}{27}{section*.152}% 
+\contentsline {paragraph}{}{27}{section*.153}% 
+\contentsline {paragraph}{}{27}{section*.154}% 
+\contentsline {paragraph}{}{28}{section*.155}% 
+\contentsline {paragraph}{}{28}{section*.156}% 
+\contentsline {paragraph}{}{28}{section*.157}% 
+\contentsline {paragraph}{}{28}{section*.158}% 
+\contentsline {paragraph}{}{29}{section*.159}% 
+\contentsline {paragraph}{}{29}{section*.160}% 
+\contentsline {paragraph}{}{29}{section*.161}% 
 \contentsline {subsubsection}{\numberline {I.3.3.2}La d\IeC {\'e}cision par l'Al\IeC {\'e}atoire : Alexei Grinbaum}{29}{subsubsection.1.3.3.2}% 
-\contentsline {paragraph}{}{29}{section*.152}% 
-\contentsline {paragraph}{}{29}{section*.153}% 
-\contentsline {paragraph}{}{29}{section*.154}% 
-\contentsline {paragraph}{}{30}{section*.155}% 
-\contentsline {paragraph}{}{30}{section*.156}% 
-\contentsline {paragraph}{}{30}{section*.157}% 
-\contentsline {paragraph}{}{30}{section*.158}% 
+\contentsline {paragraph}{}{29}{section*.162}% 
+\contentsline {paragraph}{}{29}{section*.163}% 
+\contentsline {paragraph}{}{29}{section*.164}% 
+\contentsline {paragraph}{}{30}{section*.165}% 
+\contentsline {paragraph}{}{30}{section*.166}% 
+\contentsline {paragraph}{}{30}{section*.167}% 
+\contentsline {paragraph}{}{30}{section*.168}% 
 \contentsline {section}{\numberline {I.4}Synth\IeC {\`e}se}{31}{section.1.4}% 
-\contentsline {paragraph}{}{31}{section*.159}% 
-\contentsline {paragraph}{}{31}{section*.160}% 
-\contentsline {paragraph}{}{31}{section*.161}% 
-\contentsline {paragraph}{}{31}{section*.162}% 
-\contentsline {paragraph}{}{31}{section*.163}% 
-\contentsline {paragraph}{}{31}{section*.164}% 
-\contentsline {paragraph}{}{31}{section*.165}% 
+\contentsline {paragraph}{}{31}{section*.169}% 
+\contentsline {paragraph}{}{31}{section*.170}% 
+\contentsline {paragraph}{}{31}{section*.171}% 
+\contentsline {paragraph}{}{31}{section*.172}% 
+\contentsline {paragraph}{}{31}{section*.173}% 
+\contentsline {paragraph}{}{31}{section*.174}% 
+\contentsline {paragraph}{}{31}{section*.175}% 
 \contentsline {chapter}{\numberline {II}Solution : une bo\IeC {\^\i }te \IeC {\`a} outils transparente}{32}{chapter.2}% 
-\contentsline {paragraph}{}{32}{section*.166}% 
-\contentsline {paragraph}{}{32}{section*.167}% 
-\contentsline {paragraph}{}{32}{section*.168}% 
-\contentsline {paragraph}{}{32}{section*.169}% 
+\contentsline {paragraph}{}{32}{section*.176}% 
+\contentsline {paragraph}{}{32}{section*.177}% 
+\contentsline {paragraph}{}{32}{section*.178}% 
+\contentsline {paragraph}{}{32}{section*.179}% 
 \contentsline {section}{\numberline {II.1}Travaux connexes}{32}{section.2.1}% 
-\contentsline {paragraph}{}{32}{section*.170}% 
+\contentsline {paragraph}{}{32}{section*.180}% 
 \contentsline {subsection}{\numberline {II.1.1}Analyser les biais au sein d'une IA}{33}{subsection.2.1.1}% 
-\contentsline {paragraph}{}{33}{section*.171}% 
+\contentsline {paragraph}{}{33}{section*.181}% 
 \contentsline {subsubsection}{\numberline {II.1.1.1}Mesure des biais : calculer l'impact social}{33}{subsubsection.2.1.1.1}% 
-\contentsline {paragraph}{}{33}{section*.172}% 
-\contentsline {paragraph}{}{33}{section*.173}% 
-\contentsline {paragraph}{}{33}{section*.174}% 
-\contentsline {paragraph}{}{33}{section*.175}% 
-\contentsline {paragraph}{}{33}{section*.176}% 
+\contentsline {paragraph}{}{33}{section*.182}% 
+\contentsline {paragraph}{}{33}{section*.183}% 
+\contentsline {paragraph}{}{33}{section*.184}% 
+\contentsline {paragraph}{}{33}{section*.185}% 
+\contentsline {paragraph}{}{33}{section*.186}% 
 \contentsline {paragraph}{Statistical Parity Difference}{34}{equation.2.1.3}% 
-\contentsline {paragraph}{}{34}{section*.178}% 
-\contentsline {paragraph}{}{34}{section*.179}% 
+\contentsline {paragraph}{}{34}{section*.188}% 
+\contentsline {paragraph}{}{34}{section*.189}% 
 \contentsline {paragraph}{Equal Opportunity Difference}{34}{equation.2.1.4}% 
-\contentsline {paragraph}{}{34}{section*.181}% 
-\contentsline {paragraph}{}{34}{section*.182}% 
+\contentsline {paragraph}{}{34}{section*.191}% 
+\contentsline {paragraph}{}{34}{section*.192}% 
 \contentsline {paragraph}{Average Odds Difference}{34}{equation.2.1.5}% 
-\contentsline {paragraph}{}{34}{section*.184}% 
-\contentsline {paragraph}{}{34}{section*.185}% 
+\contentsline {paragraph}{}{34}{section*.194}% 
+\contentsline {paragraph}{}{34}{section*.195}% 
 \contentsline {paragraph}{Disparate Impact}{34}{equation.2.1.6}% 
-\contentsline {paragraph}{}{35}{section*.187}% 
-\contentsline {paragraph}{}{35}{section*.188}% 
-\contentsline {paragraph}{Interpr\IeC {\'e}tation des mesures}{35}{section*.189}% 
+\contentsline {paragraph}{}{35}{section*.197}% 
+\contentsline {paragraph}{}{35}{section*.198}% 
+\contentsline {paragraph}{Interpr\IeC {\'e}tation des mesures}{35}{section*.199}% 
 \contentsline {subsubsection}{\numberline {II.1.1.2}AIF360 : AI Fairness 360 par IBM}{35}{subsubsection.2.1.1.2}% 
-\contentsline {paragraph}{}{35}{section*.190}% 
-\contentsline {paragraph}{}{35}{section*.191}% 
-\contentsline {paragraph}{}{35}{section*.192}% 
-\contentsline {paragraph}{}{35}{section*.193}% 
-\contentsline {paragraph}{}{35}{section*.194}% 
-\contentsline {paragraph}{}{36}{section*.195}% 
+\contentsline {paragraph}{}{35}{section*.200}% 
+\contentsline {paragraph}{}{35}{section*.201}% 
+\contentsline {paragraph}{}{35}{section*.202}% 
+\contentsline {paragraph}{}{35}{section*.203}% 
+\contentsline {paragraph}{}{35}{section*.204}% 
+\contentsline {paragraph}{}{36}{section*.205}% 
 \contentsline {subsection}{\numberline {II.1.2}L'explication des r\IeC {\'e}sultats d'une IA}{36}{subsection.2.1.2}% 
-\contentsline {paragraph}{}{36}{section*.196}% 
+\contentsline {paragraph}{}{36}{section*.206}% 
 \contentsline {subsubsection}{\numberline {II.1.2.1}LIME : Local Interpretable Model-agnostic Explanations}{36}{subsubsection.2.1.2.1}% 
-\contentsline {paragraph}{}{36}{section*.197}% 
-\contentsline {paragraph}{}{37}{section*.198}% 
-\contentsline {paragraph}{}{37}{section*.199}% 
-\contentsline {paragraph}{}{37}{section*.200}% 
-\contentsline {paragraph}{}{37}{section*.201}% 
-\contentsline {paragraph}{}{37}{section*.202}% 
-\contentsline {paragraph}{}{37}{section*.203}% 
-\contentsline {paragraph}{}{37}{section*.204}% 
+\contentsline {paragraph}{}{36}{section*.207}% 
+\contentsline {paragraph}{}{37}{section*.208}% 
+\contentsline {paragraph}{}{37}{section*.209}% 
+\contentsline {paragraph}{}{37}{section*.210}% 
+\contentsline {paragraph}{}{37}{section*.211}% 
+\contentsline {paragraph}{}{37}{section*.212}% 
+\contentsline {paragraph}{}{37}{section*.213}% 
+\contentsline {paragraph}{}{37}{section*.214}% 
 \contentsline {subsubsection}{\numberline {II.1.2.2}SHAP : SHapley Additive exPlanations}{38}{subsubsection.2.1.2.2}% 
-\contentsline {paragraph}{}{38}{section*.205}% 
-\contentsline {paragraph}{}{38}{section*.206}% 
-\contentsline {paragraph}{}{38}{section*.207}% 
-\contentsline {paragraph}{}{38}{section*.208}% 
-\contentsline {paragraph}{}{38}{section*.209}% 
-\contentsline {paragraph}{}{38}{section*.210}% 
+\contentsline {paragraph}{}{38}{section*.215}% 
+\contentsline {paragraph}{}{38}{section*.216}% 
+\contentsline {paragraph}{}{38}{section*.217}% 
+\contentsline {paragraph}{}{38}{section*.218}% 
+\contentsline {paragraph}{}{38}{section*.219}% 
+\contentsline {paragraph}{}{38}{section*.220}% 
 \contentsline {subsection}{\numberline {II.1.3}Machine Learning Canvas}{39}{subsection.2.1.3}% 
-\contentsline {paragraph}{}{39}{section*.211}% 
-\contentsline {paragraph}{}{39}{section*.212}% 
-\contentsline {paragraph}{}{39}{section*.213}% 
+\contentsline {paragraph}{}{39}{section*.221}% 
+\contentsline {paragraph}{}{39}{section*.222}% 
+\contentsline {paragraph}{}{39}{section*.223}% 
 \contentsline {subsection}{\numberline {II.1.4}Analyse de l'impact environnemental d'un mod\IeC {\`e}le}{39}{subsection.2.1.4}% 
-\contentsline {paragraph}{}{39}{section*.214}% 
+\contentsline {paragraph}{}{39}{section*.224}% 
 \contentsline {subsubsection}{\numberline {II.1.4.1}energy-usage}{40}{subsubsection.2.1.4.1}% 
-\contentsline {paragraph}{}{40}{section*.215}% 
-\contentsline {paragraph}{}{40}{section*.216}% 
-\contentsline {paragraph}{}{40}{section*.217}% 
-\contentsline {paragraph}{}{40}{section*.218}% 
-\contentsline {paragraph}{}{40}{section*.219}% 
+\contentsline {paragraph}{}{40}{section*.225}% 
+\contentsline {paragraph}{}{40}{section*.226}% 
+\contentsline {paragraph}{}{40}{section*.227}% 
+\contentsline {paragraph}{}{40}{section*.228}% 
+\contentsline {paragraph}{}{40}{section*.229}% 
 \contentsline {subsubsection}{\numberline {II.1.4.2}ML CO2 Impact}{40}{subsubsection.2.1.4.2}% 
-\contentsline {paragraph}{}{40}{section*.220}% 
-\contentsline {paragraph}{}{41}{section*.221}% 
-\contentsline {paragraph}{}{41}{section*.222}% 
+\contentsline {paragraph}{}{40}{section*.230}% 
+\contentsline {paragraph}{}{41}{section*.231}% 
+\contentsline {paragraph}{}{41}{section*.232}% 
 \contentsline {section}{\numberline {II.2}TransparentAI : de la th\IeC {\'e}orie \IeC {\`a} la pratique}{41}{section.2.2}% 
-\contentsline {paragraph}{}{41}{section*.223}% 
-\contentsline {paragraph}{}{41}{section*.224}% 
-\contentsline {paragraph}{}{41}{section*.225}% 
+\contentsline {paragraph}{}{41}{section*.233}% 
+\contentsline {paragraph}{}{41}{section*.234}% 
+\contentsline {paragraph}{}{41}{section*.235}% 
 \contentsline {subsection}{\numberline {II.2.1}Finalit\IeC {\'e} : \IeC {\'e}valuer l'\IeC {\'e}thique d'une IA}{42}{subsection.2.2.1}% 
-\contentsline {paragraph}{}{42}{section*.226}% 
-\contentsline {paragraph}{}{42}{section*.227}% 
-\contentsline {paragraph}{}{42}{section*.228}% 
-\contentsline {paragraph}{Cadrage :}{42}{section*.229}% 
-\contentsline {paragraph}{Validation du mod\IeC {\`e}le :}{42}{section*.230}% 
-\contentsline {paragraph}{S\IeC {\'e}curit\IeC {\'e} :}{42}{section*.231}% 
-\contentsline {paragraph}{Suivi et maintenance :}{42}{section*.232}% 
-\contentsline {paragraph}{}{42}{section*.233}% 
-\contentsline {paragraph}{}{42}{section*.234}% 
-\contentsline {subsection}{\numberline {II.2.2}Structure technique}{43}{subsection.2.2.2}% 
-\contentsline {paragraph}{}{43}{section*.235}% 
-\contentsline {paragraph}{}{43}{section*.236}% 
-\contentsline {paragraph}{}{43}{section*.237}% 
-\contentsline {subsubsection}{\numberline {II.2.2.1}Un outil orient\IeC {\'e} technique : une librairie Python}{43}{subsubsection.2.2.2.1}% 
-\contentsline {paragraph}{}{43}{section*.238}% 
-\contentsline {paragraph}{}{43}{section*.239}% 
-\contentsline {paragraph}{}{43}{section*.240}% 
-\contentsline {paragraph}{}{43}{section*.241}% 
-\contentsline {paragraph}{}{43}{section*.242}% 
-\contentsline {subsubsection}{\numberline {II.2.2.2}Un outil orient\IeC {\'e} m\IeC {\'e}tier : une interface web}{44}{subsubsection.2.2.2.2}% 
-\contentsline {paragraph}{}{44}{section*.243}% 
-\contentsline {paragraph}{}{44}{section*.244}% 
+\contentsline {paragraph}{}{42}{section*.236}% 
+\contentsline {paragraph}{}{42}{section*.237}% 
+\contentsline {paragraph}{}{42}{section*.238}% 
+\contentsline {paragraph}{Cadrage :}{42}{section*.239}% 
+\contentsline {paragraph}{Validation du mod\IeC {\`e}le :}{42}{section*.240}% 
+\contentsline {paragraph}{S\IeC {\'e}curit\IeC {\'e} :}{42}{section*.241}% 
+\contentsline {paragraph}{Suivi et maintenance :}{42}{section*.242}% 
+\contentsline {paragraph}{}{42}{section*.243}% 
+\contentsline {subsubsection}{\numberline {II.2.1.1}Cadrage}{43}{subsubsection.2.2.1.1}% 
+\contentsline {paragraph}{}{43}{section*.244}% 
+\contentsline {subsubsection}{\numberline {II.2.1.2}Validation}{44}{subsubsection.2.2.1.2}% 
 \contentsline {paragraph}{}{44}{section*.245}% 
 \contentsline {paragraph}{}{44}{section*.246}% 
-\contentsline {paragraph}{}{44}{section*.247}% 
-\contentsline {subsection}{\numberline {II.2.3}D\IeC {\'e}tail de l'outil}{44}{subsection.2.2.3}% 
-\contentsline {paragraph}{Philosophie de l'outil}{44}{section*.248}% 
-\contentsline {paragraph}{Aujourd\IeC {\textquoteright }hui}{44}{section*.249}% 
-\contentsline {section}{\numberline {II.3}Synth\IeC {\`e}se}{45}{section.2.3}% 
-\contentsline {paragraph}{}{45}{section*.250}% 
-\contentsline {paragraph}{}{45}{section*.251}% 
-\contentsline {paragraph}{}{45}{section*.252}% 
-\contentsline {paragraph}{}{45}{section*.253}% 
-\contentsline {paragraph}{}{45}{section*.254}% 
-\contentsline {chapter}{\numberline {III}Plan de recherche}{46}{chapter.3}% 
+\contentsline {subsubsection}{\numberline {II.2.1.3}S\IeC {\'e}curit\IeC {\'e}}{45}{subsubsection.2.2.1.3}% 
+\contentsline {paragraph}{}{45}{section*.247}% 
+\contentsline {subsubsection}{\numberline {II.2.1.4}Suivi et maintenance}{45}{subsubsection.2.2.1.4}% 
+\contentsline {paragraph}{}{45}{section*.248}% 
+\contentsline {paragraph}{}{46}{section*.249}% 
+\contentsline {subsection}{\numberline {II.2.2}Structure technique}{46}{subsection.2.2.2}% 
+\contentsline {paragraph}{}{46}{section*.250}% 
+\contentsline {paragraph}{}{46}{section*.251}% 
+\contentsline {paragraph}{}{46}{section*.252}% 
+\contentsline {subsubsection}{\numberline {II.2.2.1}Un outil orient\IeC {\'e} technique : une librairie Python}{46}{subsubsection.2.2.2.1}% 
+\contentsline {paragraph}{}{46}{section*.253}% 
+\contentsline {paragraph}{}{46}{section*.254}% 
 \contentsline {paragraph}{}{46}{section*.255}% 
-\contentsline {section}{\numberline {III.1}D\IeC {\'e}finition des hypoth\IeC {\`e}ses}{46}{section.3.1}% 
 \contentsline {paragraph}{}{46}{section*.256}% 
-\contentsline {paragraph}{}{46}{section*.257}% 
-\contentsline {paragraph}{}{46}{section*.258}% 
-\contentsline {paragraph}{}{46}{section*.259}% 
-\contentsline {paragraph}{Hypoth\IeC {\`e}ses}{47}{section*.260}% 
+\contentsline {paragraph}{}{47}{section*.257}% 
+\contentsline {subsubsection}{\numberline {II.2.2.2}Un outil orient\IeC {\'e} m\IeC {\'e}tier : une interface web}{47}{subsubsection.2.2.2.2}% 
+\contentsline {paragraph}{}{47}{section*.258}% 
+\contentsline {paragraph}{}{47}{section*.259}% 
+\contentsline {paragraph}{}{47}{section*.260}% 
 \contentsline {paragraph}{}{47}{section*.261}% 
-\contentsline {section}{\numberline {III.2}Exp\IeC {\'e}rience}{47}{section.3.2}% 
 \contentsline {paragraph}{}{47}{section*.262}% 
-\contentsline {paragraph}{}{47}{section*.263}% 
-\contentsline {subsection}{\numberline {III.2.1}Contexte : pr\IeC {\'e}dire la probabilit\IeC {\'e} de d\IeC {\'e}faut de paiement de carte de cr\IeC {\'e}dit}{47}{subsection.3.2.1}% 
-\contentsline {subsubsection}{\numberline {III.2.1.1}D\IeC {\'e}finition du besoin m\IeC {\'e}tier}{47}{subsubsection.3.2.1.1}% 
-\contentsline {paragraph}{}{47}{section*.264}% 
-\contentsline {paragraph}{}{47}{section*.265}% 
+\contentsline {subsection}{\numberline {II.2.3}D\IeC {\'e}tail de l'outil}{47}{subsection.2.2.3}% 
+\contentsline {paragraph}{Philosophie de l'outil}{47}{section*.263}% 
+\contentsline {paragraph}{Aujourd\IeC {\textquoteright }hui}{47}{section*.264}% 
+\contentsline {section}{\numberline {II.3}Synth\IeC {\`e}se}{48}{section.2.3}% 
+\contentsline {paragraph}{}{48}{section*.265}% 
 \contentsline {paragraph}{}{48}{section*.266}% 
 \contentsline {paragraph}{}{48}{section*.267}% 
-\contentsline {subsubsection}{\numberline {III.2.1.2}Jeu de donn\IeC {\'e}es : Home Credit Default Risk}{48}{subsubsection.3.2.1.2}% 
 \contentsline {paragraph}{}{48}{section*.268}% 
 \contentsline {paragraph}{}{48}{section*.269}% 
+\contentsline {chapter}{\numberline {III}Plan de recherche}{49}{chapter.3}% 
 \contentsline {paragraph}{}{49}{section*.270}% 
-\contentsline {subsubsection}{\numberline {III.2.1.3}Algorithmes choisis}{49}{subsubsection.3.2.1.3}% 
+\contentsline {section}{\numberline {III.1}D\IeC {\'e}finition des hypoth\IeC {\`e}ses}{49}{section.3.1}% 
 \contentsline {paragraph}{}{49}{section*.271}% 
 \contentsline {paragraph}{}{49}{section*.272}% 
 \contentsline {paragraph}{}{49}{section*.273}% 
 \contentsline {paragraph}{}{49}{section*.274}% 
-\contentsline {subsubsection}{\numberline {III.2.1.4}Crit\IeC {\`e}res de r\IeC {\'e}ussite du mod\IeC {\`e}le}{49}{subsubsection.3.2.1.4}% 
-\contentsline {paragraph}{}{49}{section*.275}% 
+\contentsline {paragraph}{Hypoth\IeC {\`e}ses}{50}{section*.275}% 
 \contentsline {paragraph}{}{50}{section*.276}% 
+\contentsline {section}{\numberline {III.2}Exp\IeC {\'e}rience}{50}{section.3.2}% 
 \contentsline {paragraph}{}{50}{section*.277}% 
 \contentsline {paragraph}{}{50}{section*.278}% 
+\contentsline {subsection}{\numberline {III.2.1}Contexte : pr\IeC {\'e}dire la probabilit\IeC {\'e} de d\IeC {\'e}faut de paiement de carte de cr\IeC {\'e}dit}{50}{subsection.3.2.1}% 
+\contentsline {subsubsection}{\numberline {III.2.1.1}D\IeC {\'e}finition du besoin m\IeC {\'e}tier}{50}{subsubsection.3.2.1.1}% 
 \contentsline {paragraph}{}{50}{section*.279}% 
 \contentsline {paragraph}{}{50}{section*.280}% 
-\contentsline {subsection}{\numberline {III.2.2}Param\IeC {\`e}tres de l'exp\IeC {\'e}rience}{50}{subsection.3.2.2}% 
-\contentsline {paragraph}{}{50}{section*.281}% 
-\contentsline {paragraph}{}{50}{section*.282}% 
-\contentsline {subsubsection}{\numberline {III.2.2.1}D\IeC {\'e}finition des morales}{50}{subsubsection.3.2.2.1}% 
-\contentsline {paragraph}{}{50}{section*.283}% 
+\contentsline {paragraph}{}{51}{section*.281}% 
+\contentsline {paragraph}{}{51}{section*.282}% 
+\contentsline {subsubsection}{\numberline {III.2.1.2}Jeu de donn\IeC {\'e}es : Home Credit Default Risk}{51}{subsubsection.3.2.1.2}% 
+\contentsline {paragraph}{}{51}{section*.283}% 
 \contentsline {paragraph}{}{51}{section*.284}% 
-\contentsline {paragraph}{}{51}{section*.285}% 
-\contentsline {subsubsection}{\numberline {III.2.2.2}Protocole}{51}{subsubsection.3.2.2.2}% 
-\contentsline {paragraph}{}{51}{section*.286}% 
-\contentsline {paragraph}{}{51}{section*.287}% 
-\contentsline {paragraph}{Analyse des donn\IeC {\'e}es}{51}{section*.288}% 
-\contentsline {paragraph}{S\IeC {\'e}paration}{51}{section*.289}% 
-\contentsline {paragraph}{Entra\IeC {\^\i }nement selon les morales}{52}{section*.290}% 
-\contentsline {paragraph}{Contr\IeC {\^o}le de la performance}{52}{section*.291}% 
-\contentsline {paragraph}{Contr\IeC {\^o}le des biais}{52}{section*.292}% 
-\contentsline {paragraph}{Explication des mod\IeC {\`e}les}{52}{section*.293}% 
-\contentsline {subsubsection}{\numberline {III.2.2.3}R\IeC {\'e}sultats attendus}{52}{subsubsection.3.2.2.3}% 
-\contentsline {paragraph}{}{52}{section*.294}% 
-\contentsline {chapter}{\numberline {IV}Exp\IeC {\'e}rience}{53}{chapter.4}% 
+\contentsline {paragraph}{}{52}{section*.285}% 
+\contentsline {subsubsection}{\numberline {III.2.1.3}Algorithmes choisis}{52}{subsubsection.3.2.1.3}% 
+\contentsline {paragraph}{}{52}{section*.286}% 
+\contentsline {paragraph}{}{52}{section*.287}% 
+\contentsline {paragraph}{}{52}{section*.288}% 
+\contentsline {paragraph}{}{52}{section*.289}% 
+\contentsline {subsubsection}{\numberline {III.2.1.4}Crit\IeC {\`e}res de r\IeC {\'e}ussite du mod\IeC {\`e}le}{52}{subsubsection.3.2.1.4}% 
+\contentsline {paragraph}{}{52}{section*.290}% 
+\contentsline {paragraph}{}{53}{section*.291}% 
+\contentsline {paragraph}{}{53}{section*.292}% 
+\contentsline {paragraph}{}{53}{section*.293}% 
+\contentsline {paragraph}{}{53}{section*.294}% 
 \contentsline {paragraph}{}{53}{section*.295}% 
-\contentsline {section}{\numberline {IV.1}R\IeC {\'e}alisation de l'exp\IeC {\'e}rience}{53}{section.4.1}% 
+\contentsline {subsection}{\numberline {III.2.2}Param\IeC {\`e}tres de l'exp\IeC {\'e}rience}{53}{subsection.3.2.2}% 
 \contentsline {paragraph}{}{53}{section*.296}% 
-\contentsline {subsection}{\numberline {IV.1.1}Environnement de travail}{53}{subsection.4.1.1}% 
 \contentsline {paragraph}{}{53}{section*.297}% 
+\contentsline {subsubsection}{\numberline {III.2.2.1}D\IeC {\'e}finition des morales}{53}{subsubsection.3.2.2.1}% 
 \contentsline {paragraph}{}{53}{section*.298}% 
-\contentsline {paragraph}{}{53}{section*.299}% 
+\contentsline {paragraph}{}{54}{section*.299}% 
 \contentsline {paragraph}{}{54}{section*.300}% 
+\contentsline {subsubsection}{\numberline {III.2.2.2}Protocole}{54}{subsubsection.3.2.2.2}% 
 \contentsline {paragraph}{}{54}{section*.301}% 
-\contentsline {subsection}{\numberline {IV.1.2}Analyse des donn\IeC {\'e}es}{54}{subsection.4.1.2}% 
 \contentsline {paragraph}{}{54}{section*.302}% 
-\contentsline {paragraph}{}{54}{section*.303}% 
-\contentsline {paragraph}{}{55}{section*.304}% 
-\contentsline {paragraph}{}{55}{section*.305}% 
-\contentsline {subsection}{\numberline {IV.1.3}Entra\IeC {\^\i }nement des mod\IeC {\`e}les et mise en place des morales}{55}{subsection.4.1.3}% 
-\contentsline {paragraph}{}{55}{section*.306}% 
-\contentsline {paragraph}{}{56}{section*.307}% 
-\contentsline {paragraph}{}{56}{section*.308}% 
-\contentsline {paragraph}{}{56}{section*.309}% 
-\contentsline {subsection}{\numberline {IV.1.4}Contr\IeC {\^o}le de la performance selon les morales}{56}{subsection.4.1.4}% 
+\contentsline {paragraph}{Analyse des donn\IeC {\'e}es}{54}{section*.303}% 
+\contentsline {paragraph}{S\IeC {\'e}paration}{54}{section*.304}% 
+\contentsline {paragraph}{Entra\IeC {\^\i }nement selon les morales}{55}{section*.305}% 
+\contentsline {paragraph}{Contr\IeC {\^o}le de la performance}{55}{section*.306}% 
+\contentsline {paragraph}{Contr\IeC {\^o}le des biais}{55}{section*.307}% 
+\contentsline {paragraph}{Explication des mod\IeC {\`e}les}{55}{section*.308}% 
+\contentsline {subsubsection}{\numberline {III.2.2.3}R\IeC {\'e}sultats attendus}{55}{subsubsection.3.2.2.3}% 
+\contentsline {paragraph}{}{55}{section*.309}% 
+\contentsline {chapter}{\numberline {IV}Exp\IeC {\'e}rience}{56}{chapter.4}% 
 \contentsline {paragraph}{}{56}{section*.310}% 
+\contentsline {section}{\numberline {IV.1}R\IeC {\'e}alisation de l'exp\IeC {\'e}rience}{56}{section.4.1}% 
 \contentsline {paragraph}{}{56}{section*.311}% 
+\contentsline {subsection}{\numberline {IV.1.1}Environnement de travail}{56}{subsection.4.1.1}% 
 \contentsline {paragraph}{}{56}{section*.312}% 
-\contentsline {paragraph}{}{57}{section*.313}% 
-\contentsline {subsection}{\numberline {IV.1.5}Contr\IeC {\^o}le des biais selon les morales}{57}{subsection.4.1.5}% 
-\contentsline {paragraph}{}{57}{section*.314}% 
+\contentsline {paragraph}{}{56}{section*.313}% 
+\contentsline {paragraph}{}{56}{section*.314}% 
 \contentsline {paragraph}{}{57}{section*.315}% 
 \contentsline {paragraph}{}{57}{section*.316}% 
+\contentsline {subsection}{\numberline {IV.1.2}Analyse des donn\IeC {\'e}es}{57}{subsection.4.1.2}% 
 \contentsline {paragraph}{}{57}{section*.317}% 
 \contentsline {paragraph}{}{57}{section*.318}% 
-\contentsline {subsection}{\numberline {IV.1.6}Explicabilit\IeC {\'e}}{58}{subsection.4.1.6}% 
 \contentsline {paragraph}{}{58}{section*.319}% 
 \contentsline {paragraph}{}{58}{section*.320}% 
+\contentsline {subsection}{\numberline {IV.1.3}Entra\IeC {\^\i }nement des mod\IeC {\`e}les et mise en place des morales}{58}{subsection.4.1.3}% 
 \contentsline {paragraph}{}{58}{section*.321}% 
-\contentsline {paragraph}{}{58}{section*.322}% 
-\contentsline {paragraph}{}{58}{section*.323}% 
-\contentsline {section}{\numberline {IV.2}R\IeC {\'e}sultats obtenus}{60}{section.4.2}% 
-\contentsline {paragraph}{}{60}{section*.324}% 
-\contentsline {paragraph}{Performance}{60}{section*.325}% 
-\contentsline {paragraph}{Biais}{60}{section*.326}% 
-\contentsline {paragraph}{Explicabilit\IeC {\'e}}{60}{section*.327}% 
-\contentsline {section}{\numberline {IV.3}Conclusion de l'exp\IeC {\'e}rience}{60}{section.4.3}% 
+\contentsline {paragraph}{}{59}{section*.322}% 
+\contentsline {paragraph}{}{59}{section*.323}% 
+\contentsline {paragraph}{}{59}{section*.324}% 
+\contentsline {subsection}{\numberline {IV.1.4}Contr\IeC {\^o}le de la performance selon les morales}{59}{subsection.4.1.4}% 
+\contentsline {paragraph}{}{59}{section*.325}% 
+\contentsline {paragraph}{}{59}{section*.326}% 
+\contentsline {paragraph}{}{59}{section*.327}% 
 \contentsline {paragraph}{}{60}{section*.328}% 
+\contentsline {subsection}{\numberline {IV.1.5}Contr\IeC {\^o}le des biais selon les morales}{60}{subsection.4.1.5}% 
 \contentsline {paragraph}{}{60}{section*.329}% 
 \contentsline {paragraph}{}{60}{section*.330}% 
-\contentsline {paragraph}{}{61}{section*.331}% 
-\contentsline {paragraph}{}{61}{section*.332}% 
-\contentsline {paragraph}{}{61}{section*.333}% 
-\contentsline {chapter}{\numberline {}Conclusion}{62}{chapter*.334}% 
-\contentsline {paragraph}{}{62}{section*.335}% 
-\contentsline {paragraph}{}{62}{section*.336}% 
-\contentsline {paragraph}{}{62}{section*.337}% 
-\contentsline {paragraph}{}{62}{section*.338}% 
+\contentsline {paragraph}{}{60}{section*.331}% 
+\contentsline {paragraph}{}{60}{section*.332}% 
+\contentsline {paragraph}{}{60}{section*.333}% 
+\contentsline {subsection}{\numberline {IV.1.6}Explicabilit\IeC {\'e}}{61}{subsection.4.1.6}% 
+\contentsline {paragraph}{}{61}{section*.334}% 
+\contentsline {paragraph}{}{61}{section*.335}% 
+\contentsline {paragraph}{}{61}{section*.336}% 
+\contentsline {paragraph}{}{61}{section*.337}% 
+\contentsline {paragraph}{}{61}{section*.338}% 
+\contentsline {section}{\numberline {IV.2}R\IeC {\'e}sultats obtenus}{62}{section.4.2}% 
 \contentsline {paragraph}{}{62}{section*.339}% 
-\contentsline {paragraph}{}{62}{section*.340}% 
-\contentsline {paragraph}{}{62}{section*.341}% 
-\contentsline {paragraph}{}{63}{section*.342}% 
+\contentsline {paragraph}{Performance}{62}{section*.340}% 
+\contentsline {paragraph}{Biais}{62}{section*.341}% 
+\contentsline {paragraph}{Explicabilit\IeC {\'e}}{62}{section*.342}% 
+\contentsline {section}{\numberline {IV.3}Conclusion de l'exp\IeC {\'e}rience}{63}{section.4.3}% 
 \contentsline {paragraph}{}{63}{section*.343}% 
 \contentsline {paragraph}{}{63}{section*.344}% 
 \contentsline {paragraph}{}{63}{section*.345}% 
+\contentsline {paragraph}{}{64}{section*.346}% 
+\contentsline {paragraph}{}{64}{section*.347}% 
+\contentsline {paragraph}{}{64}{section*.348}% 
+\contentsline {chapter}{\numberline {}Conclusion}{65}{chapter*.349}% 
+\contentsline {paragraph}{}{65}{section*.350}% 
+\contentsline {paragraph}{}{65}{section*.351}% 
+\contentsline {paragraph}{}{65}{section*.352}% 
+\contentsline {paragraph}{}{65}{section*.353}% 
+\contentsline {paragraph}{}{65}{section*.354}% 
+\contentsline {paragraph}{}{65}{section*.355}% 
+\contentsline {paragraph}{}{65}{section*.356}% 
+\contentsline {paragraph}{}{66}{section*.357}% 
+\contentsline {paragraph}{}{66}{section*.358}% 
+\contentsline {paragraph}{}{66}{section*.359}% 
+\contentsline {paragraph}{}{66}{section*.360}% 
