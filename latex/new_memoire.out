@@ -4,7 +4,7 @@
 \BOOKMARK [0][-]{chapter.1}{\351tat de l'art}{}% 4
 \BOOKMARK [1][-]{section.1.1}{Les donn\351es et l'Intelligence Artificielle}{chapter.1}% 5
 \BOOKMARK [2][-]{subsection.1.1.1}{La pr\351face : Test de Turing, Syst\350mes Experts et les Hivers}{section.1.1}% 6
-\BOOKMARK [2][-]{subsection.1.1.2}{Le changement des \351chelles de grandeurs : les donn\351es et Big Data}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.2}{Le changement des \351chelles de grandeur : les donn\351es et Big Data}{section.1.1}% 7
 \BOOKMARK [2][-]{subsection.1.1.3}{L'Apprentissage de la Machine}{section.1.1}% 8
 \BOOKMARK [2][-]{subsection.1.1.4}{Fiction ou R\351alit\351 : l'Intelligence Artificielle plus forte que les Humains}{section.1.1}% 9
 \BOOKMARK [1][-]{section.1.2}{L'\351thique, la science de la Morale}{chapter.1}% 10
@@ -41,5 +41,7 @@
 \BOOKMARK [2][-]{subsection.4.1.5}{Contr\364le des biais selon les morales}{section.4.1}% 41
 \BOOKMARK [2][-]{subsection.4.1.6}{Explicabilit\351}{section.4.1}% 42
 \BOOKMARK [1][-]{section.4.2}{R\351sultats obtenus}{chapter.4}% 43
-\BOOKMARK [1][-]{section.4.3}{Conclusion de l'exp\351rience}{chapter.4}% 44
-\BOOKMARK [0][-]{chapter*.349}{Conclusion}{}% 45
+\BOOKMARK [2][-]{subsection.4.2.1}{Comparaison entre r\351sultats attendus et obtenus}{section.4.2}% 44
+\BOOKMARK [2][-]{subsection.4.2.2}{\351valuation de l'\351thique de l'IA}{section.4.2}% 45
+\BOOKMARK [1][-]{section.4.3}{Conclusion de l'exp\351rience}{chapter.4}% 46
+\BOOKMARK [0][-]{chapter*.378}{Conclusion}{}% 47

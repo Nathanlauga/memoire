@@ -28,6 +28,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/nil.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/nil.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tabto-ltx/tabto.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tabto-ltx/tabto.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -191,6 +193,9 @@ INPUT /home/lauga/Documents/memoire/latex/images/aif360_pipeline.png
 INPUT /home/lauga/Documents/memoire/latex/images/ml_canvas.jpeg
 INPUT /home/lauga/Documents/memoire/latex/images/ml_canvas.jpeg
 INPUT /home/lauga/Documents/memoire/latex/images/ml_canvas.jpeg
+INPUT /home/lauga/Documents/memoire/latex/images/capture_ecran_transparentai_ui.png
+INPUT /home/lauga/Documents/memoire/latex/images/capture_ecran_transparentai_ui.png
+INPUT /home/lauga/Documents/memoire/latex/images/capture_ecran_transparentai_ui.png
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
